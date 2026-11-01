@@ -1,0 +1,102 @@
+version: 2
+
+models:
+  - name: stg_metros
+    description: Top-50 metros from the CBSA crosswalk.
+    columns:
+      - name: cbsa_code
+        description: 5-digit OMB CBSA code (2023 delineation). The join key for everything.
+        data_tests: [unique, not_null]
+      - name: pop_rank
+        data_tests:
+          - not_null
+          - accepted_range: {arguments: {min_value: 1, max_value: 50}}
+      - name: cpi_geo_level
+        data_tests:
+          - accepted_values: {arguments: {values: ['metro', 'division']}}
+
+  - name: stg_metro_counties
+    description: Counties in each top-50 metro.
+    data_tests:
+      - unique_combination: {arguments: {columns: [cbsa_code, county_fips]}}
+    columns:
+      - name: county_fips
+        data_tests: [not_null]
+
+  - name: stg_bls__laus
+    description: LAUS metro labor force, one row per series per month (latest pull wins).
+    data_tests:
+      - unique_combination: {arguments: {columns: [series_id, month_date]}}
+    columns:
+      - name: cbsa_code
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('stg_metros'), field: cbsa_code}}
+      - name: measure
+        data_tests:
+          - accepted_values: {arguments: {values: ['unemployment_rate', 'unemployed', 'employed', 'labor_force']}}
+
+  - name: stg_bls__ces
+    description: CES metro jobs and earnings, one row per series per month.
+    data_tests:
+      - unique_combination: {arguments: {columns: [series_id, month_date]}}
+    columns:
+      - name: cbsa_code
+        data_tests:
+          - relationships: {arguments: {to: ref('stg_metros'), field: cbsa_code}}
+
+  - name: stg_bls__jolts_state
+    description: State JOLTS rates (no official metro JOLTS exists).
+    data_tests:
+      - unique_combination: {arguments: {columns: [series_id, month_date]}}
+    columns:
+      - name: value
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 20}}
+
+  - name: stg_bls__cpi
+    description: CPI-U NSA for metro and Census-division areas.
+    data_tests:
+      - unique_combination: {arguments: {columns: [series_id, month_date]}}
+
+  - name: stg_fred__observations
+    description: FRED series observations (national benchmarks, FHFA HPI).
+    data_tests:
+      - unique_combination: {arguments: {columns: [series_id, obs_date]}}
+
+  - name: stg_fred__fhfa_coverage
+    columns:
+      - name: cbsa_code
+        data_tests: [unique, not_null]
+      - name: fhfa_status
+        data_tests:
+          - accepted_values: {arguments: {values: ['metro', 'all_divisions', 'partial', 'none']}}
+
+  - name: stg_census__acs
+    description: ACS 2024 5-year estimates with MOEs; Census annotation codes turned into NULL.
+    data_tests:
+      - unique_combination: {arguments: {columns: [cbsa_code, variable]}}
+    columns:
+      - name: moe
+        description: 90% margin of error. NULL when Census marks it with an annotation code.
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0}}
+
+  - name: stg_bea__county
+    description: BEA county GDP and personal income; suppressed values are NULL with is_suppressed = true.
+    data_tests:
+      - unique_combination: {arguments: {columns: [table_name, line_code, county_fips, year]}}
+
+  - name: stg_oews__msa
+    description: OEWS May 2025 wages for analyst occupations by metro.
+    data_tests:
+      - unique_combination: {arguments: {columns: [cbsa_code, soc_code]}}
+
+  - name: stg_postings
+    description: Deduplicated analyst postings with role family from the title.
+    columns:
+      - name: job_key
+        data_tests: [unique, not_null]
+      - name: role_family
+        data_tests:
+          - accepted_values: {arguments: {values: ['Data', 'Business', 'Product', 'Marketing', 'Financial', 'Operations', 'Healthcare']}}
