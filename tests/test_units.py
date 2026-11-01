@@ -58,12 +58,14 @@ def test_secrets_redacted():
     assert out == {"api_key": "***", "UserID": "***", "registrationkey": "***", "key": "***", "series_id": "UNRATE"}
 
 
-def test_fhfa_uses_divisions_when_metro_is_split():
+def test_fhfa_candidates_try_divisions_metro_and_legacy():
     counties = pd.DataFrame({
-        "cbsa_code": ["14460", "14460", "12060"],
+        "cbsa_code": ["14460", "14460", "17410"],
         "metro_division_code": ["14454", "15764", None],
     })
-    assert fred.fhfa_ids(counties) == ["ATNHPIUS12060Q", "ATNHPIUS14454Q", "ATNHPIUS15764Q"]
+    c = fred.fhfa_candidates(counties)
+    assert c["14460"] == ["ATNHPIUS14454Q", "ATNHPIUS15764Q", "ATNHPIUS14460Q"]
+    assert c["17410"] == ["ATNHPIUS17410Q", "ATNHPIUS17460Q"]
 
 
 def test_still_published_drops_discontinued_series(tmp_path, monkeypatch):
