@@ -22,9 +22,20 @@ NATIONAL = ("UNRATE", "PAYEMS", "CPIAUCSL", "CPILFESL", "JTSJOL", "JTSQUR", "GDP
 PAGE = 100_000
 
 
-def fhfa_id(cbsa: str) -> str:
-    """FHFA all-transactions HPI by MSA, quarterly. [verify each ID on first run]"""
-    return f"ATNHPIUS{cbsa}Q"
+def fhfa_id(code: str) -> str:
+    """FHFA all-transactions HPI, quarterly, by MSA or metropolitan division code."""
+    return f"ATNHPIUS{code}Q"
+
+
+def fhfa_ids(counties) -> list[str]:
+    """FHFA publishes metros that are split into metropolitan divisions (New York,
+    Los Angeles, Chicago, Dallas, Boston, ...) only at the division level, so for
+    those metros we request every division and combine them later in models/."""
+    ids = []
+    for cbsa, grp in counties.groupby("cbsa_code"):
+        divs = sorted(grp["metro_division_code"].dropna().unique())
+        ids += [fhfa_id(d) for d in divs] if divs else [fhfa_id(cbsa)]
+    return ids
 
 
 def observations(client: Client, series_id: str, start: str) -> dict:
@@ -40,9 +51,8 @@ def observations(client: Client, series_id: str, start: str) -> dict:
 
 
 def run(client: Client, run_date: str, start_year: int) -> None:
-    metros = metro_xwalk.load()
     m = Manifest("fred", run_date)
-    series = list(NATIONAL) + [fhfa_id(c) for c in metros["cbsa_code"]]
+    series = list(NATIONAL) + fhfa_ids(metro_xwalk.load_counties())
     for sid in series:
         try:
             body = observations(client, sid, f"{start_year}-01-01")
