@@ -1,0 +1,7 @@
+code,applies_to,meaning
+-666666666,estimate,Too few or no sample observations to compute an estimate
+-999999999,moe,Too few sample observations to compute a margin of error
+-888888888,moe,Margin of error not applicable because the estimate is not applicable
+-222222222,moe,Too few or no sample observations to compute a standard error
+-333333333,moe,Median falls in an open-ended interval; margin of error not appropriate
+-555555555,moe,Estimate is controlled; no sampling error

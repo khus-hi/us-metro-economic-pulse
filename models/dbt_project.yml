@@ -1,0 +1,37 @@
+name: metro_pulse
+version: "1.0.0"
+config-version: 2
+profile: metro_pulse
+
+# This folder IS the dbt project, so its model folders are named directly.
+model-paths: ["staging", "intermediate", "marts"]
+seed-paths: ["reference"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages", "logs"]
+
+vars:
+  # Analyst roles count as "open" if seen in the latest postings run.
+  acs_vintage: "2020-2024"
+  acs_year: 2024
+  oews_year: 2025
+
+# Each model sets its own materialization and schema in a config() line at the
+# top of the file (staging/intermediate = views, marts = tables), because this
+# folder is itself the dbt project and its model folders are the model paths.
+
+flags:
+  send_anonymous_usage_stats: false
+
+seeds:
+  metro_pulse:
+    +schema: reference
+    state_names:
+      +column_types: {postal: varchar, state_fips: varchar}
+    census_annotations:
+      +column_types: {code: varchar}
+    location_aliases:
+      +column_types: {pattern: varchar, cbsa_code: varchar}
+    soc_role_family:
+      +column_types: {soc_code: varchar}

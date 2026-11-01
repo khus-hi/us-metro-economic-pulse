@@ -1,0 +1,62 @@
+version: 2
+
+# Every source reads the files the ingest step landed in data/ (PULSE_DATA_DIR).
+# dbt-duckdb's `external_location` turns a source into a DuckDB file reader, so
+# nothing is copied into the warehouse until a staging model selects it.
+#
+# Freshness: each source run writes a _manifest.json with `finished_at`.
+# `dbt source freshness` reads those to say how old each source's latest pull is.
+
+sources:
+  - name: reference
+    description: Metro crosswalk built by ingest/metros.py (Census Vintage 2025 + OMB 23-01).
+    tables:
+      - name: metros
+        meta: {external_location: "read_csv('{{ env_var('PULSE_DATA_DIR', '../data') }}/reference/metros_top50.csv', all_varchar=true)"}
+      - name: metro_counties
+        meta: {external_location: "read_csv('{{ env_var('PULSE_DATA_DIR', '../data') }}/reference/metro_counties.csv', all_varchar=true)"}
+
+  - name: raw
+    description: Raw responses exactly as returned by each API, one folder per run date.
+    tables:
+      - name: bls_laus
+        meta: {external_location: "read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/bls/*/laus_*.json')"}
+      - name: bls_ces
+        meta: {external_location: "read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/bls/*/ces_*.json')"}
+      - name: bls_jolts
+        meta: {external_location: "read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/bls/*/jolts_*.json')"}
+      - name: bls_cpi
+        meta: {external_location: "read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/bls/*/cpi_*.json')"}
+      - name: fred
+        meta: {external_location: "read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/fred/*/*.json')"}
+      - name: census_acs
+        meta: {external_location: "read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/census_acs/*/acs5_*.json')"}
+      - name: bea
+        meta: {external_location: "read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/bea/*/CA*.json')"}
+      - name: oews
+        meta: {external_location: "read_csv('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/oews/*/msa_analyst_occupations.csv', all_varchar=true, filename=true)"}
+      - name: postings
+        description: Deduplicated analyst postings maintained by ingest/postings.py.
+        meta: {external_location: "read_csv('{{ env_var('PULSE_DATA_DIR', '../data') }}/postings/postings.csv', all_varchar=true)"}
+
+  - name: manifests
+    description: One _manifest.json per source and run; used only for freshness.
+    tables:
+      - name: bls
+        meta: {external_location: "(select cast(content::json->>'finished_at' as timestamptz) as finished_at from read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/bls/*/_manifest.json'))"}
+        config: {loaded_at_field: finished_at, freshness: {warn_after: {count: 35, period: day}, error_after: {count: 50, period: day}}}
+      - name: fred
+        meta: {external_location: "(select cast(content::json->>'finished_at' as timestamptz) as finished_at from read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/fred/*/_manifest.json'))"}
+        config: {loaded_at_field: finished_at, freshness: {warn_after: {count: 35, period: day}, error_after: {count: 50, period: day}}}
+      - name: postings
+        meta: {external_location: "(select cast(content::json->>'finished_at' as timestamptz) as finished_at from read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/postings/*/_manifest.json'))"}
+        config: {loaded_at_field: finished_at, freshness: {warn_after: {count: 2, period: day}, error_after: {count: 8, period: day}}}
+      - name: census_acs
+        meta: {external_location: "(select cast(content::json->>'finished_at' as timestamptz) as finished_at from read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/census_acs/*/_manifest.json'))"}
+        config: {loaded_at_field: finished_at, freshness: {warn_after: {count: 400, period: day}}}
+      - name: bea
+        meta: {external_location: "(select cast(content::json->>'finished_at' as timestamptz) as finished_at from read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/bea/*/_manifest.json'))"}
+        config: {loaded_at_field: finished_at, freshness: {warn_after: {count: 400, period: day}}}
+      - name: oews
+        meta: {external_location: "(select cast(content::json->>'finished_at' as timestamptz) as finished_at from read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/oews/*/_manifest.json'))"}
+        config: {loaded_at_field: finished_at, freshness: {warn_after: {count: 400, period: day}}}

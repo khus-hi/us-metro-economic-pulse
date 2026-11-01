@@ -1,0 +1,11 @@
+pattern,cbsa_code,note
+nyc,35620,New York City shorthand
+new york city,35620,
+manhattan,35620,
+brooklyn,35620,
+bay area,41860,San Francisco Bay Area (assigned to San Francisco metro; San Jose is separate)
+washington dc,47900,
+"washington, d.c.",47900,
+washington d.c.,47900,
+"washington, dc",47900,
+silicon valley,41940,San Jose metro

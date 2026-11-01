@@ -1,0 +1,8 @@
+# Local, free warehouse: one DuckDB file. No server, no account.
+metro_pulse:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('PULSE_WAREHOUSE', '../warehouse/pulse.duckdb') }}"
+      threads: 4
