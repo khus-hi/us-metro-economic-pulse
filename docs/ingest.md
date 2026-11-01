@@ -20,7 +20,7 @@ Raw files land in `data/raw/{source}/{run_date}/`, one `_manifest.json` per sour
 | `metros.py` | Census PEP Vintage 2025 + OMB 23-01 delineation | Top 50 MSAs by population, their counties | Everything else joins on `cbsa_code` |
 | `bls.py` | BLS API v2 | LAUS (4 measures), CES (13 supersectors + private earnings), state JOLTS rates, CPI | IDs discovered from BLS mapping files; 50 series/request, 20 years/request, stops before 500 requests/day |
 | `fred.py` | FRED | National benchmarks + FHFA metro HPI | Offset pagination; unknown IDs logged as warnings |
-| `census_acs.py` | ACS 2024 5-year | 18 variables × (estimate, MOE), all CBSAs | Split to stay under 50 variables/request |
+| `census_acs.py` | ACS 2024 5-year | 18 variables × (estimate, MOE), all CBSAs | API when `CENSUS_API_KEY` is set; otherwise the keyless table-based Summary File, streamed and filtered to CBSA rows |
 | `bea.py` | BEA Regional | County GDP (CAGDP2) and personal income (CAINC1) | BEA dropped metro tables in 2026; counties get summed in `models/` |
 | `oews.py` | OEWS May 2025 zip | Analyst occupations × 50 metros | Raw zip kept; filtered CSV for convenience |
 | `postings.py` | Greenhouse / Lever public boards | All jobs for companies in `seeds/company_boards.csv` | Lever paged with skip/limit |

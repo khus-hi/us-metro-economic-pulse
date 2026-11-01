@@ -84,3 +84,20 @@ def test_mapping_strip_handles_padded_ids():
     df.columns = [c.strip() for c in df.columns]
     df = df.apply(lambda s: s.str.strip())
     assert df.loc[0, "series_id"] == "JTS000000390000000HIR"
+
+
+def test_summary_file_parsing_keeps_only_cbsa_rows():
+    # Structure-only fixture: column names follow the Census handbook; values are placeholders.
+    lines = iter([
+        "GEO_ID|B19013_E001|B19013_M001",
+        "0100000US|x|y",
+        "310M700US14460|a|b",
+    ])
+    rows = census_acs.parse_summary_file(lines, ["B19013_001"])
+    assert rows[0] == ["GEO_ID", "B19013_001E", "B19013_001M", census_acs.GEO_COL]
+    assert rows[1:] == [["310M700US14460", "a", "b", "14460"]]
+
+
+def test_sf_names():
+    assert census_acs.sf_column("B15003_022", "M") == "B15003_M022"
+    assert census_acs.sf_url("B19013").endswith("/5YRData/acsdt5y2024-b19013.dat")

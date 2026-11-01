@@ -11,6 +11,8 @@ from __future__ import annotations
 
 from urllib.parse import quote
 
+import os
+
 from .config import require
 from .http import Client
 from .landing import Manifest
@@ -46,7 +48,7 @@ def requested_columns() -> list[str]:
     return [f"{v}{s}" for v in VARIABLES for s in ("E", "M")]
 
 
-def run(client: Client, run_date: str) -> None:
+def run_api(client: Client, run_date: str) -> None:
     m = Manifest("census_acs", run_date)
     cols = requested_columns()
     for i in range(0, len(cols), MAX_VARS):
@@ -70,3 +72,62 @@ def run(client: Client, run_date: str) -> None:
                 params={k: v for k, v in params.items() if k != "key"}, rows=len(rows) - 1)
     m.write("variable_labels", VARIABLES, "json")
     m.close()
+
+
+# ---------------------------------------------------------------------------
+# Keyless route: the ACS table-based Summary File on www2.census.gov.
+# Same official estimates as the API, published as one pipe-delimited file per
+# table covering every geography. We stream each file and keep only CBSA rows
+# (summary level 310, GEO_ID like "310M...US14460"), so memory stays small.
+# ---------------------------------------------------------------------------
+SF_DIR = f"https://www2.census.gov/programs-surveys/acs/summary_file/{YEAR}/table-based-SF/data/5YRData"
+GEO_COL = "metropolitan statistical area/micropolitan statistical area"
+
+
+def sf_url(table: str) -> str:
+    return f"{SF_DIR}/acsdt5y{YEAR}-{table.lower()}.dat"
+
+
+def sf_column(var: str, kind: str) -> str:
+    """API name -> Summary File name: B19013_001 + E -> B19013_E001."""
+    table, line = var.split("_")
+    return f"{table}_{kind}{line}"
+
+
+def parse_summary_file(lines, table_vars: list[str]) -> list[list[str]]:
+    """Return API-shaped rows: header, then one row per CBSA."""
+    header = next(lines).split("|")
+    idx = {name: i for i, name in enumerate(header)}
+    wanted = [(f"{v}{k}", idx[sf_column(v, k)]) for v in table_vars for k in ("E", "M")]
+    out = [["GEO_ID", *[name for name, _ in wanted], GEO_COL]]
+    for line in lines:
+        if not line.startswith("310M"):  # 310 = CBSA summary level; M = whole area, no geo component
+            continue
+        cells = line.split("|")
+        geo_id = cells[idx["GEO_ID"]]
+        out.append([geo_id, *[cells[i] for _, i in wanted], geo_id.split("US")[-1]])
+    return out
+
+
+def run_summary_file(client: Client, run_date: str) -> None:
+    m = Manifest("census_acs", run_date)
+    by_table: dict[str, list[str]] = {}
+    for var in VARIABLES:
+        by_table.setdefault(var.split("_")[0], []).append(var)
+    for table, table_vars in by_table.items():
+        url = sf_url(table)
+        resp = client.get(url, stream=True)
+        lines = (ln for ln in resp.iter_lines(decode_unicode=True) if ln)
+        rows = parse_summary_file(lines, table_vars)
+        m.write(f"acs5_{YEAR}_{table.lower()}", rows, "json", url=url,
+                params={"filter": "summary level 310 (CBSAs)"}, rows=len(rows) - 1)
+    m.write("variable_labels", VARIABLES, "json")
+    m.close()
+
+
+def run(client: Client, run_date: str) -> None:
+    """Use the API when a key is set; otherwise the keyless Summary File."""
+    if os.environ.get("CENSUS_API_KEY", "").strip():
+        run_api(client, run_date)
+    else:
+        run_summary_file(client, run_date)
