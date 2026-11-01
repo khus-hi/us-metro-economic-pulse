@@ -12,12 +12,25 @@ import argparse
 import datetime as dt
 import json
 import logging
+import re
 import sys
 
 from . import bea, bls, census_acs, fred, metros, oews, postings
 from .config import MissingKeyError
 from .http import Client
 from .landing import latest_run, today
+
+def summarize(warnings: list[str]) -> dict[str, tuple[int, str]]:
+    """Group warnings that differ only by series ID / year, so 200 near-identical
+    lines print as one line with a count."""
+    groups: dict[str, tuple[int, str]] = {}
+    for w in warnings:
+        pattern = re.sub(r"\b[A-Z]{2,}[A-Z0-9]{8,}\b", "<series>", w)
+        pattern = re.sub(r"\b(19|20)\d{2}\b", "<year>", pattern)
+        count, example = groups.get(pattern, (0, w))
+        groups[pattern] = (count + 1, example)
+    return groups
+
 
 ORDER = ["crosswalk", "bls", "fred", "census_acs", "bea", "oews", "postings"]
 
@@ -64,10 +77,8 @@ def cmd_run(args) -> int:
             if run_dir and (run_dir / "_manifest.json").exists():
                 man = json.loads((run_dir / "_manifest.json").read_text())
                 print(f"    {len(man['files'])} files, {len(man['warnings'])} warnings in {run_dir}")
-                for w in man["warnings"][:10]:
-                    print(f"    warning: {w}")
-                if len(man["warnings"]) > 10:
-                    print(f"    ... see {run_dir / '_manifest.json'} for all warnings")
+                for pattern, (count, example) in summarize(man["warnings"]).items():
+                    print(f"    warning x{count}: {pattern}   e.g. {example}")
     return 1 if failed else 0
 
 
