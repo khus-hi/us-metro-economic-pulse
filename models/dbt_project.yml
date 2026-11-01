@@ -35,3 +35,5 @@ seeds:
       +column_types: {pattern: varchar, cbsa_code: varchar}
     soc_role_family:
       +column_types: {soc_code: varchar}
+    cbsa_legacy_codes:
+      +column_types: {cbsa_code: varchar, legacy_cbsa_code: varchar}

@@ -33,6 +33,9 @@ sources:
         meta: {external_location: "read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/census_acs/*/acs5_*.json')"}
       - name: bea
         meta: {external_location: "read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/bea/*/CA*.json')"}
+      - name: bea_rpp
+        description: BEA Regional Price Parities, all items (US = 100), metro (MARPP) and state (SARPP).
+        meta: {external_location: "read_text('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/bea/*/RPP_*.json')"}
       - name: oews
         meta: {external_location: "read_csv('{{ env_var('PULSE_DATA_DIR', '../data') }}/raw/oews/*/msa_analyst_occupations.csv', all_varchar=true, filename=true)"}
       - name: postings

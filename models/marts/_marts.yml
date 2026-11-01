@@ -94,6 +94,16 @@ models:
       - name: pay_vs_all_occupations
         data_tests:
           - accepted_range: {arguments: {min_value: 0.3, max_value: 6}}
+      - name: rpp
+        description: BEA Regional Price Parity, all items (US = 100), latest year BEA publishes. Metro value when available, else the principal state's (rpp_geo_level).
+        data_tests:
+          - not_null
+          - accepted_range: {arguments: {min_value: 70, max_value: 140}}
+      - name: rpp_geo_level
+        data_tests:
+          - accepted_values: {arguments: {values: [metro, state]}}
+      - name: median_wage_cost_adjusted
+        description: annual_median_wage x 100 / rpp, i.e. the median wage in national-average dollars.
 
   - name: fct_postings
     description: One row per analyst posting per mapped location (metro, remote_us, non_us, us_unmapped or unknown).

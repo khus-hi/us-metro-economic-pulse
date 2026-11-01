@@ -89,6 +89,15 @@ models:
     data_tests:
       - unique_combination: {arguments: {columns: [table_name, line_code, county_fips, year]}}
 
+  - name: stg_bea__rpp
+    description: BEA Regional Price Parities (all items, US = 100) for metros and states, latest pull per geography and year.
+    data_tests:
+      - unique_combination: {arguments: {columns: [geo_level, geo_fips, year]}}
+    columns:
+      - name: rpp
+        data_tests:
+          - accepted_range: {arguments: {min_value: 70, max_value: 140}, config: {severity: warn}}
+
   - name: stg_oews__msa
     description: OEWS May 2025 wages for analyst occupations by metro.
     data_tests:

@@ -121,14 +121,23 @@ def test_acs_has_every_top50_metro_and_all_columns():
 def test_bea_counties_cover_metros_and_recent_years():
     run = _run("bea")
     counties = set(xw.load_counties()["county_fips"])
-    for f in run.glob("*.json"):
-        if f.name.startswith("_"):
-            continue
+    for f in run.glob("CA*.json"):
         data = json.loads(f.read_text())["BEAAPI"]["Results"]["Data"]
         geos = {d["GeoFips"] for d in data}
         coverage = len(counties & geos) / len(counties)
         assert coverage >= 0.95, f"{f.name}: only {coverage:.0%} of metro counties"
         assert max(int(d["TimePeriod"]) for d in data) >= TODAY.year - 2, f"{f.name} has no recent year"
+
+
+def test_bea_rpp_covers_every_state():
+    run = _run("bea")
+    f = run / "RPP_SARPP.json"
+    if not f.exists():
+        pytest.skip("RPP not pulled in this run")
+    data = json.loads(f.read_text())["BEAAPI"]["Results"]["Data"]
+    states = {d["GeoFips"][:2] for d in data}
+    principal = set(_metros()["principal_state_fips"].astype(str).str.zfill(2))
+    assert principal <= states
 
 
 # ---------- OEWS ----------
