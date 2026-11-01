@@ -1,0 +1,9 @@
+company,ats,token
+# Starter list: board tokens are unverified until the first run. Any bad token shows up as a warning in data/raw/postings/<date>/_manifest.json.
+# Add companies you'd apply to. Token = the slug in boards.greenhouse.io/<token> or jobs.lever.co/<token>.
+Airbnb,greenhouse,airbnb
+Stripe,greenhouse,stripe
+Databricks,greenhouse,databricks
+Robinhood,greenhouse,robinhood
+Palantir,lever,palantir
+Spotify,lever,spotify
