@@ -1,0 +1,10 @@
+# secrets
+.env
+# local data (re-creatable from the APIs)
+data/
+warehouse/
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
