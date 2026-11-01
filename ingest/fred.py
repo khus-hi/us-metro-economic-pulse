@@ -27,15 +27,24 @@ def fhfa_id(code: str) -> str:
     return f"ATNHPIUS{code}Q"
 
 
-def fhfa_ids(counties) -> list[str]:
-    """FHFA publishes metros that are split into metropolitan divisions (New York,
-    Los Angeles, Chicago, Dallas, Boston, ...) only at the division level, so for
-    those metros we request every division and combine them later in models/."""
-    ids = []
+def fhfa_candidates(counties) -> dict[str, list[list[str]]]:
+    """For each metro, the FHFA IDs to try, in order of preference.
+
+    FHFA publishes metros split into metropolitan divisions (New York, LA,
+    Chicago, Dallas, Boston, ...) per division, and its division codes don't
+    always match the 2023 OMB codes. So we try the divisions first, then the
+    whole-metro code, and record which metros end up with no house price index.
+    """
+    out = {}
     for cbsa, grp in counties.groupby("cbsa_code"):
         divs = sorted(grp["metro_division_code"].dropna().unique())
-        ids += [fhfa_id(d) for d in divs] if divs else [fhfa_id(cbsa)]
-    return ids
+        options = [[fhfa_id(d) for d in divs]] if divs else []
+        out[cbsa] = options + [[fhfa_id(cbsa)]]
+    return out
+
+
+def fhfa_ids(counties) -> list[str]:
+    return [i for opts in fhfa_candidates(counties).values() for i in opts[0]]
 
 
 def observations(client: Client, series_id: str, start: str) -> dict:
@@ -50,16 +59,33 @@ def observations(client: Client, series_id: str, start: str) -> dict:
     return first
 
 
+def _fetch(client: Client, m: Manifest, sid: str, start_year: int) -> bool:
+    try:
+        body = observations(client, sid, f"{start_year}-01-01")
+    except requests.HTTPError as e:
+        if e.response.status_code == 400:  # FRED's answer for an ID that does not exist
+            return False
+        raise
+    m.write(sid, body, "json", url=URL, params={"series_id": sid, "observation_start": start_year},
+            rows=len(body["observations"]))
+    return True
+
+
 def run(client: Client, run_date: str, start_year: int) -> None:
     m = Manifest("fred", run_date)
-    series = list(NATIONAL) + fhfa_ids(metro_xwalk.load_counties())
-    for sid in series:
-        try:
-            body = observations(client, sid, f"{start_year}-01-01")
-        except requests.HTTPError as e:
-            # FRED answers 400 for an ID that does not exist; record it, keep going.
-            m.warn(f"{sid}: {e.response.status_code} {e.response.text[:200]}")
-            continue
-        m.write(sid, body, "json", url=URL, params={"series_id": sid, "observation_start": start_year},
-                rows=len(body["observations"]))
+    for sid in NATIONAL:
+        if not _fetch(client, m, sid, start_year):
+            m.warn(f"{sid}: series does not exist")
+    coverage = {}
+    for cbsa, options in fhfa_candidates(metro_xwalk.load_counties()).items():
+        coverage[cbsa] = None
+        for ids in options:
+            got = [sid for sid in ids if _fetch(client, m, sid, start_year)]
+            if got:
+                coverage[cbsa] = got
+                break
+    missing = sorted(c for c, v in coverage.items() if v is None)
+    if missing:
+        m.warn(f"FHFA HPI not found on FRED for CBSAs: {missing}")
+    m.write("fhfa_coverage", coverage, "json")
     m.close()
