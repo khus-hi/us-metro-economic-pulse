@@ -1,0 +1,12 @@
+# Shared disk for every pipeline step: raw files, postings history, DuckDB file.
+# kind ships a "standard" local-path storage class, so this is free disk on your laptop.
+# Create once:  kubectl apply -n kubeflow -f orchestration/kfp/pvc.yaml
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pulse-data
+spec:
+  accessModes: [ReadWriteOnce]   # fine on a one-node kind cluster: every pod lands on that node
+  resources:
+    requests:
+      storage: 10Gi

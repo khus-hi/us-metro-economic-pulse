@@ -1,8 +1,8 @@
 # secrets
 .env
 # local data (re-creatable from the APIs)
-data/
-warehouse/
+/data/
+/warehouse/
 # python
 __pycache__/
 *.pyc

@@ -1,0 +1,104 @@
+# Same pipeline as orchestration/kfp, on GitHub's free runners (public repo = free minutes).
+# ingest -> dbt run -> dbt test -> export mart CSVs -> commit dashboard/data/*.csv
+#
+# API keys: repo Settings > Secrets and variables > Actions > New repository secret.
+# They reach the job as env vars only; GitHub masks them in logs.
+name: monthly-pipeline
+
+on:
+  schedule:
+    - cron: "0 14 20 * *"     # 14:00 UTC on the 20th, same as the Kubeflow schedule
+  workflow_dispatch:           # "Run workflow" button for a manual run
+    inputs:
+      start_year:
+        description: First year to pull
+        default: "2015"
+
+permissions:
+  contents: write              # push the refreshed CSVs
+  actions: read                # download last month's postings history
+
+concurrency:
+  group: monthly-pipeline      # never two runs at once
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+      BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+      BEA_API_KEY: ${{ secrets.BEA_API_KEY }}
+      CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}   # optional; blank = keyless Census route
+      CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+      DBT_SEND_ANONYMOUS_USAGE_STATS: "false"
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Unit tests
+        run: pytest -q tests/test_units.py
+
+      # The runner starts empty each month. Postings dedupe needs last month's
+      # master file to keep first_seen dates, so it is passed run to run as an
+      # artifact (90-day retention; a monthly schedule always finds the last one).
+      - name: Restore postings history
+        run: |
+          prev=$(gh run list --workflow monthly.yml --status success --limit 1 \
+                   --json databaseId --jq '.[0].databaseId // empty')
+          if [ -n "$prev" ]; then
+            gh run download "$prev" -n postings-master -D data/postings \
+              || echo "No postings history in run $prev; starting fresh."
+          else
+            echo "First run: no postings history yet."
+          fi
+
+      - name: Ingest all sources
+        run: python -m ingest run all --start-year "${{ inputs.start_year || '2015' }}"
+
+      - name: Raw data checks
+        run: pytest -q tests/test_raw_outputs.py
+
+      - name: dbt run
+        working-directory: models
+        run: |
+          mkdir -p ../warehouse
+          dbt seed --profiles-dir .
+          dbt run --profiles-dir .
+
+      - name: dbt test
+        working-directory: models
+        run: |
+          dbt source freshness --profiles-dir .
+          dbt test --profiles-dir .
+
+      - name: Export mart CSVs
+        run: python dashboard/export_marts.py
+
+      - name: Save postings history for next month
+        uses: actions/upload-artifact@v4
+        with:
+          name: postings-master
+          path: data/postings/postings.csv
+          retention-days: 90
+
+      - name: Commit refreshed marts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dashboard/data/*.csv
+          if git diff --cached --quiet; then
+            echo "Marts unchanged; nothing to commit."
+          else
+            git commit -m "data: monthly mart refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi

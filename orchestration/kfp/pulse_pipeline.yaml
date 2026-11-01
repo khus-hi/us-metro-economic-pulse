@@ -1,0 +1,538 @@
+# PIPELINE DEFINITION
+# Name: us-metro-economic-pulse
+# Description: Monthly: ingest public economic data for the top 50 US metros, build the dbt marts in DuckDB, test them, export mart CSVs.
+# Inputs:
+#    start_year: int [Default: 2015.0]
+components:
+  comp-dbt-run:
+    executorLabel: exec-dbt-run
+  comp-dbt-test:
+    executorLabel: exec-dbt-test
+  comp-export-marts:
+    executorLabel: exec-export-marts
+    outputDefinitions:
+      artifacts:
+        marts:
+          artifactType:
+            schemaTitle: system.Artifact
+            schemaVersion: 0.0.1
+  comp-ingest:
+    executorLabel: exec-ingest
+    inputDefinitions:
+      parameters:
+        source:
+          parameterType: STRING
+        start_year:
+          parameterType: NUMBER_INTEGER
+  comp-ingest-2:
+    executorLabel: exec-ingest-2
+    inputDefinitions:
+      parameters:
+        source:
+          parameterType: STRING
+        start_year:
+          parameterType: NUMBER_INTEGER
+  comp-ingest-3:
+    executorLabel: exec-ingest-3
+    inputDefinitions:
+      parameters:
+        source:
+          parameterType: STRING
+        start_year:
+          parameterType: NUMBER_INTEGER
+  comp-ingest-4:
+    executorLabel: exec-ingest-4
+    inputDefinitions:
+      parameters:
+        source:
+          parameterType: STRING
+        start_year:
+          parameterType: NUMBER_INTEGER
+  comp-ingest-5:
+    executorLabel: exec-ingest-5
+    inputDefinitions:
+      parameters:
+        source:
+          parameterType: STRING
+        start_year:
+          parameterType: NUMBER_INTEGER
+  comp-ingest-6:
+    executorLabel: exec-ingest-6
+    inputDefinitions:
+      parameters:
+        source:
+          parameterType: STRING
+        start_year:
+          parameterType: NUMBER_INTEGER
+  comp-ingest-7:
+    executorLabel: exec-ingest-7
+    inputDefinitions:
+      parameters:
+        source:
+          parameterType: STRING
+        start_year:
+          parameterType: NUMBER_INTEGER
+deploymentSpec:
+  executors:
+    exec-dbt-run:
+      container:
+        args:
+        - cd /app/models && mkdir -p /data/warehouse && dbt seed --profiles-dir .
+          && dbt run --profiles-dir .
+        command:
+        - sh
+        - -c
+        image: pulse-pipeline:0.1
+    exec-dbt-test:
+      container:
+        args:
+        - cd /app/models && mkdir -p /data/warehouse && dbt source freshness --profiles-dir
+          . && dbt test --profiles-dir .
+        command:
+        - sh
+        - -c
+        image: pulse-pipeline:0.1
+    exec-export-marts:
+      container:
+        args:
+        - --out
+        - '{{$.outputs.artifacts[''marts''].path}}'
+        command:
+        - python
+        - /app/dashboard/export_marts.py
+        image: pulse-pipeline:0.1
+    exec-ingest:
+      container:
+        args:
+        - '{{$.inputs.parameters[''source'']}}'
+        - --start-year
+        - '{{$.inputs.parameters[''start_year'']}}'
+        command:
+        - python
+        - -m
+        - ingest
+        - run
+        image: pulse-pipeline:0.1
+    exec-ingest-2:
+      container:
+        args:
+        - '{{$.inputs.parameters[''source'']}}'
+        - --start-year
+        - '{{$.inputs.parameters[''start_year'']}}'
+        command:
+        - python
+        - -m
+        - ingest
+        - run
+        image: pulse-pipeline:0.1
+    exec-ingest-3:
+      container:
+        args:
+        - '{{$.inputs.parameters[''source'']}}'
+        - --start-year
+        - '{{$.inputs.parameters[''start_year'']}}'
+        command:
+        - python
+        - -m
+        - ingest
+        - run
+        image: pulse-pipeline:0.1
+    exec-ingest-4:
+      container:
+        args:
+        - '{{$.inputs.parameters[''source'']}}'
+        - --start-year
+        - '{{$.inputs.parameters[''start_year'']}}'
+        command:
+        - python
+        - -m
+        - ingest
+        - run
+        image: pulse-pipeline:0.1
+    exec-ingest-5:
+      container:
+        args:
+        - '{{$.inputs.parameters[''source'']}}'
+        - --start-year
+        - '{{$.inputs.parameters[''start_year'']}}'
+        command:
+        - python
+        - -m
+        - ingest
+        - run
+        image: pulse-pipeline:0.1
+    exec-ingest-6:
+      container:
+        args:
+        - '{{$.inputs.parameters[''source'']}}'
+        - --start-year
+        - '{{$.inputs.parameters[''start_year'']}}'
+        command:
+        - python
+        - -m
+        - ingest
+        - run
+        image: pulse-pipeline:0.1
+    exec-ingest-7:
+      container:
+        args:
+        - '{{$.inputs.parameters[''source'']}}'
+        - --start-year
+        - '{{$.inputs.parameters[''start_year'']}}'
+        command:
+        - python
+        - -m
+        - ingest
+        - run
+        image: pulse-pipeline:0.1
+pipelineInfo:
+  description: 'Monthly: ingest public economic data for the top 50 US metros, build
+    the dbt marts in DuckDB, test them, export mart CSVs.'
+  name: us-metro-economic-pulse
+root:
+  dag:
+    tasks:
+      dbt-run:
+        cachingOptions: {}
+        componentRef:
+          name: comp-dbt-run
+        dependentTasks:
+        - ingest-2
+        - ingest-3
+        - ingest-4
+        - ingest-5
+        - ingest-6
+        - ingest-7
+        taskInfo:
+          name: dbt run
+      dbt-test:
+        cachingOptions: {}
+        componentRef:
+          name: comp-dbt-test
+        dependentTasks:
+        - dbt-run
+        taskInfo:
+          name: dbt test
+      export-marts:
+        cachingOptions: {}
+        componentRef:
+          name: comp-export-marts
+        dependentTasks:
+        - dbt-test
+        taskInfo:
+          name: export marts
+      ingest:
+        cachingOptions: {}
+        componentRef:
+          name: comp-ingest
+        inputs:
+          parameters:
+            source:
+              runtimeValue:
+                constant: crosswalk
+            start_year:
+              componentInputParameter: start_year
+        taskInfo:
+          name: crosswalk
+      ingest-2:
+        cachingOptions: {}
+        componentRef:
+          name: comp-ingest-2
+        dependentTasks:
+        - ingest
+        inputs:
+          parameters:
+            source:
+              runtimeValue:
+                constant: bls
+            start_year:
+              componentInputParameter: start_year
+        taskInfo:
+          name: ingest bls
+      ingest-3:
+        cachingOptions: {}
+        componentRef:
+          name: comp-ingest-3
+        dependentTasks:
+        - ingest
+        inputs:
+          parameters:
+            source:
+              runtimeValue:
+                constant: fred
+            start_year:
+              componentInputParameter: start_year
+        taskInfo:
+          name: ingest fred
+      ingest-4:
+        cachingOptions: {}
+        componentRef:
+          name: comp-ingest-4
+        dependentTasks:
+        - ingest
+        inputs:
+          parameters:
+            source:
+              runtimeValue:
+                constant: census_acs
+            start_year:
+              componentInputParameter: start_year
+        taskInfo:
+          name: ingest census_acs
+      ingest-5:
+        cachingOptions: {}
+        componentRef:
+          name: comp-ingest-5
+        dependentTasks:
+        - ingest
+        inputs:
+          parameters:
+            source:
+              runtimeValue:
+                constant: bea
+            start_year:
+              componentInputParameter: start_year
+        taskInfo:
+          name: ingest bea
+      ingest-6:
+        cachingOptions: {}
+        componentRef:
+          name: comp-ingest-6
+        dependentTasks:
+        - ingest
+        inputs:
+          parameters:
+            source:
+              runtimeValue:
+                constant: oews
+            start_year:
+              componentInputParameter: start_year
+        taskInfo:
+          name: ingest oews
+      ingest-7:
+        cachingOptions: {}
+        componentRef:
+          name: comp-ingest-7
+        dependentTasks:
+        - ingest
+        inputs:
+          parameters:
+            source:
+              runtimeValue:
+                constant: postings
+            start_year:
+              componentInputParameter: start_year
+        taskInfo:
+          name: ingest postings
+  inputDefinitions:
+    parameters:
+      start_year:
+        defaultValue: 2015.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+schemaVersion: 2.1.0
+sdkVersion: kfp-2.18.0
+---
+platforms:
+  kubernetes:
+    deploymentSpec:
+      executors:
+        exec-dbt-run:
+          imagePullPolicy: IfNotPresent
+          pvcMount:
+          - constant: pulse-data
+            mountPath: /data
+            pvcNameParameter:
+              runtimeValue:
+                constant: pulse-data
+        exec-dbt-test:
+          imagePullPolicy: IfNotPresent
+          pvcMount:
+          - constant: pulse-data
+            mountPath: /data
+            pvcNameParameter:
+              runtimeValue:
+                constant: pulse-data
+        exec-export-marts:
+          imagePullPolicy: IfNotPresent
+          pvcMount:
+          - constant: pulse-data
+            mountPath: /data
+            pvcNameParameter:
+              runtimeValue:
+                constant: pulse-data
+        exec-ingest:
+          imagePullPolicy: IfNotPresent
+          pvcMount:
+          - constant: pulse-data
+            mountPath: /data
+            pvcNameParameter:
+              runtimeValue:
+                constant: pulse-data
+          secretAsEnv:
+          - keyToEnv:
+            - envVar: FRED_API_KEY
+              secretKey: FRED_API_KEY
+            - envVar: BLS_API_KEY
+              secretKey: BLS_API_KEY
+            - envVar: BEA_API_KEY
+              secretKey: BEA_API_KEY
+            - envVar: CENSUS_API_KEY
+              secretKey: CENSUS_API_KEY
+            - envVar: CONTACT_EMAIL
+              secretKey: CONTACT_EMAIL
+            optional: false
+            secretName: pulse-api-keys
+            secretNameParameter:
+              runtimeValue:
+                constant: pulse-api-keys
+        exec-ingest-2:
+          imagePullPolicy: IfNotPresent
+          pvcMount:
+          - constant: pulse-data
+            mountPath: /data
+            pvcNameParameter:
+              runtimeValue:
+                constant: pulse-data
+          secretAsEnv:
+          - keyToEnv:
+            - envVar: FRED_API_KEY
+              secretKey: FRED_API_KEY
+            - envVar: BLS_API_KEY
+              secretKey: BLS_API_KEY
+            - envVar: BEA_API_KEY
+              secretKey: BEA_API_KEY
+            - envVar: CENSUS_API_KEY
+              secretKey: CENSUS_API_KEY
+            - envVar: CONTACT_EMAIL
+              secretKey: CONTACT_EMAIL
+            optional: false
+            secretName: pulse-api-keys
+            secretNameParameter:
+              runtimeValue:
+                constant: pulse-api-keys
+        exec-ingest-3:
+          imagePullPolicy: IfNotPresent
+          pvcMount:
+          - constant: pulse-data
+            mountPath: /data
+            pvcNameParameter:
+              runtimeValue:
+                constant: pulse-data
+          secretAsEnv:
+          - keyToEnv:
+            - envVar: FRED_API_KEY
+              secretKey: FRED_API_KEY
+            - envVar: BLS_API_KEY
+              secretKey: BLS_API_KEY
+            - envVar: BEA_API_KEY
+              secretKey: BEA_API_KEY
+            - envVar: CENSUS_API_KEY
+              secretKey: CENSUS_API_KEY
+            - envVar: CONTACT_EMAIL
+              secretKey: CONTACT_EMAIL
+            optional: false
+            secretName: pulse-api-keys
+            secretNameParameter:
+              runtimeValue:
+                constant: pulse-api-keys
+        exec-ingest-4:
+          imagePullPolicy: IfNotPresent
+          pvcMount:
+          - constant: pulse-data
+            mountPath: /data
+            pvcNameParameter:
+              runtimeValue:
+                constant: pulse-data
+          secretAsEnv:
+          - keyToEnv:
+            - envVar: FRED_API_KEY
+              secretKey: FRED_API_KEY
+            - envVar: BLS_API_KEY
+              secretKey: BLS_API_KEY
+            - envVar: BEA_API_KEY
+              secretKey: BEA_API_KEY
+            - envVar: CENSUS_API_KEY
+              secretKey: CENSUS_API_KEY
+            - envVar: CONTACT_EMAIL
+              secretKey: CONTACT_EMAIL
+            optional: false
+            secretName: pulse-api-keys
+            secretNameParameter:
+              runtimeValue:
+                constant: pulse-api-keys
+        exec-ingest-5:
+          imagePullPolicy: IfNotPresent
+          pvcMount:
+          - constant: pulse-data
+            mountPath: /data
+            pvcNameParameter:
+              runtimeValue:
+                constant: pulse-data
+          secretAsEnv:
+          - keyToEnv:
+            - envVar: FRED_API_KEY
+              secretKey: FRED_API_KEY
+            - envVar: BLS_API_KEY
+              secretKey: BLS_API_KEY
+            - envVar: BEA_API_KEY
+              secretKey: BEA_API_KEY
+            - envVar: CENSUS_API_KEY
+              secretKey: CENSUS_API_KEY
+            - envVar: CONTACT_EMAIL
+              secretKey: CONTACT_EMAIL
+            optional: false
+            secretName: pulse-api-keys
+            secretNameParameter:
+              runtimeValue:
+                constant: pulse-api-keys
+        exec-ingest-6:
+          imagePullPolicy: IfNotPresent
+          pvcMount:
+          - constant: pulse-data
+            mountPath: /data
+            pvcNameParameter:
+              runtimeValue:
+                constant: pulse-data
+          secretAsEnv:
+          - keyToEnv:
+            - envVar: FRED_API_KEY
+              secretKey: FRED_API_KEY
+            - envVar: BLS_API_KEY
+              secretKey: BLS_API_KEY
+            - envVar: BEA_API_KEY
+              secretKey: BEA_API_KEY
+            - envVar: CENSUS_API_KEY
+              secretKey: CENSUS_API_KEY
+            - envVar: CONTACT_EMAIL
+              secretKey: CONTACT_EMAIL
+            optional: false
+            secretName: pulse-api-keys
+            secretNameParameter:
+              runtimeValue:
+                constant: pulse-api-keys
+        exec-ingest-7:
+          imagePullPolicy: IfNotPresent
+          pvcMount:
+          - constant: pulse-data
+            mountPath: /data
+            pvcNameParameter:
+              runtimeValue:
+                constant: pulse-data
+          secretAsEnv:
+          - keyToEnv:
+            - envVar: FRED_API_KEY
+              secretKey: FRED_API_KEY
+            - envVar: BLS_API_KEY
+              secretKey: BLS_API_KEY
+            - envVar: BEA_API_KEY
+              secretKey: BEA_API_KEY
+            - envVar: CENSUS_API_KEY
+              secretKey: CENSUS_API_KEY
+            - envVar: CONTACT_EMAIL
+              secretKey: CONTACT_EMAIL
+            optional: false
+            secretName: pulse-api-keys
+            secretNameParameter:
+              runtimeValue:
+                constant: pulse-api-keys

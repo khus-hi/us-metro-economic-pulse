@@ -1,5 +1,5 @@
 # Shortcuts. Run from the repo root with the virtualenv active.
-.PHONY: ingest warehouse freshness docs test all
+.PHONY: ingest warehouse freshness docs test all export image kfp-compile
 
 DBT = cd models && dbt
 
@@ -22,3 +22,14 @@ test:            ## python tests for the ingest layer
 	pytest
 
 all: ingest warehouse freshness docs test
+
+export:          ## write every mart to dashboard/data/*.csv
+	python dashboard/export_marts.py
+
+PULSE_IMAGE ?= pulse-pipeline:0.1
+image:           ## build the pipeline image and load it into the kind cluster "pulse"
+	docker build -t $(PULSE_IMAGE) .
+	kind load docker-image $(PULSE_IMAGE) --name pulse
+
+kfp-compile:     ## compile the Kubeflow pipeline to orchestration/kfp/pulse_pipeline.yaml
+	PULSE_IMAGE=$(PULSE_IMAGE) python orchestration/kfp/pipeline.py

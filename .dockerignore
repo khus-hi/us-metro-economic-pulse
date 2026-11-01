@@ -1,0 +1,10 @@
+.env
+.venv
+data/
+warehouse/
+models/target/
+models/logs/
+docs/
+dashboard/data/
+**/__pycache__
+.git

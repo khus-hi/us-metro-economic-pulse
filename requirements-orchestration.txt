@@ -1,0 +1,4 @@
+# Only needed on your laptop to compile and schedule the Kubeflow pipeline.
+# Versions match the KFP 2.18.0 backend installed in docs/pipeline.md.
+kfp==2.18.0
+kfp-kubernetes==2.18.0
