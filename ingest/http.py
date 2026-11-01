@@ -12,6 +12,7 @@ Interview notes:
 from __future__ import annotations
 
 import logging
+import re
 import time
 from typing import Any
 from urllib.parse import urlparse
@@ -75,7 +76,8 @@ class Client:
     def request(self, method: str, url: str, **kwargs) -> requests.Response:
         self._throttle(url)
         kwargs.setdefault("timeout", self.timeout)
-        log.info("%s %s %s", method, url, redact(kwargs.get("params")))
+        safe_url = re.sub(r"(key|api_key|UserID|registrationkey)=[^&]+", r"\1=***", url)
+        log.info("%s %s %s", method, safe_url, redact(kwargs.get("params")))
         resp = self.session.request(method, url, **kwargs)
         resp.raise_for_status()
         return resp

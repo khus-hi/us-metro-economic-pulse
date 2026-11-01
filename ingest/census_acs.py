@@ -10,8 +10,7 @@ complete, and filtering happens in staging.
 from __future__ import annotations
 
 import os
-
-from .config import require  # noqa: F401  (kept for symmetry with other modules)
+from urllib.parse import quote
 from .http import Client
 from .landing import Manifest
 
@@ -54,9 +53,15 @@ def run(client: Client, run_date: str) -> None:
         params = {"get": ",".join(["NAME", *part]), "for": GEO}
         # The key is optional: Census allows a small number of keyless requests per day,
         # and this source needs only 1 request. Use the key once you have it.
-        if os.environ.get("CENSUS_API_KEY", "").strip():
-            params["key"] = os.environ["CENSUS_API_KEY"].strip()
-        rows = client.get(URL, params=params).json()  # first row is the header
+        key = os.environ.get("CENSUS_API_KEY", "").strip()
+        # Build the query by hand: the geography name contains spaces and a slash,
+        # which Census wants as %20 and %2F rather than requests' default '+'.
+        query = "&".join(f"{k}={quote(v, safe=',:*')}" for k, v in params.items())
+        resp = client.get(f"{URL}?{query}" + (f"&key={key}" if key else ""))
+        try:
+            rows = resp.json()  # first row is the header
+        except ValueError:
+            raise RuntimeError(f"Census returned non-JSON (HTTP {resp.status_code}): {resp.text[:300]!r}")
         m.write(f"acs5_{YEAR}_part{i // MAX_VARS}", rows, "json", url=URL,
                 params={k: v for k, v in params.items() if k != "key"}, rows=len(rows) - 1)
     m.write("variable_labels", VARIABLES, "json")
