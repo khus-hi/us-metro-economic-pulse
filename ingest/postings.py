@@ -176,7 +176,10 @@ def run(client: Client, run_date: str) -> None:
     m = Manifest("postings", run_date)
     robots = Robots(client, m)
     rows = []
-    for co in load_companies():
+    companies = load_companies()
+    if not companies:
+        m.warn(f"{SEED_FILE.name} has no companies yet; add rows as company,ats,token")
+    for co in companies:
         ats, token, company = co["ats"].strip().lower(), co["token"].strip(), co["company"].strip()
         url = (GREENHOUSE if ats == "greenhouse" else LEVER).format(token=token)
         if not robots.allowed(url):
