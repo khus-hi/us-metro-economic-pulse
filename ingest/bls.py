@@ -16,6 +16,7 @@ request, 500 requests per day. We batch to fit and stop before the daily cap.
 """
 from __future__ import annotations
 
+import datetime as dt
 import io
 from typing import Iterable, Iterator
 
@@ -71,6 +72,16 @@ def _mapping(client: Client, m: Manifest, path: str) -> pd.DataFrame:
     return df.apply(lambda s: s.str.strip() if s.dtype == object else s)
 
 
+def still_published(df: pd.DataFrame, m: Manifest, label: str) -> pd.DataFrame:
+    """Mapping files also list discontinued series (e.g. a seasonally adjusted
+    version BLS stopped producing). Asking for those returns 'Series does not
+    exist', so keep only series whose last observation is recent."""
+    recent = pd.to_numeric(df["end_year"], errors="coerce") >= dt.date.today().year - 1
+    if (~recent).any():
+        m.warn(f"{label}: skipped {int((~recent).sum())} discontinued series")
+    return df[recent]
+
+
 def discover(client: Client, m: Manifest, metros: pd.DataFrame) -> dict[str, list[str]]:
     cbsas = set(metros["cbsa_code"])
 
@@ -87,7 +98,7 @@ def discover(client: Client, m: Manifest, metros: pd.DataFrame) -> dict[str, lis
     sm = sm[sm["state_code"] == sm["area_code"].map(principal)]
     jobs = sm[sm["industry_code"].isin(CES_INDUSTRIES) & (sm["data_type_code"] == "01")]
     pay = sm[(sm["industry_code"] == "05000000") & sm["data_type_code"].isin(CES_EARNINGS)]
-    ces = pd.concat([jobs, pay])
+    ces = still_published(pd.concat([jobs, pay]), m, "CES")
     no_ces = cbsas - set(ces["area_code"])
     if no_ces:
         m.warn(f"CES: no series under principal state for {sorted(no_ces)}")
@@ -98,6 +109,7 @@ def discover(client: Client, m: Manifest, metros: pd.DataFrame) -> dict[str, lis
                & (jt["state_code"].isin(states | {"00"})) & (jt["area_code"] == "00000")
                & (jt["sizeclass_code"] == "00") & (jt["dataelement_code"].isin(JOLTS_ELEMENTS))
                & (jt["ratelevel_code"] == "R")]
+    jolts = still_published(jolts, m, "JOLTS")
 
     cpi_areas = set(metros["cpi_area_code"]) | {"0000"}
     return {
