@@ -1,0 +1,117 @@
+version: 2
+
+models:
+  - name: dim_metro
+    description: One row per top-50 metro, with flags describing how each metro-level figure was built.
+    columns:
+      - name: cbsa_code
+        data_tests: [unique, not_null]
+      - name: cbsa_title
+        data_tests: [not_null]
+      - name: population
+        data_tests:
+          - not_null
+          - accepted_range: {arguments: {min_value: 0}}
+      - name: fhfa_status
+        description: metro / all_divisions / partial / none. Only 'metro' feeds house-price figures.
+      - name: cpi_geo_level
+        description: "'metro' = BLS publishes CPI for this metro; 'division' = Census-division CPI used as a regional proxy."
+
+  - name: fct_metro_monthly
+    description: One row per metro per month. Jobs, unemployment, wages, prices, state JOLTS, national benchmarks.
+    data_tests:
+      - unique_combination: {arguments: {columns: [cbsa_code, month_date]}}
+    columns:
+      - name: cbsa_code
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_metro'), field: cbsa_code}}
+      - name: month_date
+        data_tests: [not_null]
+      - name: unemployment_rate
+        description: LAUS unemployment rate, %, not seasonally adjusted.
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 30}}
+      - name: nonfarm_jobs_thousands
+        description: CES total nonfarm employment, thousands (seasonally adjusted when BLS publishes it).
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0}}
+      - name: avg_hourly_earnings
+        description: CES private-sector average hourly earnings, $.
+        data_tests:
+          - accepted_range: {arguments: {min_value: 5, max_value: 200}}
+      - name: cpi_yoy_pct
+        description: CPI year-over-year % change for cpi_area_code (metro or Census division).
+        data_tests:
+          - accepted_range: {arguments: {min_value: -10, max_value: 25}}
+      - name: nonfarm_jobs_yoy_pct
+        data_tests:
+          - accepted_range: {arguments: {min_value: -30, max_value: 30}}
+
+  - name: fct_metro_annual
+    description: One row per metro per year. BEA county-summed GDP and income, ACS 5-year profile, FHFA HPI.
+    data_tests:
+      - unique_combination: {arguments: {columns: [cbsa_code, year]}}
+    columns:
+      - name: cbsa_code
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_metro'), field: cbsa_code}}
+      - name: per_capita_income_usd
+        data_tests:
+          - accepted_range: {arguments: {min_value: 10000, max_value: 300000}}
+      - name: median_household_income
+        data_tests:
+          - accepted_range: {arguments: {min_value: 20000, max_value: 300000}}
+      - name: pct_bachelors_or_higher
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 100}}
+      - name: poverty_rate
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 100}}
+      - name: rent_burdened_pct
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 100}}
+      - name: bea_is_complete
+        description: False when a county in the metro was suppressed or missing that year; the metro total is then an undercount.
+
+  - name: fct_analyst_pay
+    description: OEWS May 2025 pay for analyst occupations by metro.
+    data_tests:
+      - unique_combination: {arguments: {columns: [cbsa_code, soc_code]}}
+    columns:
+      - name: cbsa_code
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_metro'), field: cbsa_code}}
+      - name: soc_code
+        data_tests: [not_null]
+      - name: annual_median_wage
+        description: Median annual wage, $. NULL when OEWS suppresses it or top-codes it (see is_top_coded).
+        data_tests:
+          - accepted_range: {arguments: {min_value: 20000, max_value: 500000}}
+      - name: pay_vs_all_occupations
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0.3, max_value: 6}}
+
+  - name: fct_postings
+    description: One row per analyst posting per mapped location (metro, remote_us, non_us, us_unmapped or unknown).
+    data_tests:
+      - unique_combination: {arguments: {columns: [job_key, location_key]}}
+    columns:
+      - name: job_key
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('stg_postings'), field: job_key}}
+      - name: location_class
+        data_tests:
+          - not_null
+          - accepted_values: {arguments: {values: ['metro', 'remote_us', 'non_us', 'us_unmapped', 'unknown']}}
+      - name: cbsa_code
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_metro'), field: cbsa_code}}
+
+  - name: fct_posting_tools
+    description: One row per posting x location x tool mentioned.
+    data_tests:
+      - unique_combination: {arguments: {columns: [job_key, location_key, tool]}}
