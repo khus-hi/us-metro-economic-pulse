@@ -52,7 +52,9 @@ models:
     columns:
       - name: value
         data_tests:
-          - accepted_range: {arguments: {min_value: 0, max_value: 20}}
+          # Sanity bound, not a forecast. Nevada's separations rate hit 21% in March 2020
+          # (casinos closed), so real shocks can exceed 20. Staging checks warn; marts fail.
+          - accepted_range: {arguments: {min_value: 0, max_value: 40}, config: {severity: warn}}
 
   - name: stg_bls__cpi
     description: CPI-U NSA for metro and Census-division areas.
@@ -80,7 +82,7 @@ models:
       - name: moe
         description: 90% margin of error. NULL when Census marks it with an annotation code.
         data_tests:
-          - accepted_range: {arguments: {min_value: 0}}
+          - accepted_range: {arguments: {min_value: 0}, config: {severity: warn}}
 
   - name: stg_bea__county
     description: BEA county GDP and personal income; suppressed values are NULL with is_suppressed = true.

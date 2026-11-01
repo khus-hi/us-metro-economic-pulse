@@ -84,7 +84,7 @@ flowchart LR
 - **Uniqueness / grain:** `unique` on keys, and the custom `unique_combination` (in `tests/generic/`) on every mart's grain, e.g. `cbsa_code + month_date`.
 - **Not-null and relationships:** every fact's `cbsa_code` must exist in `dim_metro`.
 - **Accepted values:** for categories like `cpi_geo_level`, `fhfa_status`, `location_class` and `role_family`.
-- **Accepted ranges:** the custom `accepted_range` test, e.g. unemployment between 0 and 30%, CPI YoY between −10 and 25%, median household income between $20k and $300k. These are sanity bounds to catch parsing bugs (a wrong unit or decimal), not forecasts.
+- **Accepted ranges:** the custom `accepted_range` test, e.g. unemployment between 0 and 30%, CPI YoY between −10 and 25%, median household income between $20k and $300k. These are sanity bounds to catch parsing bugs (a wrong unit or decimal), not forecasts. Range checks on staging models only **warn**, so a real outlier can't block the marts. The first real run proved why: Nevada's JOLTS separations rate was 21% in March 2020, when the casinos closed. Range checks on marts **fail** the build.
 - **Source freshness:** BLS and FRED warn after 35 days, postings after 2 days, and annual sources after 400 days.
 
 ## Interview talking points
