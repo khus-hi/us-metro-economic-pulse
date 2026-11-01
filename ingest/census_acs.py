@@ -9,8 +9,9 @@ complete, and filtering happens in staging.
 """
 from __future__ import annotations
 
-import os
 from urllib.parse import quote
+
+from .config import require
 from .http import Client
 from .landing import Manifest
 
@@ -51,16 +52,19 @@ def run(client: Client, run_date: str) -> None:
     for i in range(0, len(cols), MAX_VARS):
         part = cols[i:i + MAX_VARS]
         params = {"get": ",".join(["NAME", *part]), "for": GEO}
-        # The key is optional: Census allows a small number of keyless requests per day,
-        # and this source needs only 1 request. Use the key once you have it.
-        key = os.environ.get("CENSUS_API_KEY", "").strip()
+        key = require("CENSUS_API_KEY")  # Census now rejects keyless requests ("Missing Key")
         # Build the query by hand: the geography name contains spaces and a slash,
         # which Census wants as %20 and %2F rather than requests' default '+'.
         query = "&".join(f"{k}={quote(v, safe=',:*')}" for k, v in params.items())
-        resp = client.get(f"{URL}?{query}" + (f"&key={key}" if key else ""))
+        resp = client.get(f"{URL}?{query}&key={key}")
         try:
             rows = resp.json()  # first row is the header
         except ValueError:
+            # Census answers key problems with an HTML page and HTTP 200.
+            title = resp.text.split("<title>")[1].split("</title>")[0] if "<title>" in resp.text else ""
+            if "Key" in title:
+                raise RuntimeError(f"Census says '{title}'. Check CENSUS_API_KEY in .env and that you "
+                                   "clicked the activation link in the Census email.")
             raise RuntimeError(f"Census returned non-JSON (HTTP {resp.status_code}): {resp.text[:300]!r}")
         m.write(f"acs5_{YEAR}_part{i // MAX_VARS}", rows, "json", url=URL,
                 params={k: v for k, v in params.items() if k != "key"}, rows=len(rows) - 1)
