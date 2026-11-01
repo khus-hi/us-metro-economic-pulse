@@ -73,7 +73,8 @@ def test_laus_covers_all_metros_and_recent_months():
 def test_ces_has_total_nonfarm_for_every_metro():
     s = _bls_series("ces")
     metros = set(_metros()["cbsa_code"])
-    with_total = {sid[5:10] for sid in s if sid[10:18] == "00000000" and sid.endswith("01")}
+    with_total = {sid[5:10] for sid, data in s.items()
+                  if sid[10:18] == "00000000" and sid.endswith("01") and data}
     assert with_total == metros
 
 

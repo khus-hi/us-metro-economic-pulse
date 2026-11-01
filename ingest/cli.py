@@ -63,9 +63,11 @@ def cmd_run(args) -> int:
             run_dir = latest_run(name)
             if run_dir and (run_dir / "_manifest.json").exists():
                 man = json.loads((run_dir / "_manifest.json").read_text())
-                print(f"    {len(man['files'])} files in {run_dir}")
+                print(f"    {len(man['files'])} files, {len(man['warnings'])} warnings in {run_dir}")
                 for w in man["warnings"][:10]:
                     print(f"    warning: {w}")
+                if len(man["warnings"]) > 10:
+                    print(f"    ... see {run_dir / '_manifest.json'} for all warnings")
     return 1 if failed else 0
 
 

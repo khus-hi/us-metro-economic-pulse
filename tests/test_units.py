@@ -1,4 +1,5 @@
 """Fast tests of pure logic. No network, no data values."""
+import pandas as pd
 import pytest
 
 from ingest import bls, census_acs, fred
@@ -55,3 +56,22 @@ def test_fhfa_id():
 def test_secrets_redacted():
     out = redact({"api_key": "x", "UserID": "y", "registrationkey": "z", "key": "k", "series_id": "UNRATE"})
     assert out == {"api_key": "***", "UserID": "***", "registrationkey": "***", "key": "***", "series_id": "UNRATE"}
+
+
+def test_fhfa_uses_divisions_when_metro_is_split():
+    counties = pd.DataFrame({
+        "cbsa_code": ["14460", "14460", "12060"],
+        "metro_division_code": ["14454", "15764", None],
+    })
+    assert fred.fhfa_ids(counties) == ["ATNHPIUS12060Q", "ATNHPIUS14454Q", "ATNHPIUS15764Q"]
+
+
+def test_still_published_drops_discontinued_series(tmp_path, monkeypatch):
+    import datetime as dt
+    from ingest import landing
+    monkeypatch.setattr(landing, "RAW_DIR", tmp_path)
+    m = landing.Manifest("bls", "test")
+    this_year = dt.date.today().year
+    df = pd.DataFrame({"series_id": ["A", "B"], "end_year": [str(this_year), "2010"]})
+    kept = bls.still_published(df, m, "CES")
+    assert list(kept["series_id"]) == ["A"] and m.warnings
