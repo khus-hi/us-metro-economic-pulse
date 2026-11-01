@@ -1,0 +1,51 @@
+cbsa_code,cbsa_title,short_name,principal_state,principal_state_name,principal_state_fips,census_division,census_region,population,population_vintage,pop_rank,cpi_area_code,cpi_geo_level,has_metro_cpi,fhfa_status,county_count,metro_division_count
+12060,"Atlanta-Sandy Springs-Roswell, GA",Atlanta,GA,Georgia,13,5,South,6482182,2025,6,S35C,metro,true,metro,29,2
+12420,"Austin-Round Rock-San Marcos, TX",Austin,TX,Texas,48,7,South,2620945,2025,25,0370,division,false,metro,5,0
+12580,"Baltimore-Columbia-Towson, MD",Baltimore,MD,Maryland,24,5,South,2857781,2025,22,S35E,metro,true,metro,7,0
+13820,"Birmingham, AL","Birmingham, AL",AL,Alabama,01,6,South,1197766,2025,48,0360,division,false,metro,7,0
+14460,"Boston-Cambridge-Newton, MA-NH",Boston,MA,Massachusetts,25,1,Northeast,5034221,2025,11,S11A,metro,true,all_divisions,7,3
+16740,"Charlotte-Concord-Gastonia, NC-SC",Charlotte,NC,North Carolina,37,5,South,2938830,2025,21,0350,division,false,metro,11,0
+16980,"Chicago-Naperville-Elgin, IL-IN",Chicago,IL,Illinois,17,3,Midwest,9434123,2025,3,S23A,metro,true,partial,13,4
+17140,"Cincinnati, OH-KY-IN","Cincinnati, OH",OH,Ohio,39,3,Midwest,2312858,2025,30,0230,division,false,metro,15,0
+17410,"Cleveland, OH","Cleveland, OH",OH,Ohio,39,3,Midwest,2165775,2025,35,0230,division,false,metro,6,0
+18140,"Columbus, OH","Columbus, OH",OH,Ohio,39,3,Midwest,2242028,2025,32,0230,division,false,metro,10,0
+19100,"Dallas-Fort Worth-Arlington, TX",Dallas,TX,Texas,48,7,South,8477157,2025,4,S37A,metro,true,all_divisions,11,2
+19740,"Denver-Aurora-Centennial, CO",Denver,CO,Colorado,08,8,West,3092037,2025,19,S48B,metro,true,metro,10,0
+19820,"Detroit-Warren-Dearborn, MI",Detroit,MI,Michigan,26,3,Midwest,4390913,2025,14,S23B,metro,true,partial,6,2
+23420,"Fresno, CA","Fresno, CA",CA,California,06,9,West,1203383,2025,47,0490,division,false,metro,2,0
+24340,"Grand Rapids-Wyoming-Kentwood, MI",Grand Rapids,MI,Michigan,26,3,Midwest,1183645,2025,49,0230,division,false,metro,5,0
+25540,"Hartford-West Hartford-East Hartford, CT",Hartford,CT,Connecticut,09,1,Northeast,1171426,2025,50,0110,division,false,metro,2,0
+26420,"Houston-Pasadena-The Woodlands, TX",Houston,TX,Texas,48,7,South,7904627,2025,5,S37B,metro,true,metro,10,0
+26900,"Indianapolis-Carmel-Greenwood, IN",Indianapolis,IN,Indiana,18,3,Midwest,2205695,2025,33,0230,division,false,metro,11,0
+27260,"Jacksonville, FL","Jacksonville, FL",FL,Florida,12,5,South,1785500,2025,38,0350,division,false,metro,5,0
+28140,"Kansas City, MO-KS","Kansas City, MO",MO,Missouri,29,4,Midwest,2270682,2025,31,0240,division,false,metro,14,0
+29820,"Las Vegas-Henderson-North Las Vegas, NV",Las Vegas,NV,Nevada,32,8,West,2407226,2025,29,0480,division,false,metro,1,0
+31080,"Los Angeles-Long Beach-Anaheim, CA",Los Angeles,CA,California,06,9,West,12844441,2025,2,S49A,metro,true,all_divisions,2,2
+31140,"Louisville/Jefferson County, KY-IN","Louisville/Jefferson County, KY",KY,Kentucky,21,6,South,1402509,2025,43,0360,division,false,metro,12,0
+32820,"Memphis, TN-MS-AR","Memphis, TN",TN,Tennessee,47,6,South,1341412,2025,45,0360,division,false,metro,9,0
+33100,"Miami-Fort Lauderdale-West Palm Beach, FL",Miami,FL,Florida,12,5,South,6391072,2025,8,S35B,metro,true,all_divisions,3,3
+33340,"Milwaukee-Waukesha, WI",Milwaukee,WI,Wisconsin,55,3,Midwest,1575010,2025,41,0230,division,false,metro,4,0
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI",Minneapolis,MN,Minnesota,27,4,Midwest,3790295,2025,16,S24A,metro,true,metro,15,0
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",Nashville,TN,Tennessee,47,6,South,2197416,2025,34,0360,division,false,metro,14,0
+35620,"New York-Newark-Jersey City, NY-NJ",New York,NY,New York,36,2,Northeast,20112448,2025,1,S12A,metro,true,partial,22,4
+36420,"Oklahoma City, OK","Oklahoma City, OK",OK,Oklahoma,40,7,South,1512813,2025,42,0370,division,false,metro,7,0
+36740,"Orlando-Kissimmee-Sanford, FL",Orlando,FL,Florida,12,5,South,2957672,2025,20,0350,division,false,metro,4,0
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Philadelphia,PA,Pennsylvania,42,2,Northeast,6329118,2025,9,S12B,metro,true,all_divisions,11,4
+38060,"Phoenix-Mesa-Chandler, AZ",Phoenix,AZ,Arizona,04,8,West,5228938,2025,10,S48A,metro,true,metro,2,0
+38300,"Pittsburgh, PA","Pittsburgh, PA",PA,Pennsylvania,42,2,Northeast,2421992,2025,28,0120,division,false,metro,8,0
+38900,"Portland-Vancouver-Hillsboro, OR-WA",Portland,OR,Oregon,41,9,West,2542282,2025,26,0490,division,false,metro,7,0
+39300,"Providence-Warwick, RI-MA",Providence,RI,Rhode Island,44,1,Northeast,1708161,2025,39,0110,division,false,metro,6,0
+39580,"Raleigh-Cary, NC",Raleigh,NC,North Carolina,37,5,South,1595720,2025,40,0350,division,false,metro,3,0
+40060,"Richmond, VA","Richmond, VA",VA,Virginia,51,5,South,1389338,2025,44,0350,division,false,metro,17,0
+40140,"Riverside-San Bernardino-Ontario, CA",Riverside,CA,California,06,9,West,4769007,2025,12,S49C,metro,true,metro,2,0
+40900,"Sacramento-Roseville-Folsom, CA",Sacramento,CA,California,06,9,West,2477274,2025,27,0490,division,false,metro,4,0
+41180,"St. Louis, MO-IL","St. Louis, MO",MO,Missouri,29,4,Midwest,2814421,2025,23,S24B,metro,true,metro,15,0
+41620,"Salt Lake City-Murray, UT",Salt Lake City,UT,Utah,49,8,West,1308377,2025,46,0480,division,false,metro,2,0
+41700,"San Antonio-New Braunfels, TX",San Antonio,TX,Texas,48,7,South,2813140,2025,24,0370,division,false,metro,8,0
+41740,"San Diego-Chula Vista-Carlsbad, CA",San Diego,CA,California,06,9,West,3282248,2025,18,S49E,metro,true,metro,1,0
+41860,"San Francisco-Oakland-Fremont, CA",San Francisco,CA,California,06,9,West,4630041,2025,13,S49B,metro,true,all_divisions,5,3
+41940,"San Jose-Sunnyvale-Santa Clara, CA",San Jose,CA,California,06,9,West,1984473,2025,36,0490,division,false,metro,2,0
+42660,"Seattle-Tacoma-Bellevue, WA",Seattle,WA,Washington,53,9,West,4161883,2025,15,S49D,metro,true,partial,3,3
+45300,"Tampa-St. Petersburg-Clearwater, FL",Tampa,FL,Florida,12,5,South,3418895,2025,17,S35D,metro,true,metro,4,2
+47260,"Virginia Beach-Chesapeake-Norfolk, VA-NC",Virginia Beach,VA,Virginia,51,5,South,1797213,2025,37,0350,division,false,metro,18,0
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",Washington,DC,District of Columbia,11,5,South,6465724,2025,7,S35A,metro,true,partial,23,3

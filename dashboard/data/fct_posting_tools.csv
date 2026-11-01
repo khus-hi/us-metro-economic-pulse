@@ -1,0 +1,1637 @@
+job_key,cbsa_code,location_key,location_class,role_family,is_open,tool
+greenhouse:affirm:7799329003,,non_us,non_us,Data,true,A/B testing
+greenhouse:affirm:7799329003,,non_us,non_us,Data,true,Python
+greenhouse:affirm:7799329003,,non_us,non_us,Data,true,SQL
+greenhouse:affirm:7799329003,,non_us,non_us,Data,true,Statistics
+greenhouse:affirm:7804953003,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:affirm:7804953003,,remote_us,remote_us,Data,true,Python
+greenhouse:affirm:7804953003,,remote_us,remote_us,Data,true,SQL
+greenhouse:affirm:7804953003,,remote_us,remote_us,Data,true,Statistics
+greenhouse:affirm:7804955003,,non_us,non_us,Data,true,Machine learning
+greenhouse:affirm:7804955003,,non_us,non_us,Data,true,Python
+greenhouse:affirm:7804955003,,non_us,non_us,Data,true,SQL
+greenhouse:affirm:7804955003,,non_us,non_us,Data,true,Statistics
+greenhouse:affirm:7813362003,,non_us,non_us,Business,true,Databricks
+greenhouse:affirm:7813362003,,non_us,non_us,Business,true,Git
+greenhouse:affirm:7813362003,,non_us,non_us,Business,true,Looker
+greenhouse:affirm:7813362003,,non_us,non_us,Business,true,Python
+greenhouse:affirm:7813362003,,non_us,non_us,Business,true,SQL
+greenhouse:affirm:7813362003,,non_us,non_us,Business,true,Salesforce
+greenhouse:affirm:7813362003,,non_us,non_us,Business,true,Snowflake
+greenhouse:affirm:7813362003,,non_us,non_us,Business,true,Tableau
+greenhouse:affirm:7813362003,,non_us,non_us,Business,true,dbt
+greenhouse:affirm:7815952003,,remote_us,remote_us,Data,true,Python
+greenhouse:affirm:7815952003,,remote_us,remote_us,Data,true,SQL
+greenhouse:affirm:7815954003,,non_us,non_us,Data,true,Python
+greenhouse:affirm:7815954003,,non_us,non_us,Data,true,SQL
+greenhouse:affirm:7819441003,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:affirm:7819441003,,remote_us,remote_us,Data,true,Python
+greenhouse:affirm:7819441003,,remote_us,remote_us,Data,true,SQL
+greenhouse:affirm:7819441003,,remote_us,remote_us,Data,true,Statistics
+greenhouse:affirm:7872398003,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:affirm:7872398003,,remote_us,remote_us,Data,true,Python
+greenhouse:affirm:7872398003,,remote_us,remote_us,Data,true,SQL
+greenhouse:affirm:7872398003,,remote_us,remote_us,Data,true,Statistics
+greenhouse:affirm:7916080003,,non_us,non_us,Business,true,Databricks
+greenhouse:affirm:7916080003,,non_us,non_us,Business,true,Git
+greenhouse:affirm:7916080003,,non_us,non_us,Business,true,Looker
+greenhouse:affirm:7916080003,,non_us,non_us,Business,true,Python
+greenhouse:affirm:7916080003,,non_us,non_us,Business,true,SQL
+greenhouse:affirm:7916080003,,non_us,non_us,Business,true,Salesforce
+greenhouse:affirm:7916080003,,non_us,non_us,Business,true,Snowflake
+greenhouse:affirm:7916080003,,non_us,non_us,Business,true,Tableau
+greenhouse:affirm:7916080003,,non_us,non_us,Business,true,dbt
+greenhouse:affirm:7979912003,,non_us,non_us,Data,true,Python
+greenhouse:affirm:7979912003,,non_us,non_us,Data,true,SQL
+greenhouse:affirm:8003170003,,non_us,non_us,Data,true,A/B testing
+greenhouse:affirm:8003170003,,non_us,non_us,Data,true,Python
+greenhouse:affirm:8003170003,,non_us,non_us,Data,true,SQL
+greenhouse:affirm:8003170003,,non_us,non_us,Data,true,Statistics
+greenhouse:affirm:8004096003,,remote_us,remote_us,Financial,true,Machine learning
+greenhouse:affirm:8004096003,,remote_us,remote_us,Financial,true,Python
+greenhouse:affirm:8004096003,,remote_us,remote_us,Financial,true,SQL
+greenhouse:affirm:8004096003,,remote_us,remote_us,Financial,true,dbt
+greenhouse:affirm:8039471003,35620,35620,metro,Data,true,Machine learning
+greenhouse:affirm:8039471003,35620,35620,metro,Data,true,Python
+greenhouse:affirm:8039471003,35620,35620,metro,Data,true,SQL
+greenhouse:affirm:8039471003,35620,35620,metro,Data,true,Statistics
+greenhouse:affirm:8039471003,41860,41860,metro,Data,true,Machine learning
+greenhouse:affirm:8039471003,41860,41860,metro,Data,true,Python
+greenhouse:affirm:8039471003,41860,41860,metro,Data,true,SQL
+greenhouse:affirm:8039471003,41860,41860,metro,Data,true,Statistics
+greenhouse:affirm:8048119003,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:affirm:8048119003,,remote_us,remote_us,Data,true,Google Sheets
+greenhouse:affirm:8048121003,,non_us,non_us,Data,true,A/B testing
+greenhouse:affirm:8048121003,,non_us,non_us,Data,true,Google Sheets
+greenhouse:airbnb:7107054,,remote_us,remote_us,Data,true,Python
+greenhouse:airbnb:7107054,,remote_us,remote_us,Data,true,R
+greenhouse:airbnb:7107054,,remote_us,remote_us,Data,true,SQL
+greenhouse:airbnb:7107054,,remote_us,remote_us,Data,true,Statistics
+greenhouse:airbnb:7662244,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:airbnb:7662244,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:airbnb:7662244,,remote_us,remote_us,Data,true,Python
+greenhouse:airbnb:7662244,,remote_us,remote_us,Data,true,R
+greenhouse:airbnb:7662244,,remote_us,remote_us,Data,true,SQL
+greenhouse:airbnb:7705262,,us_unmapped,us_unmapped,Data,true,A/B testing
+greenhouse:airbnb:7705262,,us_unmapped,us_unmapped,Data,true,Machine learning
+greenhouse:airbnb:7705262,,us_unmapped,us_unmapped,Data,true,Python
+greenhouse:airbnb:7705262,,us_unmapped,us_unmapped,Data,true,SQL
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,true,Excel
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,true,Google Sheets
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,true,Machine learning
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,true,Python
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,true,SQL
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,true,Statistics
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,true,Tableau
+greenhouse:airbnb:8023118,,non_us,non_us,Data,true,A/B testing
+greenhouse:airbnb:8023118,,non_us,non_us,Data,true,Python
+greenhouse:airbnb:8023118,,non_us,non_us,Data,true,R
+greenhouse:airbnb:8023118,,non_us,non_us,Data,true,SAS
+greenhouse:airbnb:8023118,,non_us,non_us,Data,true,SQL
+greenhouse:airbnb:8023118,,non_us,non_us,Data,true,Spark
+greenhouse:airbnb:8023118,,non_us,non_us,Data,true,Statistics
+greenhouse:airbnb:8023118,,non_us,non_us,Data,true,Tableau
+greenhouse:airbnb:8081180,,non_us,non_us,Data,true,Python
+greenhouse:airbnb:8081180,,non_us,non_us,Data,true,SQL
+greenhouse:airbnb:8081180,,non_us,non_us,Data,true,Spark
+greenhouse:airbnb:8081180,,non_us,non_us,Data,true,Tableau
+greenhouse:airbnb:8207095,,us_unmapped,us_unmapped,Data,true,A/B testing
+greenhouse:airbnb:8207095,,us_unmapped,us_unmapped,Data,true,Python
+greenhouse:airbnb:8207095,,us_unmapped,us_unmapped,Data,true,R
+greenhouse:airbnb:8207095,,us_unmapped,us_unmapped,Data,true,SQL
+greenhouse:airbnb:8207095,,us_unmapped,us_unmapped,Data,true,Statistics
+greenhouse:airbnb:8209984,,us_unmapped,us_unmapped,Financial,true,SQL
+greenhouse:airbnb:8259920,,us_unmapped,us_unmapped,Financial,true,SQL
+greenhouse:airbnb:8263282,,unknown,unknown,Data,true,Airflow
+greenhouse:airbnb:8263282,,unknown,unknown,Data,true,SQL
+greenhouse:airbnb:8263282,,unknown,unknown,Data,true,Spark
+greenhouse:airbnb:8263303,,unknown,unknown,Data,true,Airflow
+greenhouse:airbnb:8263303,,unknown,unknown,Data,true,Python
+greenhouse:airbnb:8263303,,unknown,unknown,Data,true,SQL
+greenhouse:airbnb:8263303,,unknown,unknown,Data,true,Spark
+greenhouse:airbnb:8275416,,us_unmapped,us_unmapped,Financial,true,AWS
+greenhouse:airbnb:8275416,,us_unmapped,us_unmapped,Financial,true,Machine learning
+greenhouse:airbnb:8278729,,non_us,non_us,Data,true,Excel
+greenhouse:airbnb:8278729,,non_us,non_us,Data,true,SQL
+greenhouse:airbnb:8278729,,non_us,non_us,Data,true,Statistics
+greenhouse:airbnb:8301515,,remote_us,remote_us,Data,true,Python
+greenhouse:airbnb:8301515,,remote_us,remote_us,Data,true,R
+greenhouse:airbnb:8301515,,remote_us,remote_us,Data,true,SQL
+greenhouse:airbnb:8301515,,remote_us,remote_us,Data,true,Statistics
+greenhouse:anthropic:4991194008,41860,41860,metro,Financial,true,BigQuery
+greenhouse:anthropic:4991194008,41860,41860,metro,Financial,true,Python
+greenhouse:anthropic:4991194008,41860,41860,metro,Financial,true,SQL
+greenhouse:anthropic:4991194008,42660,42660,metro,Financial,true,BigQuery
+greenhouse:anthropic:4991194008,42660,42660,metro,Financial,true,Python
+greenhouse:anthropic:4991194008,42660,42660,metro,Financial,true,SQL
+greenhouse:anthropic:5116820008,35620,35620,metro,Product,true,A/B testing
+greenhouse:anthropic:5116820008,35620,35620,metro,Product,true,Machine learning
+greenhouse:anthropic:5116820008,35620,35620,metro,Product,true,Python
+greenhouse:anthropic:5116820008,35620,35620,metro,Product,true,SQL
+greenhouse:anthropic:5116820008,35620,35620,metro,Product,true,Statistics
+greenhouse:anthropic:5116820008,41860,41860,metro,Product,true,A/B testing
+greenhouse:anthropic:5116820008,41860,41860,metro,Product,true,Machine learning
+greenhouse:anthropic:5116820008,41860,41860,metro,Product,true,Python
+greenhouse:anthropic:5116820008,41860,41860,metro,Product,true,SQL
+greenhouse:anthropic:5116820008,41860,41860,metro,Product,true,Statistics
+greenhouse:anthropic:5116820008,42660,42660,metro,Product,true,A/B testing
+greenhouse:anthropic:5116820008,42660,42660,metro,Product,true,Machine learning
+greenhouse:anthropic:5116820008,42660,42660,metro,Product,true,Python
+greenhouse:anthropic:5116820008,42660,42660,metro,Product,true,SQL
+greenhouse:anthropic:5116820008,42660,42660,metro,Product,true,Statistics
+greenhouse:anthropic:5161402008,35620,35620,metro,Marketing,true,A/B testing
+greenhouse:anthropic:5161402008,35620,35620,metro,Marketing,true,Machine learning
+greenhouse:anthropic:5161402008,35620,35620,metro,Marketing,true,Python
+greenhouse:anthropic:5161402008,35620,35620,metro,Marketing,true,SQL
+greenhouse:anthropic:5161402008,41860,41860,metro,Marketing,true,A/B testing
+greenhouse:anthropic:5161402008,41860,41860,metro,Marketing,true,Machine learning
+greenhouse:anthropic:5161402008,41860,41860,metro,Marketing,true,Python
+greenhouse:anthropic:5161402008,41860,41860,metro,Marketing,true,SQL
+greenhouse:anthropic:5161402008,42660,42660,metro,Marketing,true,A/B testing
+greenhouse:anthropic:5161402008,42660,42660,metro,Marketing,true,Machine learning
+greenhouse:anthropic:5161402008,42660,42660,metro,Marketing,true,Python
+greenhouse:anthropic:5161402008,42660,42660,metro,Marketing,true,SQL
+greenhouse:anthropic:5182605008,35620,35620,metro,Product,true,A/B testing
+greenhouse:anthropic:5182605008,35620,35620,metro,Product,true,Machine learning
+greenhouse:anthropic:5182605008,35620,35620,metro,Product,true,Python
+greenhouse:anthropic:5182605008,35620,35620,metro,Product,true,SQL
+greenhouse:anthropic:5182605008,35620,35620,metro,Product,true,Statistics
+greenhouse:anthropic:5182605008,41860,41860,metro,Product,true,A/B testing
+greenhouse:anthropic:5182605008,41860,41860,metro,Product,true,Machine learning
+greenhouse:anthropic:5182605008,41860,41860,metro,Product,true,Python
+greenhouse:anthropic:5182605008,41860,41860,metro,Product,true,SQL
+greenhouse:anthropic:5182605008,41860,41860,metro,Product,true,Statistics
+greenhouse:anthropic:5182605008,42660,42660,metro,Product,true,A/B testing
+greenhouse:anthropic:5182605008,42660,42660,metro,Product,true,Machine learning
+greenhouse:anthropic:5182605008,42660,42660,metro,Product,true,Python
+greenhouse:anthropic:5182605008,42660,42660,metro,Product,true,SQL
+greenhouse:anthropic:5182605008,42660,42660,metro,Product,true,Statistics
+greenhouse:anthropic:5196852008,35620,35620,metro,Data,true,A/B testing
+greenhouse:anthropic:5196852008,35620,35620,metro,Data,true,Machine learning
+greenhouse:anthropic:5196852008,35620,35620,metro,Data,true,Python
+greenhouse:anthropic:5196852008,35620,35620,metro,Data,true,SQL
+greenhouse:anthropic:5196852008,35620,35620,metro,Data,true,Statistics
+greenhouse:anthropic:5196852008,41860,41860,metro,Data,true,A/B testing
+greenhouse:anthropic:5196852008,41860,41860,metro,Data,true,Machine learning
+greenhouse:anthropic:5196852008,41860,41860,metro,Data,true,Python
+greenhouse:anthropic:5196852008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5196852008,41860,41860,metro,Data,true,Statistics
+greenhouse:anthropic:5209196008,35620,35620,metro,Data,true,A/B testing
+greenhouse:anthropic:5209196008,35620,35620,metro,Data,true,Python
+greenhouse:anthropic:5209196008,35620,35620,metro,Data,true,SQL
+greenhouse:anthropic:5209196008,41860,41860,metro,Data,true,A/B testing
+greenhouse:anthropic:5209196008,41860,41860,metro,Data,true,Python
+greenhouse:anthropic:5209196008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5209196008,42660,42660,metro,Data,true,A/B testing
+greenhouse:anthropic:5209196008,42660,42660,metro,Data,true,Python
+greenhouse:anthropic:5209196008,42660,42660,metro,Data,true,SQL
+greenhouse:anthropic:5232055008,35620,35620,metro,Data,true,Python
+greenhouse:anthropic:5232055008,35620,35620,metro,Data,true,SQL
+greenhouse:anthropic:5232055008,41860,41860,metro,Data,true,Python
+greenhouse:anthropic:5232055008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5232055008,47900,47900,metro,Data,true,Python
+greenhouse:anthropic:5232055008,47900,47900,metro,Data,true,SQL
+greenhouse:anthropic:5311149008,35620,35620,metro,Data,true,Python
+greenhouse:anthropic:5311149008,35620,35620,metro,Data,true,SQL
+greenhouse:anthropic:5311149008,41860,41860,metro,Data,true,Python
+greenhouse:anthropic:5311149008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5311149008,47900,47900,metro,Data,true,Python
+greenhouse:anthropic:5311149008,47900,47900,metro,Data,true,SQL
+greenhouse:anthropic:5311234008,35620,35620,metro,Data,true,SQL
+greenhouse:anthropic:5311234008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5311234008,47900,47900,metro,Data,true,SQL
+greenhouse:anthropic:5319624008,35620,35620,metro,Data,true,SQL
+greenhouse:anthropic:5319624008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5319624008,47900,47900,metro,Data,true,SQL
+greenhouse:anthropic:5319626008,35620,35620,metro,Data,true,SQL
+greenhouse:anthropic:5319626008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5319626008,47900,47900,metro,Data,true,SQL
+greenhouse:anthropic:5319696008,35620,35620,metro,Data,true,SQL
+greenhouse:anthropic:5319696008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5319696008,47900,47900,metro,Data,true,SQL
+greenhouse:anthropic:5319700008,35620,35620,metro,Data,true,SQL
+greenhouse:anthropic:5319700008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5319700008,47900,47900,metro,Data,true,SQL
+greenhouse:anthropic:5357947008,41860,41860,metro,Financial,true,Python
+greenhouse:anthropic:5357947008,41860,41860,metro,Financial,true,SQL
+greenhouse:anthropic:5357947008,42660,42660,metro,Financial,true,Python
+greenhouse:anthropic:5357947008,42660,42660,metro,Financial,true,SQL
+greenhouse:anthropic:5410006008,35620,35620,metro,Data,true,Python
+greenhouse:anthropic:5410006008,35620,35620,metro,Data,true,SQL
+greenhouse:anthropic:5410006008,41860,41860,metro,Data,true,Python
+greenhouse:anthropic:5410006008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5410006008,47900,47900,metro,Data,true,Python
+greenhouse:anthropic:5410006008,47900,47900,metro,Data,true,SQL
+greenhouse:anthropic:5416829008,35620,35620,metro,Product,true,SQL
+greenhouse:anthropic:5416829008,35620,35620,metro,Product,true,Salesforce
+greenhouse:anthropic:5416829008,41860,41860,metro,Product,true,SQL
+greenhouse:anthropic:5416829008,41860,41860,metro,Product,true,Salesforce
+greenhouse:anthropic:5416829008,42660,42660,metro,Product,true,SQL
+greenhouse:anthropic:5416829008,42660,42660,metro,Product,true,Salesforce
+greenhouse:anthropic:5424111008,35620,35620,metro,Data,true,BigQuery
+greenhouse:anthropic:5424111008,35620,35620,metro,Data,true,Machine learning
+greenhouse:anthropic:5424111008,35620,35620,metro,Data,true,Python
+greenhouse:anthropic:5424111008,35620,35620,metro,Data,true,SQL
+greenhouse:anthropic:5424111008,35620,35620,metro,Data,true,dbt
+greenhouse:anthropic:5424111008,41860,41860,metro,Data,true,BigQuery
+greenhouse:anthropic:5424111008,41860,41860,metro,Data,true,Machine learning
+greenhouse:anthropic:5424111008,41860,41860,metro,Data,true,Python
+greenhouse:anthropic:5424111008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5424111008,41860,41860,metro,Data,true,dbt
+greenhouse:anthropic:5424111008,42660,42660,metro,Data,true,BigQuery
+greenhouse:anthropic:5424111008,42660,42660,metro,Data,true,Machine learning
+greenhouse:anthropic:5424111008,42660,42660,metro,Data,true,Python
+greenhouse:anthropic:5424111008,42660,42660,metro,Data,true,SQL
+greenhouse:anthropic:5424111008,42660,42660,metro,Data,true,dbt
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,true,A/B testing
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,true,BigQuery
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,true,Looker
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,true,Power BI
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,true,Python
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,true,R
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,true,SQL
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,true,Snowflake
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,true,Statistics
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,true,Tableau
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,true,A/B testing
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,true,BigQuery
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,true,Looker
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,true,Power BI
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,true,Python
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,true,R
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,true,SQL
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,true,Snowflake
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,true,Statistics
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,true,Tableau
+greenhouse:anthropic:5434145008,35620,35620,metro,Marketing,true,SQL
+greenhouse:anthropic:5434145008,35620,35620,metro,Marketing,true,Salesforce
+greenhouse:anthropic:5434145008,35620,35620,metro,Marketing,true,dbt
+greenhouse:anthropic:5434145008,41860,41860,metro,Marketing,true,SQL
+greenhouse:anthropic:5434145008,41860,41860,metro,Marketing,true,Salesforce
+greenhouse:anthropic:5434145008,41860,41860,metro,Marketing,true,dbt
+greenhouse:anthropic:5436196008,35620,35620,metro,Business,true,Salesforce
+greenhouse:anthropic:5436196008,41860,41860,metro,Business,true,Salesforce
+greenhouse:anthropic:5462893008,14460,14460,metro,Data,true,Python
+greenhouse:anthropic:5462893008,35620,35620,metro,Data,true,Python
+greenhouse:anthropic:5462893008,41860,41860,metro,Data,true,Python
+greenhouse:anthropic:5462893008,42660,42660,metro,Data,true,Python
+greenhouse:anthropic:5462893008,47900,47900,metro,Data,true,Python
+greenhouse:anthropic:5464493008,35620,35620,metro,Data,true,A/B testing
+greenhouse:anthropic:5464493008,35620,35620,metro,Data,true,Machine learning
+greenhouse:anthropic:5464493008,35620,35620,metro,Data,true,Python
+greenhouse:anthropic:5464493008,35620,35620,metro,Data,true,SQL
+greenhouse:anthropic:5464493008,35620,35620,metro,Data,true,Statistics
+greenhouse:anthropic:5464493008,41860,41860,metro,Data,true,A/B testing
+greenhouse:anthropic:5464493008,41860,41860,metro,Data,true,Machine learning
+greenhouse:anthropic:5464493008,41860,41860,metro,Data,true,Python
+greenhouse:anthropic:5464493008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5464493008,41860,41860,metro,Data,true,Statistics
+greenhouse:anthropic:5464493008,42660,42660,metro,Data,true,A/B testing
+greenhouse:anthropic:5464493008,42660,42660,metro,Data,true,Machine learning
+greenhouse:anthropic:5464493008,42660,42660,metro,Data,true,Python
+greenhouse:anthropic:5464493008,42660,42660,metro,Data,true,SQL
+greenhouse:anthropic:5464493008,42660,42660,metro,Data,true,Statistics
+greenhouse:anthropic:5465561008,41860,41860,metro,Data,true,SQL
+greenhouse:anthropic:5465561008,41860,41860,metro,Data,true,Salesforce
+greenhouse:asana:8275149,,non_us,non_us,Data,true,A/B testing
+greenhouse:asana:8275149,,non_us,non_us,Data,true,Machine learning
+greenhouse:asana:8275149,,non_us,non_us,Data,true,Python
+greenhouse:asana:8275149,,non_us,non_us,Data,true,R
+greenhouse:asana:8275149,,non_us,non_us,Data,true,SQL
+greenhouse:asana:8275149,,non_us,non_us,Data,true,Scala
+greenhouse:asana:8275149,,non_us,non_us,Data,true,Statistics
+greenhouse:asana:8282518,16980,16980,metro,Operations,true,Salesforce
+greenhouse:asana:8282814,,non_us,non_us,Data,true,Airflow
+greenhouse:asana:8282814,,non_us,non_us,Data,true,Databricks
+greenhouse:asana:8282814,,non_us,non_us,Data,true,Git
+greenhouse:asana:8282814,,non_us,non_us,Data,true,Looker
+greenhouse:asana:8282814,,non_us,non_us,Data,true,SQL
+greenhouse:asana:8282814,,non_us,non_us,Data,true,Salesforce
+greenhouse:asana:8282814,,non_us,non_us,Data,true,Snowflake
+greenhouse:asana:8282814,,non_us,non_us,Data,true,dbt
+greenhouse:betterment:8041552,35620,35620,metro,Data,true,SQL
+greenhouse:betterment:8319091,35620,35620,metro,Data,true,Airflow
+greenhouse:betterment:8319091,35620,35620,metro,Data,true,SQL
+greenhouse:betterment:8319091,35620,35620,metro,Data,true,dbt
+greenhouse:brex:8463702002,35620,35620,metro,Data,true,Airflow
+greenhouse:brex:8463702002,35620,35620,metro,Data,true,BigQuery
+greenhouse:brex:8463702002,35620,35620,metro,Data,true,Databricks
+greenhouse:brex:8463702002,35620,35620,metro,Data,true,Git
+greenhouse:brex:8463702002,35620,35620,metro,Data,true,Looker
+greenhouse:brex:8463702002,35620,35620,metro,Data,true,Python
+greenhouse:brex:8463702002,35620,35620,metro,Data,true,SQL
+greenhouse:brex:8463702002,35620,35620,metro,Data,true,Snowflake
+greenhouse:brex:8463702002,35620,35620,metro,Data,true,Tableau
+greenhouse:brex:8463702002,35620,35620,metro,Data,true,dbt
+greenhouse:brex:8463703002,,non_us,non_us,Data,true,Airflow
+greenhouse:brex:8463703002,,non_us,non_us,Data,true,BigQuery
+greenhouse:brex:8463703002,,non_us,non_us,Data,true,Databricks
+greenhouse:brex:8463703002,,non_us,non_us,Data,true,Git
+greenhouse:brex:8463703002,,non_us,non_us,Data,true,Looker
+greenhouse:brex:8463703002,,non_us,non_us,Data,true,Python
+greenhouse:brex:8463703002,,non_us,non_us,Data,true,SQL
+greenhouse:brex:8463703002,,non_us,non_us,Data,true,Snowflake
+greenhouse:brex:8463703002,,non_us,non_us,Data,true,Tableau
+greenhouse:brex:8463703002,,non_us,non_us,Data,true,dbt
+greenhouse:brex:8735070002,,non_us,non_us,Data,true,A/B testing
+greenhouse:brex:8735070002,,non_us,non_us,Data,true,Machine learning
+greenhouse:brex:8735070002,,non_us,non_us,Data,true,Python
+greenhouse:brex:8735070002,,non_us,non_us,Data,true,SQL
+greenhouse:brex:8735070002,,non_us,non_us,Data,true,Statistics
+greenhouse:brex:8783482002,41860,41860,metro,Data,true,A/B testing
+greenhouse:brex:8783482002,41860,41860,metro,Data,true,Machine learning
+greenhouse:brex:8783482002,41860,41860,metro,Data,true,Python
+greenhouse:brex:8783482002,41860,41860,metro,Data,true,SQL
+greenhouse:brex:8783482002,41860,41860,metro,Data,true,Statistics
+greenhouse:brex:8879575002,,non_us,non_us,Data,true,Excel
+greenhouse:brex:8879575002,,non_us,non_us,Data,true,SQL
+greenhouse:brex:8879575002,,non_us,non_us,Data,true,Salesforce
+greenhouse:brex:8903732002,,non_us,non_us,Data,true,Excel
+greenhouse:brex:8903732002,,non_us,non_us,Data,true,SQL
+greenhouse:brex:8903732002,,non_us,non_us,Data,true,Salesforce
+greenhouse:brex:8923923002,41620,41620,metro,Operations,true,Excel
+greenhouse:brex:8923923002,41620,41620,metro,Operations,true,Google Sheets
+greenhouse:brex:8923923002,41620,41620,metro,Operations,true,Python
+greenhouse:brex:8923923002,41620,41620,metro,Operations,true,SQL
+greenhouse:brex:8923923002,41620,41620,metro,Operations,true,Salesforce
+greenhouse:brex:8923923002,41620,41620,metro,Operations,true,Snowflake
+greenhouse:brex:8924533002,35620,35620,metro,Operations,true,Excel
+greenhouse:brex:8924533002,35620,35620,metro,Operations,true,Google Sheets
+greenhouse:brex:8924533002,35620,35620,metro,Operations,true,Python
+greenhouse:brex:8924533002,35620,35620,metro,Operations,true,SQL
+greenhouse:brex:8924533002,35620,35620,metro,Operations,true,Salesforce
+greenhouse:brex:8924533002,35620,35620,metro,Operations,true,Snowflake
+greenhouse:chime:8779819002,16980,16980,metro,Financial,true,SQL
+greenhouse:chime:8788322002,16980,16980,metro,Financial,true,Excel
+greenhouse:chime:8788322002,16980,16980,metro,Financial,true,Looker
+greenhouse:chime:8788322002,16980,16980,metro,Financial,true,Machine learning
+greenhouse:chime:8788322002,16980,16980,metro,Financial,true,Python
+greenhouse:chime:8788322002,16980,16980,metro,Financial,true,SQL
+greenhouse:chime:8788322002,16980,16980,metro,Financial,true,Statistics
+greenhouse:chime:8788322002,41860,41860,metro,Financial,true,Excel
+greenhouse:chime:8788322002,41860,41860,metro,Financial,true,Looker
+greenhouse:chime:8788322002,41860,41860,metro,Financial,true,Machine learning
+greenhouse:chime:8788322002,41860,41860,metro,Financial,true,Python
+greenhouse:chime:8788322002,41860,41860,metro,Financial,true,SQL
+greenhouse:chime:8788322002,41860,41860,metro,Financial,true,Statistics
+greenhouse:chime:8869629002,41860,41860,metro,Financial,true,A/B testing
+greenhouse:chime:8869629002,41860,41860,metro,Financial,true,Python
+greenhouse:chime:8869629002,41860,41860,metro,Financial,true,SQL
+greenhouse:chime:8869629002,41860,41860,metro,Financial,true,dbt
+greenhouse:chime:8882465002,41860,41860,metro,Marketing,true,A/B testing
+greenhouse:chime:8882465002,41860,41860,metro,Marketing,true,Machine learning
+greenhouse:chime:8882465002,41860,41860,metro,Marketing,true,Python
+greenhouse:chime:8882465002,41860,41860,metro,Marketing,true,SQL
+greenhouse:chime:8882465002,41860,41860,metro,Marketing,true,Snowflake
+greenhouse:chime:8917560002,16980,16980,metro,Data,true,Excel
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,true,GCP
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,true,Git
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,true,MySQL
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,true,PostgreSQL
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,true,Python
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,true,SQL
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,true,Statistics
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,true,GCP
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,true,Git
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,true,MySQL
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,true,PostgreSQL
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,true,Python
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,true,SQL
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,true,Statistics
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,true,Airflow
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,true,Git
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,true,Machine learning
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,true,Python
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,true,R
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,true,SQL
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,true,Statistics
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,true,dbt
+greenhouse:cloudflare:8161030,,non_us,non_us,Financial,true,Excel
+greenhouse:cloudflare:8175615,,unknown,unknown,Data,true,Machine learning
+greenhouse:cloudflare:8175615,,unknown,unknown,Data,true,Python
+greenhouse:cloudflare:8175615,,unknown,unknown,Data,true,SQL
+greenhouse:cloudflare:8175615,,unknown,unknown,Data,true,Statistics
+greenhouse:cloudflare:8245787,,unknown,unknown,Operations,true,Excel
+greenhouse:cloudflare:8245787,,unknown,unknown,Operations,true,Google Sheets
+greenhouse:cloudflare:8245787,,unknown,unknown,Operations,true,Jira
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,true,Airflow
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,true,GCP
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,true,Looker
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,true,Power BI
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,true,Python
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,true,SQL
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,true,Salesforce
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,true,Tableau
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,true,BigQuery
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,true,Google Analytics
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,true,Machine learning
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,true,Python
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,true,SQL
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,true,Spark
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,true,Statistics
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,true,Tableau
+greenhouse:cloudflare:8282783,,non_us,non_us,Data,true,BigQuery
+greenhouse:cloudflare:8282783,,non_us,non_us,Data,true,SQL
+greenhouse:cloudflare:8282783,,non_us,non_us,Data,true,Salesforce
+greenhouse:cloudflare:8282783,,non_us,non_us,Data,true,dbt
+greenhouse:cloudflare:8305918,,unknown,unknown,Product,true,Excel
+greenhouse:cloudflare:8305918,,unknown,unknown,Product,true,Google Sheets
+greenhouse:cloudflare:8305918,,unknown,unknown,Product,true,Python
+greenhouse:cloudflare:8305918,,unknown,unknown,Product,true,SQL
+greenhouse:coinbase:7182060,,unknown,unknown,Data,true,Salesforce
+greenhouse:coinbase:7254275,,non_us,non_us,Data,true,Salesforce
+greenhouse:coinbase:7984814,,remote_us,remote_us,Financial,true,Machine learning
+greenhouse:coinbase:7984814,,remote_us,remote_us,Financial,true,SQL
+greenhouse:coinbase:7993006,,remote_us,remote_us,Financial,true,Excel
+greenhouse:coinbase:7993006,,remote_us,remote_us,Financial,true,SQL
+greenhouse:coinbase:8030686,,non_us,non_us,Financial,true,Excel
+greenhouse:coinbase:8030686,,non_us,non_us,Financial,true,Google Sheets
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,true,Airflow
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,true,BigQuery
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,true,Databricks
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,true,Python
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,true,Redshift
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,true,SQL
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,true,Snowflake
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,true,dbt
+greenhouse:coinbase:8131356,,remote_us,remote_us,Financial,true,Excel
+greenhouse:coinbase:8147696,,non_us,non_us,Financial,true,Excel
+greenhouse:coinbase:8147696,,non_us,non_us,Financial,true,Google Sheets
+greenhouse:coinbase:8147699,,non_us,non_us,Financial,true,Google Sheets
+greenhouse:coinbase:8147917,,non_us,non_us,Data,true,A/B testing
+greenhouse:coinbase:8147917,,non_us,non_us,Data,true,Python
+greenhouse:coinbase:8147917,,non_us,non_us,Data,true,SQL
+greenhouse:coinbase:8147917,,non_us,non_us,Data,true,Statistics
+greenhouse:coinbase:8154856,,remote_us,remote_us,Financial,true,Jira
+greenhouse:coinbase:8206668,,non_us,non_us,Product,true,A/B testing
+greenhouse:coinbase:8206668,,non_us,non_us,Product,true,Python
+greenhouse:coinbase:8206668,,non_us,non_us,Product,true,SQL
+greenhouse:coinbase:8206668,,non_us,non_us,Product,true,Statistics
+greenhouse:coinbase:8221985,,remote_us,remote_us,Data,true,Airflow
+greenhouse:coinbase:8221985,,remote_us,remote_us,Data,true,Python
+greenhouse:coinbase:8221985,,remote_us,remote_us,Data,true,SQL
+greenhouse:coinbase:8221985,,remote_us,remote_us,Data,true,dbt
+greenhouse:coinbase:8233945,,non_us,non_us,Financial,true,Python
+greenhouse:coinbase:8233945,,non_us,non_us,Financial,true,SQL
+greenhouse:coinbase:8250032,,remote_us,remote_us,Product,true,Excel
+greenhouse:coinbase:8250032,,remote_us,remote_us,Product,true,SQL
+greenhouse:coinbase:8260052,,remote_us,remote_us,Financial,true,Looker
+greenhouse:coinbase:8260052,,remote_us,remote_us,Financial,true,Python
+greenhouse:coinbase:8260052,,remote_us,remote_us,Financial,true,SQL
+greenhouse:coinbase:8260052,,remote_us,remote_us,Financial,true,Tableau
+greenhouse:coinbase:8287668,,remote_us,remote_us,Product,true,A/B testing
+greenhouse:coinbase:8287668,,remote_us,remote_us,Product,true,Machine learning
+greenhouse:coinbase:8287668,,remote_us,remote_us,Product,true,Python
+greenhouse:coinbase:8287668,,remote_us,remote_us,Product,true,SQL
+greenhouse:coinbase:8287668,,remote_us,remote_us,Product,true,Statistics
+greenhouse:coinbase:8289787,,non_us,non_us,Data,true,Salesforce
+greenhouse:coinbase:8289798,,non_us,non_us,Data,true,Jira
+greenhouse:coinbase:8289798,,non_us,non_us,Data,true,SQL
+greenhouse:coinbase:8289798,,non_us,non_us,Data,true,Salesforce
+greenhouse:databricks:5507088002,41860,41860,metro,Data,true,Databricks
+greenhouse:databricks:5507088002,41860,41860,metro,Data,true,Excel
+greenhouse:databricks:5507088002,41860,41860,metro,Data,true,Machine learning
+greenhouse:databricks:5507088002,41860,41860,metro,Data,true,Python
+greenhouse:databricks:5507088002,41860,41860,metro,Data,true,R
+greenhouse:databricks:5507088002,41860,41860,metro,Data,true,SQL
+greenhouse:databricks:5507088002,41860,41860,metro,Data,true,Scala
+greenhouse:databricks:5507088002,41860,41860,metro,Data,true,Spark
+greenhouse:databricks:5507088002,41860,41860,metro,Data,true,Statistics
+greenhouse:databricks:5634684002,41860,41860,metro,Data,true,Databricks
+greenhouse:databricks:5634684002,41860,41860,metro,Data,true,Excel
+greenhouse:databricks:5634684002,41860,41860,metro,Data,true,Machine learning
+greenhouse:databricks:5634684002,41860,41860,metro,Data,true,Python
+greenhouse:databricks:5634684002,41860,41860,metro,Data,true,R
+greenhouse:databricks:5634684002,41860,41860,metro,Data,true,SQL
+greenhouse:databricks:5634684002,41860,41860,metro,Data,true,Scala
+greenhouse:databricks:5634684002,41860,41860,metro,Data,true,Spark
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,true,Databricks
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,true,Excel
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,true,Machine learning
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,true,Python
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,true,SQL
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,true,Spark
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,true,Statistics
+greenhouse:databricks:8178287002,41860,41860,metro,Data,true,Databricks
+greenhouse:databricks:8178287002,41860,41860,metro,Data,true,Excel
+greenhouse:databricks:8178287002,41860,41860,metro,Data,true,Machine learning
+greenhouse:databricks:8178287002,41860,41860,metro,Data,true,Python
+greenhouse:databricks:8178287002,41860,41860,metro,Data,true,SQL
+greenhouse:databricks:8178287002,41860,41860,metro,Data,true,Spark
+greenhouse:databricks:8178287002,41860,41860,metro,Data,true,Statistics
+greenhouse:databricks:8199399002,19740,19740,metro,Data,true,Databricks
+greenhouse:databricks:8199399002,19740,19740,metro,Data,true,Excel
+greenhouse:databricks:8199399002,19740,19740,metro,Data,true,Machine learning
+greenhouse:databricks:8199399002,42660,42660,metro,Data,true,Databricks
+greenhouse:databricks:8199399002,42660,42660,metro,Data,true,Excel
+greenhouse:databricks:8199399002,42660,42660,metro,Data,true,Machine learning
+greenhouse:databricks:8199399002,47900,47900,metro,Data,true,Databricks
+greenhouse:databricks:8199399002,47900,47900,metro,Data,true,Excel
+greenhouse:databricks:8199399002,47900,47900,metro,Data,true,Machine learning
+greenhouse:databricks:8414474002,41860,41860,metro,Financial,true,Databricks
+greenhouse:databricks:8414474002,41860,41860,metro,Financial,true,Excel
+greenhouse:databricks:8414474002,41860,41860,metro,Financial,true,Google Sheets
+greenhouse:databricks:8414474002,41860,41860,metro,Financial,true,SQL
+greenhouse:databricks:8756140002,,unknown,unknown,Data,true,Databricks
+greenhouse:databricks:8756140002,,unknown,unknown,Data,true,Excel
+greenhouse:databricks:8860646002,,us_unmapped,us_unmapped,Data,true,Databricks
+greenhouse:databricks:8860646002,,us_unmapped,us_unmapped,Data,true,Excel
+greenhouse:databricks:8860646002,,us_unmapped,us_unmapped,Data,true,Machine learning
+greenhouse:databricks:8922722002,,non_us,non_us,Business,true,Databricks
+greenhouse:databricks:8922722002,,non_us,non_us,Business,true,Excel
+greenhouse:databricks:8922730002,,non_us,non_us,Data,true,Databricks
+greenhouse:databricks:8922730002,,non_us,non_us,Data,true,Excel
+greenhouse:databricks:8922730002,,non_us,non_us,Data,true,Salesforce
+greenhouse:datadog:7982644,,non_us,non_us,Data,true,Excel
+greenhouse:datadog:7982644,,non_us,non_us,Data,true,Salesforce
+greenhouse:datadog:8002771,35620,35620,metro,Financial,true,Looker
+greenhouse:datadog:8002771,35620,35620,metro,Financial,true,Power BI
+greenhouse:datadog:8002771,35620,35620,metro,Financial,true,Python
+greenhouse:datadog:8002771,35620,35620,metro,Financial,true,SQL
+greenhouse:datadog:8002771,35620,35620,metro,Financial,true,Tableau
+greenhouse:datadog:8127768,,non_us,non_us,Product,true,A/B testing
+greenhouse:datadog:8127768,,non_us,non_us,Product,true,Machine learning
+greenhouse:datadog:8128810,35620,35620,metro,Product,true,SQL
+greenhouse:datadog:8128810,35620,35620,metro,Product,true,Snowflake
+greenhouse:datadog:8128810,35620,35620,metro,Product,true,dbt
+greenhouse:datadog:8139161,35620,35620,metro,Data,true,A/B testing
+greenhouse:datadog:8139161,35620,35620,metro,Data,true,Google Analytics
+greenhouse:datadog:8143849,35620,35620,metro,Data,true,Excel
+greenhouse:datadog:8143849,35620,35620,metro,Data,true,Salesforce
+greenhouse:datadog:8143849,35620,35620,metro,Data,true,Tableau
+greenhouse:datadog:8197674,19740,19740,metro,Data,true,Excel
+greenhouse:datadog:8197674,19740,19740,metro,Data,true,Salesforce
+greenhouse:datadog:8197674,41860,41860,metro,Data,true,Excel
+greenhouse:datadog:8197674,41860,41860,metro,Data,true,Salesforce
+greenhouse:datadog:8204554,35620,35620,metro,Financial,true,Excel
+greenhouse:datadog:8204554,35620,35620,metro,Financial,true,Tableau
+greenhouse:datadog:8204629,14460,14460,metro,Data,true,SQL
+greenhouse:datadog:8204629,14460,14460,metro,Data,true,Tableau
+greenhouse:datadog:8204629,35620,35620,metro,Data,true,SQL
+greenhouse:datadog:8204629,35620,35620,metro,Data,true,Tableau
+greenhouse:datadog:8231811,35620,35620,metro,Business,true,Salesforce
+greenhouse:datadog:8257306,35620,35620,metro,Financial,true,Excel
+greenhouse:datadog:8257306,35620,35620,metro,Financial,true,Tableau
+greenhouse:datadog:8257324,35620,35620,metro,Data,true,Excel
+greenhouse:datadog:8267437,35620,35620,metro,Financial,true,Excel
+greenhouse:datadog:8267437,35620,35620,metro,Financial,true,SQL
+greenhouse:datadog:8267437,35620,35620,metro,Financial,true,Snowflake
+greenhouse:datadog:8267437,35620,35620,metro,Financial,true,Tableau
+greenhouse:datadog:8273655,,non_us,non_us,Data,true,Excel
+greenhouse:datadog:8273655,,non_us,non_us,Data,true,Salesforce
+greenhouse:datadog:8301039,,non_us,non_us,Data,true,Excel
+greenhouse:datadog:8301039,,non_us,non_us,Data,true,Salesforce
+greenhouse:datadog:8312438,35620,35620,metro,Financial,true,Excel
+greenhouse:discord:8575166002,41860,41860,metro,Financial,true,A/B testing
+greenhouse:discord:8575166002,41860,41860,metro,Financial,true,Excel
+greenhouse:discord:8575166002,41860,41860,metro,Financial,true,Looker
+greenhouse:discord:8575166002,41860,41860,metro,Financial,true,SQL
+greenhouse:discord:8652853002,41860,41860,metro,Data,true,A/B testing
+greenhouse:discord:8652853002,41860,41860,metro,Data,true,Python
+greenhouse:discord:8652853002,41860,41860,metro,Data,true,R
+greenhouse:discord:8652853002,41860,41860,metro,Data,true,SQL
+greenhouse:discord:8652853002,41860,41860,metro,Data,true,Statistics
+greenhouse:discord:8840756002,41860,41860,metro,Data,true,A/B testing
+greenhouse:discord:8840756002,41860,41860,metro,Data,true,BigQuery
+greenhouse:discord:8840756002,41860,41860,metro,Data,true,Looker
+greenhouse:discord:8840756002,41860,41860,metro,Data,true,SQL
+greenhouse:discord:8840756002,41860,41860,metro,Data,true,Tableau
+greenhouse:duolingo:8750527002,35620,35620,metro,Marketing,true,A/B testing
+greenhouse:duolingo:8750527002,35620,35620,metro,Marketing,true,Machine learning
+greenhouse:duolingo:8750527002,35620,35620,metro,Marketing,true,Python
+greenhouse:duolingo:8750527002,35620,35620,metro,Marketing,true,R
+greenhouse:duolingo:8750527002,35620,35620,metro,Marketing,true,SQL
+greenhouse:duolingo:8750527002,35620,35620,metro,Marketing,true,Statistics
+greenhouse:duolingo:8750527002,38300,38300,metro,Marketing,true,A/B testing
+greenhouse:duolingo:8750527002,38300,38300,metro,Marketing,true,Machine learning
+greenhouse:duolingo:8750527002,38300,38300,metro,Marketing,true,Python
+greenhouse:duolingo:8750527002,38300,38300,metro,Marketing,true,R
+greenhouse:duolingo:8750527002,38300,38300,metro,Marketing,true,SQL
+greenhouse:duolingo:8750527002,38300,38300,metro,Marketing,true,Statistics
+greenhouse:duolingo:8750636002,35620,35620,metro,Marketing,true,Python
+greenhouse:duolingo:8750636002,35620,35620,metro,Marketing,true,SQL
+greenhouse:duolingo:8750636002,35620,35620,metro,Marketing,true,Statistics
+greenhouse:duolingo:8750636002,38300,38300,metro,Marketing,true,Python
+greenhouse:duolingo:8750636002,38300,38300,metro,Marketing,true,SQL
+greenhouse:duolingo:8750636002,38300,38300,metro,Marketing,true,Statistics
+greenhouse:duolingo:8759720002,35620,35620,metro,Marketing,true,Looker Studio
+greenhouse:duolingo:8759720002,35620,35620,metro,Marketing,true,Python
+greenhouse:duolingo:8759720002,35620,35620,metro,Marketing,true,R
+greenhouse:duolingo:8759720002,35620,35620,metro,Marketing,true,SQL
+greenhouse:duolingo:8759720002,35620,35620,metro,Marketing,true,Statistics
+greenhouse:duolingo:8759720002,35620,35620,metro,Marketing,true,Tableau
+greenhouse:elastic:8034945,,non_us,non_us,Financial,true,Excel
+greenhouse:elastic:8034945,,non_us,non_us,Financial,true,Tableau
+greenhouse:elastic:8053209,,us_unmapped,us_unmapped,Operations,true,Excel
+greenhouse:elastic:8053209,,us_unmapped,us_unmapped,Operations,true,Salesforce
+greenhouse:elastic:8053209,,us_unmapped,us_unmapped,Operations,true,Tableau
+greenhouse:elastic:8107090,,us_unmapped,us_unmapped,Business,true,Salesforce
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,true,Excel
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,true,Google Sheets
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,true,Looker
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,true,Power BI
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,true,SQL
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,true,Salesforce
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,true,Tableau
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,true,BigQuery
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,true,GCP
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,true,Looker
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,true,Python
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,true,SQL
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,true,Tableau
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,true,dbt
+greenhouse:elastic:8274371,,us_unmapped,us_unmapped,Data,true,Machine learning
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,true,BigQuery
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,true,Machine learning
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,true,Python
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,true,R
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,true,SQL
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,true,Salesforce
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,true,Statistics
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,true,dbt
+greenhouse:elastic:8285463,,non_us,non_us,Data,true,Excel
+greenhouse:elastic:8285463,,non_us,non_us,Data,true,Salesforce
+greenhouse:elastic:8303741,,unknown,unknown,Business,true,Excel
+greenhouse:elastic:8303741,,unknown,unknown,Business,true,Salesforce
+greenhouse:elastic:8304875,,us_unmapped,us_unmapped,Business,true,Salesforce
+greenhouse:figma:5552580004,35620,35620,metro,Data,true,A/B testing
+greenhouse:figma:5552580004,35620,35620,metro,Data,true,Python
+greenhouse:figma:5552580004,35620,35620,metro,Data,true,R
+greenhouse:figma:5552580004,35620,35620,metro,Data,true,Redshift
+greenhouse:figma:5552580004,35620,35620,metro,Data,true,SQL
+greenhouse:figma:5552580004,35620,35620,metro,Data,true,Snowflake
+greenhouse:figma:5552580004,35620,35620,metro,Data,true,Spark
+greenhouse:figma:5552580004,35620,35620,metro,Data,true,Statistics
+greenhouse:figma:5552580004,41860,41860,metro,Data,true,A/B testing
+greenhouse:figma:5552580004,41860,41860,metro,Data,true,Python
+greenhouse:figma:5552580004,41860,41860,metro,Data,true,R
+greenhouse:figma:5552580004,41860,41860,metro,Data,true,Redshift
+greenhouse:figma:5552580004,41860,41860,metro,Data,true,SQL
+greenhouse:figma:5552580004,41860,41860,metro,Data,true,Snowflake
+greenhouse:figma:5552580004,41860,41860,metro,Data,true,Spark
+greenhouse:figma:5552580004,41860,41860,metro,Data,true,Statistics
+greenhouse:figma:6215865004,35620,35620,metro,Business,true,SQL
+greenhouse:figma:6215865004,35620,35620,metro,Business,true,Salesforce
+greenhouse:figma:6215865004,41860,41860,metro,Business,true,SQL
+greenhouse:figma:6215865004,41860,41860,metro,Business,true,Salesforce
+greenhouse:figma:6217137004,35620,35620,metro,Data,true,Excel
+greenhouse:figma:6217137004,35620,35620,metro,Data,true,Google Sheets
+greenhouse:figma:6217137004,35620,35620,metro,Data,true,Salesforce
+greenhouse:figma:6217137004,41860,41860,metro,Data,true,Excel
+greenhouse:figma:6217137004,41860,41860,metro,Data,true,Google Sheets
+greenhouse:figma:6217137004,41860,41860,metro,Data,true,Salesforce
+greenhouse:flatironhealth:8231737,,unknown,unknown,Data,true,Airflow
+greenhouse:flatironhealth:8231737,,unknown,unknown,Data,true,Python
+greenhouse:gitlab:8633807002,,remote_us,remote_us,Data,true,Git
+greenhouse:gitlab:8827370002,,non_us,non_us,Data,true,Git
+greenhouse:gitlab:8827370002,,non_us,non_us,Data,true,Looker
+greenhouse:gitlab:8827370002,,non_us,non_us,Data,true,Machine learning
+greenhouse:gitlab:8827370002,,non_us,non_us,Data,true,SQL
+greenhouse:gitlab:8827370002,,non_us,non_us,Data,true,Tableau
+greenhouse:gitlab:8861782002,,remote_us,remote_us,Data,true,Git
+greenhouse:gitlab:8864819002,,non_us,non_us,Data,true,Excel
+greenhouse:gitlab:8864819002,,non_us,non_us,Data,true,Git
+greenhouse:gitlab:8864819002,,non_us,non_us,Data,true,Google Sheets
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,true,Git
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,true,PostgreSQL
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,true,Python
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,true,SQL
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,true,Snowflake
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,true,Tableau
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,true,dbt
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,true,Git
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,true,Looker
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,true,Python
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,true,SQL
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,true,Snowflake
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,true,Statistics
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,true,Tableau
+greenhouse:gusto:7283301,19740,19740,metro,Business,true,A/B testing
+greenhouse:gusto:7283301,19740,19740,metro,Business,true,Machine learning
+greenhouse:gusto:7283301,19740,19740,metro,Business,true,SQL
+greenhouse:gusto:7283301,19740,19740,metro,Business,true,Salesforce
+greenhouse:gusto:7283301,19740,19740,metro,Business,true,Snowflake
+greenhouse:gusto:7283301,19740,19740,metro,Business,true,Statistics
+greenhouse:gusto:7283301,19740,19740,metro,Business,true,dbt
+greenhouse:gusto:7283301,35620,35620,metro,Business,true,A/B testing
+greenhouse:gusto:7283301,35620,35620,metro,Business,true,Machine learning
+greenhouse:gusto:7283301,35620,35620,metro,Business,true,SQL
+greenhouse:gusto:7283301,35620,35620,metro,Business,true,Salesforce
+greenhouse:gusto:7283301,35620,35620,metro,Business,true,Snowflake
+greenhouse:gusto:7283301,35620,35620,metro,Business,true,Statistics
+greenhouse:gusto:7283301,35620,35620,metro,Business,true,dbt
+greenhouse:gusto:7283301,41860,41860,metro,Business,true,A/B testing
+greenhouse:gusto:7283301,41860,41860,metro,Business,true,Machine learning
+greenhouse:gusto:7283301,41860,41860,metro,Business,true,SQL
+greenhouse:gusto:7283301,41860,41860,metro,Business,true,Salesforce
+greenhouse:gusto:7283301,41860,41860,metro,Business,true,Snowflake
+greenhouse:gusto:7283301,41860,41860,metro,Business,true,Statistics
+greenhouse:gusto:7283301,41860,41860,metro,Business,true,dbt
+greenhouse:gusto:7656216,41860,41860,metro,Financial,true,A/B testing
+greenhouse:gusto:7656216,41860,41860,metro,Financial,true,Python
+greenhouse:gusto:7656216,41860,41860,metro,Financial,true,SQL
+greenhouse:gusto:7656216,41860,41860,metro,Financial,true,Statistics
+greenhouse:gusto:8075901,12060,12060,metro,Operations,true,Excel
+greenhouse:gusto:8075901,12060,12060,metro,Operations,true,Google Sheets
+greenhouse:gusto:8075901,12060,12060,metro,Operations,true,Looker
+greenhouse:gusto:8075901,12060,12060,metro,Operations,true,SQL
+greenhouse:gusto:8075901,12060,12060,metro,Operations,true,Salesforce
+greenhouse:gusto:8075901,12060,12060,metro,Operations,true,Tableau
+greenhouse:gusto:8075901,19740,19740,metro,Operations,true,Excel
+greenhouse:gusto:8075901,19740,19740,metro,Operations,true,Google Sheets
+greenhouse:gusto:8075901,19740,19740,metro,Operations,true,Looker
+greenhouse:gusto:8075901,19740,19740,metro,Operations,true,SQL
+greenhouse:gusto:8075901,19740,19740,metro,Operations,true,Salesforce
+greenhouse:gusto:8075901,19740,19740,metro,Operations,true,Tableau
+greenhouse:gusto:8075901,35620,35620,metro,Operations,true,Excel
+greenhouse:gusto:8075901,35620,35620,metro,Operations,true,Google Sheets
+greenhouse:gusto:8075901,35620,35620,metro,Operations,true,Looker
+greenhouse:gusto:8075901,35620,35620,metro,Operations,true,SQL
+greenhouse:gusto:8075901,35620,35620,metro,Operations,true,Salesforce
+greenhouse:gusto:8075901,35620,35620,metro,Operations,true,Tableau
+greenhouse:gusto:8075901,41860,41860,metro,Operations,true,Excel
+greenhouse:gusto:8075901,41860,41860,metro,Operations,true,Google Sheets
+greenhouse:gusto:8075901,41860,41860,metro,Operations,true,Looker
+greenhouse:gusto:8075901,41860,41860,metro,Operations,true,SQL
+greenhouse:gusto:8075901,41860,41860,metro,Operations,true,Salesforce
+greenhouse:gusto:8075901,41860,41860,metro,Operations,true,Tableau
+greenhouse:gusto:8104180,12060,12060,metro,Data,true,Machine learning
+greenhouse:gusto:8104180,12060,12060,metro,Data,true,Statistics
+greenhouse:gusto:8104180,19740,19740,metro,Data,true,Machine learning
+greenhouse:gusto:8104180,19740,19740,metro,Data,true,Statistics
+greenhouse:gusto:8180461,41860,41860,metro,Operations,true,SQL
+greenhouse:gusto:8180461,42660,42660,metro,Operations,true,SQL
+greenhouse:gusto:8212233,12060,12060,metro,Operations,true,Salesforce
+greenhouse:gusto:8212233,19740,19740,metro,Operations,true,Salesforce
+greenhouse:gusto:8212233,35620,35620,metro,Operations,true,Salesforce
+greenhouse:gusto:8212233,41860,41860,metro,Operations,true,Salesforce
+greenhouse:instacart:8115834,,remote_us,remote_us,Business,true,Looker
+greenhouse:instacart:8115834,,remote_us,remote_us,Business,true,SQL
+greenhouse:instacart:8115834,,remote_us,remote_us,Business,true,Salesforce
+greenhouse:instacart:8115834,,remote_us,remote_us,Business,true,Tableau
+greenhouse:instacart:8115836,,non_us,non_us,Business,true,Looker
+greenhouse:instacart:8115836,,non_us,non_us,Business,true,SQL
+greenhouse:instacart:8115836,,non_us,non_us,Business,true,Salesforce
+greenhouse:instacart:8115836,,non_us,non_us,Business,true,Tableau
+greenhouse:instacart:8282526,,remote_us,remote_us,Financial,true,Excel
+greenhouse:instacart:8282526,,remote_us,remote_us,Financial,true,Google Sheets
+greenhouse:instacart:8282526,,remote_us,remote_us,Financial,true,Python
+greenhouse:instacart:8282526,,remote_us,remote_us,Financial,true,SQL
+greenhouse:instacart:8282591,,non_us,non_us,Financial,true,Excel
+greenhouse:instacart:8282591,,non_us,non_us,Financial,true,Google Sheets
+greenhouse:instacart:8282591,,non_us,non_us,Financial,true,Python
+greenhouse:instacart:8282591,,non_us,non_us,Financial,true,SQL
+greenhouse:instacart:8302177,,remote_us,remote_us,Data,true,SQL
+greenhouse:lyft:8503985002,41860,41860,metro,Data,true,Excel
+greenhouse:lyft:8503985002,41860,41860,metro,Data,true,Google Sheets
+greenhouse:lyft:8503985002,41860,41860,metro,Data,true,SQL
+greenhouse:lyft:8503985002,41860,41860,metro,Data,true,Statistics
+greenhouse:lyft:8514422002,,non_us,non_us,Data,true,SQL
+greenhouse:lyft:8584595002,41860,41860,metro,Data,true,Python
+greenhouse:lyft:8584595002,41860,41860,metro,Data,true,SQL
+greenhouse:lyft:8584595002,41860,41860,metro,Data,true,Statistics
+greenhouse:lyft:8584688002,35620,35620,metro,Data,true,Python
+greenhouse:lyft:8584688002,35620,35620,metro,Data,true,SQL
+greenhouse:lyft:8584688002,35620,35620,metro,Data,true,Statistics
+greenhouse:lyft:8584695002,42660,42660,metro,Data,true,Python
+greenhouse:lyft:8584695002,42660,42660,metro,Data,true,SQL
+greenhouse:lyft:8584695002,42660,42660,metro,Data,true,Statistics
+greenhouse:lyft:8620998002,41860,41860,metro,Data,true,A/B testing
+greenhouse:lyft:8620998002,41860,41860,metro,Data,true,Databricks
+greenhouse:lyft:8620998002,41860,41860,metro,Data,true,Machine learning
+greenhouse:lyft:8620998002,41860,41860,metro,Data,true,Python
+greenhouse:lyft:8620998002,41860,41860,metro,Data,true,Snowflake
+greenhouse:lyft:8620998002,41860,41860,metro,Data,true,Spark
+greenhouse:lyft:8620998002,41860,41860,metro,Data,true,Statistics
+greenhouse:lyft:8621789002,35620,35620,metro,Data,true,A/B testing
+greenhouse:lyft:8621789002,35620,35620,metro,Data,true,Databricks
+greenhouse:lyft:8621789002,35620,35620,metro,Data,true,Machine learning
+greenhouse:lyft:8621789002,35620,35620,metro,Data,true,Python
+greenhouse:lyft:8621789002,35620,35620,metro,Data,true,Snowflake
+greenhouse:lyft:8621789002,35620,35620,metro,Data,true,Spark
+greenhouse:lyft:8621789002,35620,35620,metro,Data,true,Statistics
+greenhouse:lyft:8648040002,,non_us,non_us,Data,true,A/B testing
+greenhouse:lyft:8648040002,,non_us,non_us,Data,true,Python
+greenhouse:lyft:8648040002,,non_us,non_us,Data,true,SQL
+greenhouse:lyft:8648040002,,non_us,non_us,Data,true,Statistics
+greenhouse:lyft:8733597002,,non_us,non_us,Data,true,Machine learning
+greenhouse:lyft:8733597002,,non_us,non_us,Data,true,Spark
+greenhouse:lyft:8733597002,,non_us,non_us,Data,true,Statistics
+greenhouse:lyft:8734166002,,non_us,non_us,Operations,true,Python
+greenhouse:lyft:8734166002,,non_us,non_us,Operations,true,SQL
+greenhouse:lyft:8772592002,42660,42660,metro,Data,true,Machine learning
+greenhouse:lyft:8772592002,42660,42660,metro,Data,true,Python
+greenhouse:lyft:8772592002,42660,42660,metro,Data,true,R
+greenhouse:lyft:8772592002,42660,42660,metro,Data,true,Statistics
+greenhouse:lyft:8856440002,,non_us,non_us,Data,true,SQL
+greenhouse:lyft:8856442002,,non_us,non_us,Data,true,A/B testing
+greenhouse:lyft:8856442002,,non_us,non_us,Data,true,Machine learning
+greenhouse:lyft:8856442002,,non_us,non_us,Data,true,Python
+greenhouse:lyft:8856442002,,non_us,non_us,Data,true,R
+greenhouse:lyft:8856442002,,non_us,non_us,Data,true,SQL
+greenhouse:lyft:8856442002,,non_us,non_us,Data,true,Statistics
+greenhouse:lyft:8856443002,41860,41860,metro,Financial,true,Machine learning
+greenhouse:lyft:8856443002,41860,41860,metro,Financial,true,Python
+greenhouse:lyft:8856443002,41860,41860,metro,Financial,true,R
+greenhouse:lyft:8856443002,41860,41860,metro,Financial,true,SQL
+greenhouse:lyft:8856443002,41860,41860,metro,Financial,true,Statistics
+greenhouse:lyft:8860781002,,non_us,non_us,Data,true,Excel
+greenhouse:lyft:8860781002,,non_us,non_us,Data,true,Google Sheets
+greenhouse:lyft:8860781002,,non_us,non_us,Data,true,SQL
+greenhouse:lyft:8868958002,35620,35620,metro,Data,true,SQL
+greenhouse:lyft:8881573002,,non_us,non_us,Financial,true,SQL
+greenhouse:lyft:8908000002,34980,34980,metro,Data,true,Excel
+greenhouse:lyft:8908005002,41860,41860,metro,Financial,true,Machine learning
+greenhouse:lyft:8908005002,41860,41860,metro,Financial,true,Python
+greenhouse:lyft:8908005002,41860,41860,metro,Financial,true,Statistics
+greenhouse:mongodb:8094118,,unknown,unknown,Data,true,AWS
+greenhouse:mongodb:8094118,,unknown,unknown,Data,true,Azure
+greenhouse:mongodb:8094118,,unknown,unknown,Data,true,GCP
+greenhouse:mongodb:8135458,,non_us,non_us,Data,true,AWS
+greenhouse:mongodb:8135458,,non_us,non_us,Data,true,Azure
+greenhouse:mongodb:8135458,,non_us,non_us,Data,true,GCP
+greenhouse:mongodb:8135458,,non_us,non_us,Data,true,Machine learning
+greenhouse:mongodb:8135458,,non_us,non_us,Data,true,Python
+greenhouse:mongodb:8135458,,non_us,non_us,Data,true,Statistics
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,true,AWS
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,true,Azure
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,true,GCP
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,true,Python
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,true,SQL
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,true,Salesforce
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,true,Tableau
+greenhouse:mongodb:8192216,35620,35620,metro,Financial,true,AWS
+greenhouse:mongodb:8192216,35620,35620,metro,Financial,true,Azure
+greenhouse:mongodb:8192216,35620,35620,metro,Financial,true,Excel
+greenhouse:mongodb:8192216,35620,35620,metro,Financial,true,GCP
+greenhouse:mongodb:8192216,35620,35620,metro,Financial,true,SQL
+greenhouse:mongodb:8224590,,unknown,unknown,Data,true,AWS
+greenhouse:mongodb:8224590,,unknown,unknown,Data,true,Azure
+greenhouse:mongodb:8224590,,unknown,unknown,Data,true,BigQuery
+greenhouse:mongodb:8224590,,unknown,unknown,Data,true,GCP
+greenhouse:mongodb:8224590,,unknown,unknown,Data,true,Python
+greenhouse:mongodb:8224590,,unknown,unknown,Data,true,SQL
+greenhouse:mongodb:8224590,,unknown,unknown,Data,true,Tableau
+greenhouse:mongodb:8224590,,unknown,unknown,Data,true,dbt
+greenhouse:mongodb:8237572,12420,12420,metro,Financial,true,AWS
+greenhouse:mongodb:8237572,12420,12420,metro,Financial,true,Azure
+greenhouse:mongodb:8237572,12420,12420,metro,Financial,true,Excel
+greenhouse:mongodb:8237572,12420,12420,metro,Financial,true,GCP
+greenhouse:mongodb:8237572,35620,35620,metro,Financial,true,AWS
+greenhouse:mongodb:8237572,35620,35620,metro,Financial,true,Azure
+greenhouse:mongodb:8237572,35620,35620,metro,Financial,true,Excel
+greenhouse:mongodb:8237572,35620,35620,metro,Financial,true,GCP
+greenhouse:mongodb:8237572,41860,41860,metro,Financial,true,AWS
+greenhouse:mongodb:8237572,41860,41860,metro,Financial,true,Azure
+greenhouse:mongodb:8237572,41860,41860,metro,Financial,true,Excel
+greenhouse:mongodb:8237572,41860,41860,metro,Financial,true,GCP
+greenhouse:mongodb:8264146,,unknown,unknown,Marketing,true,AWS
+greenhouse:mongodb:8264146,,unknown,unknown,Marketing,true,Azure
+greenhouse:mongodb:8264146,,unknown,unknown,Marketing,true,GCP
+greenhouse:mongodb:8264766,,unknown,unknown,Data,true,AWS
+greenhouse:mongodb:8264766,,unknown,unknown,Data,true,Azure
+greenhouse:mongodb:8264766,,unknown,unknown,Data,true,GCP
+greenhouse:mongodb:8264766,,unknown,unknown,Data,true,Jira
+greenhouse:mongodb:8328622,35620,35620,metro,Financial,true,AWS
+greenhouse:mongodb:8328622,35620,35620,metro,Financial,true,Azure
+greenhouse:mongodb:8328622,35620,35620,metro,Financial,true,Excel
+greenhouse:mongodb:8328622,35620,35620,metro,Financial,true,GCP
+greenhouse:nextdoor:7572109,,remote_us,remote_us,Data,true,Excel
+greenhouse:nextdoor:7572109,,remote_us,remote_us,Data,true,Git
+greenhouse:nextdoor:7572109,,remote_us,remote_us,Data,true,Looker
+greenhouse:nextdoor:7572109,,remote_us,remote_us,Data,true,Python
+greenhouse:nextdoor:7572109,,remote_us,remote_us,Data,true,SQL
+greenhouse:okta:7728553,,non_us,non_us,Data,true,Git
+greenhouse:okta:7728553,,non_us,non_us,Data,true,Machine learning
+greenhouse:okta:7728553,,non_us,non_us,Data,true,Python
+greenhouse:okta:7728553,,non_us,non_us,Data,true,SQL
+greenhouse:okta:7728553,,non_us,non_us,Data,true,Salesforce
+greenhouse:okta:7728553,,non_us,non_us,Data,true,Snowflake
+greenhouse:okta:7728553,,non_us,non_us,Data,true,Tableau
+greenhouse:okta:7728553,,non_us,non_us,Data,true,dbt
+greenhouse:okta:7780488,,non_us,non_us,Data,true,BigQuery
+greenhouse:okta:7780488,,non_us,non_us,Data,true,Databricks
+greenhouse:okta:7780488,,non_us,non_us,Data,true,Git
+greenhouse:okta:7780488,,non_us,non_us,Data,true,Jira
+greenhouse:okta:7780488,,non_us,non_us,Data,true,Looker
+greenhouse:okta:7780488,,non_us,non_us,Data,true,Machine learning
+greenhouse:okta:7780488,,non_us,non_us,Data,true,Power BI
+greenhouse:okta:7780488,,non_us,non_us,Data,true,Python
+greenhouse:okta:7780488,,non_us,non_us,Data,true,SQL
+greenhouse:okta:7780488,,non_us,non_us,Data,true,Snowflake
+greenhouse:okta:7780488,,non_us,non_us,Data,true,Tableau
+greenhouse:okta:7780488,,non_us,non_us,Data,true,dbt
+greenhouse:okta:7902204,16980,16980,metro,Data,true,Databricks
+greenhouse:okta:7902204,16980,16980,metro,Data,true,Machine learning
+greenhouse:okta:7902204,16980,16980,metro,Data,true,Salesforce
+greenhouse:okta:7902204,16980,16980,metro,Data,true,Snowflake
+greenhouse:okta:7902204,16980,16980,metro,Data,true,Tableau
+greenhouse:okta:7902204,42660,42660,metro,Data,true,Databricks
+greenhouse:okta:7902204,42660,42660,metro,Data,true,Machine learning
+greenhouse:okta:7902204,42660,42660,metro,Data,true,Salesforce
+greenhouse:okta:7902204,42660,42660,metro,Data,true,Snowflake
+greenhouse:okta:7902204,42660,42660,metro,Data,true,Tableau
+greenhouse:okta:7917957,41860,41860,metro,Product,true,Machine learning
+greenhouse:okta:7917957,41860,41860,metro,Product,true,Salesforce
+greenhouse:okta:8128431,,non_us,non_us,Product,true,Machine learning
+greenhouse:okta:8128431,,non_us,non_us,Product,true,Salesforce
+greenhouse:okta:8138453,16980,16980,metro,Marketing,true,A/B testing
+greenhouse:okta:8138453,16980,16980,metro,Marketing,true,Excel
+greenhouse:okta:8138453,16980,16980,metro,Marketing,true,Google Analytics
+greenhouse:okta:8138453,16980,16980,metro,Marketing,true,Machine learning
+greenhouse:okta:8138453,16980,16980,metro,Marketing,true,Python
+greenhouse:okta:8138453,16980,16980,metro,Marketing,true,R
+greenhouse:okta:8138453,16980,16980,metro,Marketing,true,SQL
+greenhouse:okta:8138453,16980,16980,metro,Marketing,true,Salesforce
+greenhouse:okta:8138453,16980,16980,metro,Marketing,true,Snowflake
+greenhouse:okta:8138453,16980,16980,metro,Marketing,true,Statistics
+greenhouse:okta:8138453,16980,16980,metro,Marketing,true,Tableau
+greenhouse:okta:8138453,42660,42660,metro,Marketing,true,A/B testing
+greenhouse:okta:8138453,42660,42660,metro,Marketing,true,Excel
+greenhouse:okta:8138453,42660,42660,metro,Marketing,true,Google Analytics
+greenhouse:okta:8138453,42660,42660,metro,Marketing,true,Machine learning
+greenhouse:okta:8138453,42660,42660,metro,Marketing,true,Python
+greenhouse:okta:8138453,42660,42660,metro,Marketing,true,R
+greenhouse:okta:8138453,42660,42660,metro,Marketing,true,SQL
+greenhouse:okta:8138453,42660,42660,metro,Marketing,true,Salesforce
+greenhouse:okta:8138453,42660,42660,metro,Marketing,true,Snowflake
+greenhouse:okta:8138453,42660,42660,metro,Marketing,true,Statistics
+greenhouse:okta:8138453,42660,42660,metro,Marketing,true,Tableau
+greenhouse:okta:8141274,,non_us,non_us,Data,true,Excel
+greenhouse:okta:8141274,,non_us,non_us,Data,true,Machine learning
+greenhouse:okta:8141274,,non_us,non_us,Data,true,Python
+greenhouse:okta:8141274,,non_us,non_us,Data,true,R
+greenhouse:okta:8141274,,non_us,non_us,Data,true,SQL
+greenhouse:okta:8141274,,non_us,non_us,Data,true,Snowflake
+greenhouse:okta:8141274,,non_us,non_us,Data,true,Statistics
+greenhouse:okta:8141274,,non_us,non_us,Data,true,Tableau
+greenhouse:okta:8159611,16980,16980,metro,Product,true,Machine learning
+greenhouse:okta:8159611,41860,41860,metro,Product,true,Machine learning
+greenhouse:okta:8159611,42660,42660,metro,Product,true,Machine learning
+greenhouse:okta:8159611,47900,47900,metro,Product,true,Machine learning
+greenhouse:okta:8204938,16980,16980,metro,Marketing,true,A/B testing
+greenhouse:okta:8204938,16980,16980,metro,Marketing,true,Excel
+greenhouse:okta:8204938,16980,16980,metro,Marketing,true,Google Analytics
+greenhouse:okta:8204938,16980,16980,metro,Marketing,true,Machine learning
+greenhouse:okta:8204938,16980,16980,metro,Marketing,true,Python
+greenhouse:okta:8204938,16980,16980,metro,Marketing,true,R
+greenhouse:okta:8204938,16980,16980,metro,Marketing,true,SQL
+greenhouse:okta:8204938,16980,16980,metro,Marketing,true,Salesforce
+greenhouse:okta:8204938,16980,16980,metro,Marketing,true,Snowflake
+greenhouse:okta:8204938,16980,16980,metro,Marketing,true,Statistics
+greenhouse:okta:8204938,16980,16980,metro,Marketing,true,Tableau
+greenhouse:okta:8204938,42660,42660,metro,Marketing,true,A/B testing
+greenhouse:okta:8204938,42660,42660,metro,Marketing,true,Excel
+greenhouse:okta:8204938,42660,42660,metro,Marketing,true,Google Analytics
+greenhouse:okta:8204938,42660,42660,metro,Marketing,true,Machine learning
+greenhouse:okta:8204938,42660,42660,metro,Marketing,true,Python
+greenhouse:okta:8204938,42660,42660,metro,Marketing,true,R
+greenhouse:okta:8204938,42660,42660,metro,Marketing,true,SQL
+greenhouse:okta:8204938,42660,42660,metro,Marketing,true,Salesforce
+greenhouse:okta:8204938,42660,42660,metro,Marketing,true,Snowflake
+greenhouse:okta:8204938,42660,42660,metro,Marketing,true,Statistics
+greenhouse:okta:8204938,42660,42660,metro,Marketing,true,Tableau
+greenhouse:okta:8209281,41860,41860,metro,Data,true,Alteryx
+greenhouse:okta:8209281,41860,41860,metro,Data,true,Excel
+greenhouse:okta:8209281,41860,41860,metro,Data,true,Machine learning
+greenhouse:okta:8213700,16980,16980,metro,Product,true,AWS
+greenhouse:okta:8213700,16980,16980,metro,Product,true,Machine learning
+greenhouse:okta:8213700,35620,35620,metro,Product,true,AWS
+greenhouse:okta:8213700,35620,35620,metro,Product,true,Machine learning
+greenhouse:okta:8213700,42660,42660,metro,Product,true,AWS
+greenhouse:okta:8213700,42660,42660,metro,Product,true,Machine learning
+greenhouse:okta:8213700,47900,47900,metro,Product,true,AWS
+greenhouse:okta:8213700,47900,47900,metro,Product,true,Machine learning
+greenhouse:okta:8230852,,non_us,non_us,Data,true,Machine learning
+greenhouse:okta:8230852,,non_us,non_us,Data,true,Salesforce
+greenhouse:okta:8242257,,non_us,non_us,Data,true,Machine learning
+greenhouse:okta:8242257,,non_us,non_us,Data,true,Salesforce
+greenhouse:okta:8246071,16980,16980,metro,Operations,true,Jira
+greenhouse:okta:8246071,16980,16980,metro,Operations,true,Machine learning
+greenhouse:okta:8246071,16980,16980,metro,Operations,true,Salesforce
+greenhouse:okta:8246071,16980,16980,metro,Operations,true,Tableau
+greenhouse:okta:8246071,35620,35620,metro,Operations,true,Jira
+greenhouse:okta:8246071,35620,35620,metro,Operations,true,Machine learning
+greenhouse:okta:8246071,35620,35620,metro,Operations,true,Salesforce
+greenhouse:okta:8246071,35620,35620,metro,Operations,true,Tableau
+greenhouse:okta:8246071,41860,41860,metro,Operations,true,Jira
+greenhouse:okta:8246071,41860,41860,metro,Operations,true,Machine learning
+greenhouse:okta:8246071,41860,41860,metro,Operations,true,Salesforce
+greenhouse:okta:8246071,41860,41860,metro,Operations,true,Tableau
+greenhouse:okta:8246071,42660,42660,metro,Operations,true,Jira
+greenhouse:okta:8246071,42660,42660,metro,Operations,true,Machine learning
+greenhouse:okta:8246071,42660,42660,metro,Operations,true,Salesforce
+greenhouse:okta:8246071,42660,42660,metro,Operations,true,Tableau
+greenhouse:okta:8246071,47900,47900,metro,Operations,true,Jira
+greenhouse:okta:8246071,47900,47900,metro,Operations,true,Machine learning
+greenhouse:okta:8246071,47900,47900,metro,Operations,true,Salesforce
+greenhouse:okta:8246071,47900,47900,metro,Operations,true,Tableau
+greenhouse:okta:8257554,16980,16980,metro,Data,true,Excel
+greenhouse:okta:8257554,16980,16980,metro,Data,true,Machine learning
+greenhouse:okta:8257554,16980,16980,metro,Data,true,Power BI
+greenhouse:okta:8257554,16980,16980,metro,Data,true,SQL
+greenhouse:okta:8257554,16980,16980,metro,Data,true,Tableau
+greenhouse:okta:8257554,41860,41860,metro,Data,true,Excel
+greenhouse:okta:8257554,41860,41860,metro,Data,true,Machine learning
+greenhouse:okta:8257554,41860,41860,metro,Data,true,Power BI
+greenhouse:okta:8257554,41860,41860,metro,Data,true,SQL
+greenhouse:okta:8257554,41860,41860,metro,Data,true,Tableau
+greenhouse:okta:8257554,42660,42660,metro,Data,true,Excel
+greenhouse:okta:8257554,42660,42660,metro,Data,true,Machine learning
+greenhouse:okta:8257554,42660,42660,metro,Data,true,Power BI
+greenhouse:okta:8257554,42660,42660,metro,Data,true,SQL
+greenhouse:okta:8257554,42660,42660,metro,Data,true,Tableau
+greenhouse:okta:8257554,47900,47900,metro,Data,true,Excel
+greenhouse:okta:8257554,47900,47900,metro,Data,true,Machine learning
+greenhouse:okta:8257554,47900,47900,metro,Data,true,Power BI
+greenhouse:okta:8257554,47900,47900,metro,Data,true,SQL
+greenhouse:okta:8257554,47900,47900,metro,Data,true,Tableau
+greenhouse:okta:8300397,,non_us,non_us,Data,true,Excel
+greenhouse:okta:8300397,,non_us,non_us,Data,true,Machine learning
+greenhouse:okta:8300397,,non_us,non_us,Data,true,Salesforce
+greenhouse:okta:8300397,,non_us,non_us,Data,true,Tableau
+greenhouse:okta:8335959,,non_us,non_us,Product,true,Machine learning
+greenhouse:okta:8335959,,non_us,non_us,Product,true,Salesforce
+greenhouse:okta:8335959,,non_us,non_us,Product,true,Snowflake
+greenhouse:oscar:7592301,35620,35620,metro,Data,true,Python
+greenhouse:oscar:7592301,35620,35620,metro,Data,true,R
+greenhouse:oscar:7592301,35620,35620,metro,Data,true,SQL
+greenhouse:oscar:7592301,35620,35620,metro,Data,true,Statistics
+greenhouse:oscar:7594414,31080,31080,metro,Data,true,Python
+greenhouse:oscar:7594414,31080,31080,metro,Data,true,R
+greenhouse:oscar:7594414,31080,31080,metro,Data,true,SQL
+greenhouse:oscar:7594414,31080,31080,metro,Data,true,Statistics
+greenhouse:oscar:7594416,,us_unmapped,us_unmapped,Data,true,Python
+greenhouse:oscar:7594416,,us_unmapped,us_unmapped,Data,true,R
+greenhouse:oscar:7594416,,us_unmapped,us_unmapped,Data,true,SQL
+greenhouse:oscar:7594416,,us_unmapped,us_unmapped,Data,true,Statistics
+greenhouse:oscar:7914965,35620,35620,metro,Healthcare,true,Machine learning
+greenhouse:oscar:7914965,35620,35620,metro,Healthcare,true,Python
+greenhouse:oscar:7914965,35620,35620,metro,Healthcare,true,R
+greenhouse:oscar:7914965,35620,35620,metro,Healthcare,true,SQL
+greenhouse:oscar:7914965,35620,35620,metro,Healthcare,true,Statistics
+greenhouse:oscar:8056691,35620,35620,metro,Data,true,Power BI
+greenhouse:oscar:8056691,35620,35620,metro,Data,true,Tableau
+greenhouse:oscar:8083703,35620,35620,metro,Data,true,BigQuery
+greenhouse:oscar:8083703,35620,35620,metro,Data,true,Excel
+greenhouse:oscar:8083703,35620,35620,metro,Data,true,Machine learning
+greenhouse:oscar:8083703,35620,35620,metro,Data,true,Python
+greenhouse:oscar:8083703,35620,35620,metro,Data,true,SQL
+greenhouse:oscar:8083703,35620,35620,metro,Data,true,Statistics
+greenhouse:oscar:8083703,35620,35620,metro,Data,true,dbt
+greenhouse:oscar:8119603,35620,35620,metro,Data,true,Python
+greenhouse:oscar:8119603,35620,35620,metro,Data,true,SQL
+greenhouse:oscar:8119603,35620,35620,metro,Data,true,Statistics
+greenhouse:oscar:8168110,,remote_us,remote_us,Operations,true,BigQuery
+greenhouse:oscar:8168110,,remote_us,remote_us,Operations,true,Excel
+greenhouse:oscar:8168110,,remote_us,remote_us,Operations,true,Google Sheets
+greenhouse:oscar:8168110,,remote_us,remote_us,Operations,true,SQL
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,true,Excel
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,true,Google Sheets
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,true,Looker
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,true,Python
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,true,R
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,true,SQL
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,true,Statistics
+greenhouse:oscar:8249773,35620,35620,metro,Data,true,Excel
+greenhouse:oscar:8249773,35620,35620,metro,Data,true,Google Sheets
+greenhouse:oscar:8249773,35620,35620,metro,Data,true,Looker
+greenhouse:oscar:8249773,35620,35620,metro,Data,true,Python
+greenhouse:oscar:8249773,35620,35620,metro,Data,true,R
+greenhouse:oscar:8249773,35620,35620,metro,Data,true,SQL
+greenhouse:oscar:8249773,35620,35620,metro,Data,true,Statistics
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,true,Excel
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,true,Google Sheets
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,true,Looker
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,true,Python
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,true,R
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,true,SQL
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,true,Statistics
+greenhouse:oscar:8250195,12060,12060,metro,Data,true,Excel
+greenhouse:oscar:8250195,12060,12060,metro,Data,true,Google Sheets
+greenhouse:oscar:8250195,12060,12060,metro,Data,true,Looker
+greenhouse:oscar:8250195,12060,12060,metro,Data,true,Python
+greenhouse:oscar:8250195,12060,12060,metro,Data,true,R
+greenhouse:oscar:8250195,12060,12060,metro,Data,true,SQL
+greenhouse:oscar:8250195,12060,12060,metro,Data,true,Statistics
+greenhouse:oscar:8250197,19100,19100,metro,Data,true,Excel
+greenhouse:oscar:8250197,19100,19100,metro,Data,true,Google Sheets
+greenhouse:oscar:8250197,19100,19100,metro,Data,true,Looker
+greenhouse:oscar:8250197,19100,19100,metro,Data,true,Python
+greenhouse:oscar:8250197,19100,19100,metro,Data,true,R
+greenhouse:oscar:8250197,19100,19100,metro,Data,true,SQL
+greenhouse:oscar:8250197,19100,19100,metro,Data,true,Statistics
+greenhouse:oscar:8256202,,us_unmapped,us_unmapped,Data,true,BigQuery
+greenhouse:oscar:8256202,,us_unmapped,us_unmapped,Data,true,Excel
+greenhouse:oscar:8256202,,us_unmapped,us_unmapped,Data,true,Google Sheets
+greenhouse:oscar:8256202,,us_unmapped,us_unmapped,Data,true,Jira
+greenhouse:oscar:8256202,,us_unmapped,us_unmapped,Data,true,SQL
+greenhouse:oscar:8256210,12060,12060,metro,Data,true,BigQuery
+greenhouse:oscar:8256210,12060,12060,metro,Data,true,Excel
+greenhouse:oscar:8256210,12060,12060,metro,Data,true,Google Sheets
+greenhouse:oscar:8256210,12060,12060,metro,Data,true,Jira
+greenhouse:oscar:8256210,12060,12060,metro,Data,true,SQL
+greenhouse:oscar:8256215,19100,19100,metro,Data,true,BigQuery
+greenhouse:oscar:8256215,19100,19100,metro,Data,true,Excel
+greenhouse:oscar:8256215,19100,19100,metro,Data,true,Google Sheets
+greenhouse:oscar:8256215,19100,19100,metro,Data,true,Jira
+greenhouse:oscar:8256215,19100,19100,metro,Data,true,SQL
+greenhouse:oscar:8258729,35620,35620,metro,Data,true,BigQuery
+greenhouse:oscar:8258729,35620,35620,metro,Data,true,Excel
+greenhouse:oscar:8258729,35620,35620,metro,Data,true,Google Sheets
+greenhouse:oscar:8258729,35620,35620,metro,Data,true,Jira
+greenhouse:oscar:8258729,35620,35620,metro,Data,true,SQL
+greenhouse:oscar:8281714,35620,35620,metro,Data,true,Python
+greenhouse:oscar:8281714,35620,35620,metro,Data,true,SQL
+greenhouse:oscar:8301400,35620,35620,metro,Data,true,GCP
+greenhouse:oscar:8301400,35620,35620,metro,Data,true,Looker
+greenhouse:oscar:8301400,35620,35620,metro,Data,true,Machine learning
+greenhouse:oscar:8301400,35620,35620,metro,Data,true,SQL
+greenhouse:oscar:8301400,35620,35620,metro,Data,true,dbt
+greenhouse:oscar:8303591,35620,35620,metro,Financial,true,Excel
+greenhouse:oscar:8303591,35620,35620,metro,Financial,true,Google Sheets
+greenhouse:oscar:8303591,35620,35620,metro,Financial,true,Looker
+greenhouse:oscar:8303591,35620,35620,metro,Financial,true,SQL
+greenhouse:oscar:8303591,35620,35620,metro,Financial,true,Tableau
+greenhouse:oscar:8303649,35620,35620,metro,Data,true,Excel
+greenhouse:oscar:8303649,35620,35620,metro,Data,true,Google Sheets
+greenhouse:oscar:8303649,35620,35620,metro,Data,true,Jira
+greenhouse:oscar:8303649,35620,35620,metro,Data,true,Python
+greenhouse:oscar:8303649,35620,35620,metro,Data,true,SQL
+greenhouse:oscar:8324403,,us_unmapped,us_unmapped,Data,true,Excel
+greenhouse:oscar:8324403,,us_unmapped,us_unmapped,Data,true,Google Sheets
+greenhouse:oscar:8324403,,us_unmapped,us_unmapped,Data,true,Jira
+greenhouse:oscar:8324403,,us_unmapped,us_unmapped,Data,true,Python
+greenhouse:oscar:8324403,,us_unmapped,us_unmapped,Data,true,SQL
+greenhouse:peloton:8053428,35620,35620,metro,Data,true,A/B testing
+greenhouse:peloton:8053428,35620,35620,metro,Data,true,Machine learning
+greenhouse:peloton:8053428,35620,35620,metro,Data,true,Python
+greenhouse:peloton:8053428,35620,35620,metro,Data,true,R
+greenhouse:peloton:8053428,35620,35620,metro,Data,true,SQL
+greenhouse:peloton:8053428,35620,35620,metro,Data,true,Statistics
+greenhouse:peloton:8177500,35620,35620,metro,Financial,true,Excel
+greenhouse:pinterest:5740948,41860,41860,metro,Data,true,A/B testing
+greenhouse:pinterest:5740948,41860,41860,metro,Data,true,Python
+greenhouse:pinterest:5740948,41860,41860,metro,Data,true,SQL
+greenhouse:pinterest:5740948,41860,41860,metro,Data,true,Statistics
+greenhouse:pinterest:5740948,42660,42660,metro,Data,true,A/B testing
+greenhouse:pinterest:5740948,42660,42660,metro,Data,true,Python
+greenhouse:pinterest:5740948,42660,42660,metro,Data,true,SQL
+greenhouse:pinterest:5740948,42660,42660,metro,Data,true,Statistics
+greenhouse:pinterest:6087213,41860,41860,metro,Data,true,A/B testing
+greenhouse:pinterest:6087213,41860,41860,metro,Data,true,Machine learning
+greenhouse:pinterest:6087213,41860,41860,metro,Data,true,Python
+greenhouse:pinterest:6087213,41860,41860,metro,Data,true,R
+greenhouse:pinterest:6087213,41860,41860,metro,Data,true,SQL
+greenhouse:pinterest:6087213,41860,41860,metro,Data,true,Statistics
+greenhouse:pinterest:6659114,,us_unmapped,us_unmapped,Data,true,A/B testing
+greenhouse:pinterest:6659114,,us_unmapped,us_unmapped,Data,true,Machine learning
+greenhouse:pinterest:6659114,,us_unmapped,us_unmapped,Data,true,Python
+greenhouse:pinterest:6659114,,us_unmapped,us_unmapped,Data,true,R
+greenhouse:pinterest:6659114,,us_unmapped,us_unmapped,Data,true,SQL
+greenhouse:pinterest:6659114,,us_unmapped,us_unmapped,Data,true,Statistics
+greenhouse:pinterest:7507652,35620,35620,metro,Financial,true,Excel
+greenhouse:pinterest:7507652,35620,35620,metro,Financial,true,GCP
+greenhouse:pinterest:7507652,35620,35620,metro,Financial,true,Google Sheets
+greenhouse:pinterest:7507652,35620,35620,metro,Financial,true,SQL
+greenhouse:pinterest:7507652,35620,35620,metro,Financial,true,Tableau
+greenhouse:pinterest:7987856,41860,41860,metro,Data,true,A/B testing
+greenhouse:pinterest:7987856,41860,41860,metro,Data,true,Machine learning
+greenhouse:pinterest:7987856,41860,41860,metro,Data,true,Python
+greenhouse:pinterest:7987856,41860,41860,metro,Data,true,R
+greenhouse:pinterest:7987856,41860,41860,metro,Data,true,SQL
+greenhouse:pinterest:7987856,41860,41860,metro,Data,true,Statistics
+greenhouse:pinterest:8001932,41860,41860,metro,Data,true,A/B testing
+greenhouse:pinterest:8001932,41860,41860,metro,Data,true,Airflow
+greenhouse:pinterest:8001932,41860,41860,metro,Data,true,Python
+greenhouse:pinterest:8001932,41860,41860,metro,Data,true,SQL
+greenhouse:pinterest:8001932,41860,41860,metro,Data,true,Spark
+greenhouse:pinterest:8001932,41860,41860,metro,Data,true,Statistics
+greenhouse:pinterest:8011376,41860,41860,metro,Marketing,true,A/B testing
+greenhouse:pinterest:8011376,41860,41860,metro,Marketing,true,Machine learning
+greenhouse:pinterest:8011376,41860,41860,metro,Marketing,true,Python
+greenhouse:pinterest:8011376,41860,41860,metro,Marketing,true,SQL
+greenhouse:pinterest:8011376,41860,41860,metro,Marketing,true,Statistics
+greenhouse:pinterest:8015346,41860,41860,metro,Data,true,A/B testing
+greenhouse:pinterest:8015346,41860,41860,metro,Data,true,Python
+greenhouse:pinterest:8015346,41860,41860,metro,Data,true,R
+greenhouse:pinterest:8015346,41860,41860,metro,Data,true,SQL
+greenhouse:pinterest:8015346,41860,41860,metro,Data,true,Statistics
+greenhouse:pinterest:8015360,41860,41860,metro,Data,true,A/B testing
+greenhouse:pinterest:8015360,41860,41860,metro,Data,true,Python
+greenhouse:pinterest:8015360,41860,41860,metro,Data,true,R
+greenhouse:pinterest:8015360,41860,41860,metro,Data,true,SQL
+greenhouse:pinterest:8015360,41860,41860,metro,Data,true,Statistics
+greenhouse:pinterest:8095343,41860,41860,metro,Data,true,A/B testing
+greenhouse:pinterest:8095343,41860,41860,metro,Data,true,Machine learning
+greenhouse:pinterest:8095343,41860,41860,metro,Data,true,Python
+greenhouse:pinterest:8095343,41860,41860,metro,Data,true,SQL
+greenhouse:pinterest:8095343,41860,41860,metro,Data,true,Statistics
+greenhouse:pinterest:8140389,35620,35620,metro,Data,true,A/B testing
+greenhouse:pinterest:8140389,35620,35620,metro,Data,true,Machine learning
+greenhouse:pinterest:8140389,35620,35620,metro,Data,true,Python
+greenhouse:pinterest:8140389,35620,35620,metro,Data,true,R
+greenhouse:pinterest:8140389,35620,35620,metro,Data,true,SQL
+greenhouse:pinterest:8140389,35620,35620,metro,Data,true,Statistics
+greenhouse:pinterest:8140389,41860,41860,metro,Data,true,A/B testing
+greenhouse:pinterest:8140389,41860,41860,metro,Data,true,Machine learning
+greenhouse:pinterest:8140389,41860,41860,metro,Data,true,Python
+greenhouse:pinterest:8140389,41860,41860,metro,Data,true,R
+greenhouse:pinterest:8140389,41860,41860,metro,Data,true,SQL
+greenhouse:pinterest:8140389,41860,41860,metro,Data,true,Statistics
+greenhouse:pinterest:8140389,42660,42660,metro,Data,true,A/B testing
+greenhouse:pinterest:8140389,42660,42660,metro,Data,true,Machine learning
+greenhouse:pinterest:8140389,42660,42660,metro,Data,true,Python
+greenhouse:pinterest:8140389,42660,42660,metro,Data,true,R
+greenhouse:pinterest:8140389,42660,42660,metro,Data,true,SQL
+greenhouse:pinterest:8140389,42660,42660,metro,Data,true,Statistics
+greenhouse:pinterest:8213988,41860,41860,metro,Data,true,A/B testing
+greenhouse:pinterest:8213988,41860,41860,metro,Data,true,Python
+greenhouse:pinterest:8213988,41860,41860,metro,Data,true,R
+greenhouse:pinterest:8213988,41860,41860,metro,Data,true,SQL
+greenhouse:pinterest:8213988,41860,41860,metro,Data,true,Statistics
+greenhouse:pinterest:8280111,41860,41860,metro,Marketing,true,A/B testing
+greenhouse:pinterest:8280111,41860,41860,metro,Marketing,true,Machine learning
+greenhouse:pinterest:8280111,41860,41860,metro,Marketing,true,Python
+greenhouse:pinterest:8280111,41860,41860,metro,Marketing,true,SQL
+greenhouse:pinterest:8280111,41860,41860,metro,Marketing,true,Statistics
+greenhouse:reddit:7330347,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:reddit:7330347,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:reddit:7330347,,remote_us,remote_us,Data,true,Python
+greenhouse:reddit:7330347,,remote_us,remote_us,Data,true,R
+greenhouse:reddit:7330347,,remote_us,remote_us,Data,true,SQL
+greenhouse:reddit:7330347,,remote_us,remote_us,Data,true,Statistics
+greenhouse:reddit:7445240,,remote_us,remote_us,Marketing,true,A/B testing
+greenhouse:reddit:7445240,,remote_us,remote_us,Marketing,true,Machine learning
+greenhouse:reddit:7445240,,remote_us,remote_us,Marketing,true,Python
+greenhouse:reddit:7445240,,remote_us,remote_us,Marketing,true,R
+greenhouse:reddit:7445240,,remote_us,remote_us,Marketing,true,SQL
+greenhouse:reddit:7445240,,remote_us,remote_us,Marketing,true,Statistics
+greenhouse:reddit:7721787,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:reddit:7721787,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:reddit:7721787,,remote_us,remote_us,Data,true,Python
+greenhouse:reddit:7721787,,remote_us,remote_us,Data,true,R
+greenhouse:reddit:7721787,,remote_us,remote_us,Data,true,SQL
+greenhouse:reddit:7721787,,remote_us,remote_us,Data,true,Statistics
+greenhouse:reddit:7721851,,non_us,non_us,Data,true,A/B testing
+greenhouse:reddit:7721851,,non_us,non_us,Data,true,Machine learning
+greenhouse:reddit:7721851,,non_us,non_us,Data,true,Python
+greenhouse:reddit:7721851,,non_us,non_us,Data,true,R
+greenhouse:reddit:7721851,,non_us,non_us,Data,true,SQL
+greenhouse:reddit:7721851,,non_us,non_us,Data,true,Statistics
+greenhouse:reddit:7931000,,non_us,non_us,Marketing,true,A/B testing
+greenhouse:reddit:7931000,,non_us,non_us,Marketing,true,Machine learning
+greenhouse:reddit:7931000,,non_us,non_us,Marketing,true,Python
+greenhouse:reddit:7931000,,non_us,non_us,Marketing,true,R
+greenhouse:reddit:7931000,,non_us,non_us,Marketing,true,SQL
+greenhouse:reddit:7931000,,non_us,non_us,Marketing,true,Statistics
+greenhouse:reddit:7974605,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:reddit:7974605,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:reddit:7974605,,remote_us,remote_us,Data,true,Python
+greenhouse:reddit:7974605,,remote_us,remote_us,Data,true,R
+greenhouse:reddit:7974605,,remote_us,remote_us,Data,true,SQL
+greenhouse:reddit:7974605,,remote_us,remote_us,Data,true,Statistics
+greenhouse:reddit:8023563,,remote_us,remote_us,Business,true,BigQuery
+greenhouse:reddit:8023563,,remote_us,remote_us,Business,true,Looker
+greenhouse:reddit:8023563,,remote_us,remote_us,Business,true,SQL
+greenhouse:reddit:8023563,,remote_us,remote_us,Business,true,Salesforce
+greenhouse:reddit:8072076,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:reddit:8072076,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:reddit:8072076,,remote_us,remote_us,Data,true,Python
+greenhouse:reddit:8072076,,remote_us,remote_us,Data,true,R
+greenhouse:reddit:8072076,,remote_us,remote_us,Data,true,SQL
+greenhouse:reddit:8072076,,remote_us,remote_us,Data,true,Statistics
+greenhouse:reddit:8077785,16980,16980,metro,Data,true,BigQuery
+greenhouse:reddit:8077785,16980,16980,metro,Data,true,Python
+greenhouse:reddit:8077785,16980,16980,metro,Data,true,SQL
+greenhouse:reddit:8077785,31080,31080,metro,Data,true,BigQuery
+greenhouse:reddit:8077785,31080,31080,metro,Data,true,Python
+greenhouse:reddit:8077785,31080,31080,metro,Data,true,SQL
+greenhouse:reddit:8077785,35620,35620,metro,Data,true,BigQuery
+greenhouse:reddit:8077785,35620,35620,metro,Data,true,Python
+greenhouse:reddit:8077785,35620,35620,metro,Data,true,SQL
+greenhouse:reddit:8077785,41860,41860,metro,Data,true,BigQuery
+greenhouse:reddit:8077785,41860,41860,metro,Data,true,Python
+greenhouse:reddit:8077785,41860,41860,metro,Data,true,SQL
+greenhouse:reddit:8103609,,non_us,non_us,Data,true,A/B testing
+greenhouse:reddit:8103609,,non_us,non_us,Data,true,Machine learning
+greenhouse:reddit:8103609,,non_us,non_us,Data,true,Python
+greenhouse:reddit:8103609,,non_us,non_us,Data,true,R
+greenhouse:reddit:8103609,,non_us,non_us,Data,true,SQL
+greenhouse:reddit:8103609,,non_us,non_us,Data,true,Statistics
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,true,BigQuery
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,true,Python
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,true,R
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,true,SQL
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,true,Spark
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,true,Statistics
+greenhouse:reddit:8110339,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:reddit:8110339,,remote_us,remote_us,Data,true,Python
+greenhouse:reddit:8110339,,remote_us,remote_us,Data,true,SQL
+greenhouse:reddit:8110339,,remote_us,remote_us,Data,true,Statistics
+greenhouse:reddit:8126946,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:reddit:8126946,,remote_us,remote_us,Data,true,Python
+greenhouse:reddit:8126946,,remote_us,remote_us,Data,true,R
+greenhouse:reddit:8126946,,remote_us,remote_us,Data,true,SQL
+greenhouse:reddit:8126946,,remote_us,remote_us,Data,true,Statistics
+greenhouse:reddit:8157580,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:reddit:8157580,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:reddit:8157580,,remote_us,remote_us,Data,true,Python
+greenhouse:reddit:8157580,,remote_us,remote_us,Data,true,SQL
+greenhouse:reddit:8157580,,remote_us,remote_us,Data,true,Statistics
+greenhouse:reddit:8192369,,remote_us,remote_us,Data,true,Excel
+greenhouse:reddit:8192369,,remote_us,remote_us,Data,true,Google Sheets
+greenhouse:reddit:8234154,,non_us,non_us,Data,true,Excel
+greenhouse:reddit:8234154,,non_us,non_us,Data,true,Google Sheets
+greenhouse:reddit:8282760,,remote_us,remote_us,Data,true,Airflow
+greenhouse:reddit:8282760,,remote_us,remote_us,Data,true,Python
+greenhouse:reddit:8282760,,remote_us,remote_us,Data,true,SQL
+greenhouse:reddit:8282760,,remote_us,remote_us,Data,true,Scala
+greenhouse:reddit:8282760,,remote_us,remote_us,Data,true,Spark
+greenhouse:reddit:8289345,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:reddit:8289345,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:reddit:8289345,,remote_us,remote_us,Data,true,Statistics
+greenhouse:robinhood:7997218,35620,35620,metro,Financial,true,Machine learning
+greenhouse:robinhood:7997218,35620,35620,metro,Financial,true,Python
+greenhouse:robinhood:7997218,35620,35620,metro,Financial,true,SQL
+greenhouse:robinhood:7997218,35620,35620,metro,Financial,true,Spark
+greenhouse:robinhood:7997218,47900,47900,metro,Financial,true,Machine learning
+greenhouse:robinhood:7997218,47900,47900,metro,Financial,true,Python
+greenhouse:robinhood:7997218,47900,47900,metro,Financial,true,SQL
+greenhouse:robinhood:7997218,47900,47900,metro,Financial,true,Spark
+greenhouse:robinhood:8060703,16980,16980,metro,Data,true,Excel
+greenhouse:robinhood:8060703,16980,16980,metro,Data,true,Google Sheets
+greenhouse:robinhood:8060703,16980,16980,metro,Data,true,Spark
+greenhouse:robinhood:8060703,35620,35620,metro,Data,true,Excel
+greenhouse:robinhood:8060703,35620,35620,metro,Data,true,Google Sheets
+greenhouse:robinhood:8060703,35620,35620,metro,Data,true,Spark
+greenhouse:robinhood:8072766,16980,16980,metro,Data,true,A/B testing
+greenhouse:robinhood:8072766,16980,16980,metro,Data,true,BigQuery
+greenhouse:robinhood:8072766,16980,16980,metro,Data,true,Python
+greenhouse:robinhood:8072766,16980,16980,metro,Data,true,SQL
+greenhouse:robinhood:8072766,16980,16980,metro,Data,true,Snowflake
+greenhouse:robinhood:8072766,16980,16980,metro,Data,true,Spark
+greenhouse:robinhood:8072766,16980,16980,metro,Data,true,Statistics
+greenhouse:robinhood:8072766,16980,16980,metro,Data,true,dbt
+greenhouse:robinhood:8072766,35620,35620,metro,Data,true,A/B testing
+greenhouse:robinhood:8072766,35620,35620,metro,Data,true,BigQuery
+greenhouse:robinhood:8072766,35620,35620,metro,Data,true,Python
+greenhouse:robinhood:8072766,35620,35620,metro,Data,true,SQL
+greenhouse:robinhood:8072766,35620,35620,metro,Data,true,Snowflake
+greenhouse:robinhood:8072766,35620,35620,metro,Data,true,Spark
+greenhouse:robinhood:8072766,35620,35620,metro,Data,true,Statistics
+greenhouse:robinhood:8072766,35620,35620,metro,Data,true,dbt
+greenhouse:robinhood:8072766,42660,42660,metro,Data,true,A/B testing
+greenhouse:robinhood:8072766,42660,42660,metro,Data,true,BigQuery
+greenhouse:robinhood:8072766,42660,42660,metro,Data,true,Python
+greenhouse:robinhood:8072766,42660,42660,metro,Data,true,SQL
+greenhouse:robinhood:8072766,42660,42660,metro,Data,true,Snowflake
+greenhouse:robinhood:8072766,42660,42660,metro,Data,true,Spark
+greenhouse:robinhood:8072766,42660,42660,metro,Data,true,Statistics
+greenhouse:robinhood:8072766,42660,42660,metro,Data,true,dbt
+greenhouse:robinhood:8080893,,us_unmapped,us_unmapped,Product,true,Python
+greenhouse:robinhood:8080893,,us_unmapped,us_unmapped,Product,true,SQL
+greenhouse:robinhood:8080893,,us_unmapped,us_unmapped,Product,true,Spark
+greenhouse:robinhood:8211233,16980,16980,metro,Financial,true,Spark
+greenhouse:robinhood:8211233,35620,35620,metro,Financial,true,Spark
+greenhouse:robinhood:8220699,,us_unmapped,us_unmapped,Data,true,Airflow
+greenhouse:robinhood:8220699,,us_unmapped,us_unmapped,Data,true,Python
+greenhouse:robinhood:8220699,,us_unmapped,us_unmapped,Data,true,SQL
+greenhouse:robinhood:8220699,,us_unmapped,us_unmapped,Data,true,Spark
+greenhouse:robinhood:8220699,,us_unmapped,us_unmapped,Data,true,Statistics
+greenhouse:robinhood:8226972,19740,19740,metro,Data,true,Spark
+greenhouse:scaleai:4729899005,47900,47900,metro,Data,true,SQL
+greenhouse:scaleai:4729899005,47900,47900,metro,Data,true,Tableau
+greenhouse:scaleai:4729899005,47900,47900,metro,Data,true,dbt
+greenhouse:sofi:7698678003,,us_unmapped,us_unmapped,Financial,true,Excel
+greenhouse:sofi:7698678003,,us_unmapped,us_unmapped,Financial,true,SQL
+greenhouse:sofi:7698678003,,us_unmapped,us_unmapped,Financial,true,Tableau
+greenhouse:sofi:7819503003,41860,41860,metro,Data,true,Excel
+greenhouse:sofi:7819503003,41860,41860,metro,Data,true,Google Sheets
+greenhouse:sofi:7819518003,,us_unmapped,us_unmapped,Data,true,Excel
+greenhouse:sofi:7920050003,,unknown,unknown,Data,true,SQL
+greenhouse:sofi:7920050003,,unknown,unknown,Data,true,Tableau
+greenhouse:sofi:7920073003,27260,27260,metro,Financial,true,SQL
+greenhouse:sofi:7920073003,27260,27260,metro,Financial,true,Snowflake
+greenhouse:sofi:7979520003,,us_unmapped,us_unmapped,Financial,true,Excel
+greenhouse:sofi:7979520003,,us_unmapped,us_unmapped,Financial,true,Google Sheets
+greenhouse:sofi:8012077003,27260,27260,metro,Operations,true,Excel
+greenhouse:sofi:8012077003,27260,27260,metro,Operations,true,Google Sheets
+greenhouse:sofi:8012077003,27260,27260,metro,Operations,true,Python
+greenhouse:sofi:8012077003,27260,27260,metro,Operations,true,SQL
+greenhouse:sofi:8017316003,27260,27260,metro,Operations,true,Excel
+greenhouse:sofi:8044835003,35620,35620,metro,Data,true,Excel
+greenhouse:sofi:8044835003,35620,35620,metro,Data,true,Google Sheets
+greenhouse:sofi:8044835003,35620,35620,metro,Data,true,Jira
+greenhouse:sofi:8044835003,35620,35620,metro,Data,true,Python
+greenhouse:sofi:8044835003,35620,35620,metro,Data,true,SQL
+greenhouse:sofi:8044835003,35620,35620,metro,Data,true,Snowflake
+greenhouse:sofi:8044835003,41860,41860,metro,Data,true,Excel
+greenhouse:sofi:8044835003,41860,41860,metro,Data,true,Google Sheets
+greenhouse:sofi:8044835003,41860,41860,metro,Data,true,Jira
+greenhouse:sofi:8044835003,41860,41860,metro,Data,true,Python
+greenhouse:sofi:8044835003,41860,41860,metro,Data,true,SQL
+greenhouse:sofi:8044835003,41860,41860,metro,Data,true,Snowflake
+greenhouse:stripe:5416444,,unknown,unknown,Data,true,Python
+greenhouse:stripe:5416444,,unknown,unknown,Data,true,SQL
+greenhouse:stripe:5416444,,unknown,unknown,Data,true,Spark
+greenhouse:stripe:5416444,,unknown,unknown,Data,true,Statistics
+greenhouse:stripe:5601879,,unknown,unknown,Data,true,A/B testing
+greenhouse:stripe:5601879,,unknown,unknown,Data,true,Machine learning
+greenhouse:stripe:5601879,,unknown,unknown,Data,true,Python
+greenhouse:stripe:5601879,,unknown,unknown,Data,true,R
+greenhouse:stripe:5601879,,unknown,unknown,Data,true,SQL
+greenhouse:stripe:5601879,,unknown,unknown,Data,true,Spark
+greenhouse:stripe:5601879,,unknown,unknown,Data,true,Statistics
+greenhouse:stripe:5895430,,unknown,unknown,Data,true,A/B testing
+greenhouse:stripe:5895430,,unknown,unknown,Data,true,Machine learning
+greenhouse:stripe:5895430,,unknown,unknown,Data,true,Python
+greenhouse:stripe:5895430,,unknown,unknown,Data,true,R
+greenhouse:stripe:5895430,,unknown,unknown,Data,true,SQL
+greenhouse:stripe:5895430,,unknown,unknown,Data,true,Spark
+greenhouse:stripe:5895430,,unknown,unknown,Data,true,Statistics
+greenhouse:stripe:7456167,,unknown,unknown,Financial,true,Excel
+greenhouse:stripe:7456167,,unknown,unknown,Financial,true,SQL
+greenhouse:stripe:7540441,,remote_us,remote_us,Financial,true,SQL
+greenhouse:stripe:7540441,,remote_us,remote_us,Financial,true,Statistics
+greenhouse:stripe:7612192,,non_us,non_us,Financial,true,SQL
+greenhouse:stripe:7612192,,non_us,non_us,Financial,true,Statistics
+greenhouse:stripe:7813411,,unknown,unknown,Business,true,SQL
+greenhouse:stripe:7974211,,non_us,non_us,Financial,true,SQL
+greenhouse:stripe:8026689,35620,35620,metro,Data,true,Airflow
+greenhouse:stripe:8026689,35620,35620,metro,Data,true,Git
+greenhouse:stripe:8026689,35620,35620,metro,Data,true,Machine learning
+greenhouse:stripe:8026689,35620,35620,metro,Data,true,Python
+greenhouse:stripe:8026689,35620,35620,metro,Data,true,R
+greenhouse:stripe:8026689,35620,35620,metro,Data,true,SQL
+greenhouse:stripe:8026689,35620,35620,metro,Data,true,Statistics
+greenhouse:stripe:8026689,35620,35620,metro,Data,true,Tableau
+greenhouse:stripe:8044924,,unknown,unknown,Data,true,SQL
+greenhouse:stripe:8079783,35620,35620,metro,Business,true,SQL
+greenhouse:stripe:8079783,35620,35620,metro,Business,true,Tableau
+greenhouse:stripe:8113100,,unknown,unknown,Data,true,A/B testing
+greenhouse:stripe:8113100,,unknown,unknown,Data,true,Machine learning
+greenhouse:stripe:8113100,,unknown,unknown,Data,true,Python
+greenhouse:stripe:8113100,,unknown,unknown,Data,true,R
+greenhouse:stripe:8113100,,unknown,unknown,Data,true,SQL
+greenhouse:stripe:8113100,,unknown,unknown,Data,true,Spark
+greenhouse:stripe:8113100,,unknown,unknown,Data,true,Statistics
+greenhouse:stripe:8175824,,remote_us,remote_us,Financial,true,SQL
+greenhouse:stripe:8189018,,unknown,unknown,Financial,true,Tableau
+greenhouse:stripe:8189909,35620,35620,metro,Data,true,Airflow
+greenhouse:stripe:8189909,35620,35620,metro,Data,true,Python
+greenhouse:stripe:8189909,35620,35620,metro,Data,true,SQL
+greenhouse:stripe:8189909,35620,35620,metro,Data,true,Scala
+greenhouse:stripe:8189909,35620,35620,metro,Data,true,Spark
+greenhouse:stripe:8201680,35620,35620,metro,Operations,true,SQL
+greenhouse:stripe:8222149,42660,42660,metro,Data,true,Python
+greenhouse:stripe:8222149,42660,42660,metro,Data,true,R
+greenhouse:stripe:8222149,42660,42660,metro,Data,true,SQL
+greenhouse:stripe:8222149,42660,42660,metro,Data,true,Statistics
+greenhouse:stripe:8230296,,unknown,unknown,Marketing,true,Airflow
+greenhouse:stripe:8230296,,unknown,unknown,Marketing,true,Python
+greenhouse:stripe:8230296,,unknown,unknown,Marketing,true,SQL
+greenhouse:stripe:8230296,,unknown,unknown,Marketing,true,Scala
+greenhouse:stripe:8230296,,unknown,unknown,Marketing,true,Spark
+greenhouse:stripe:8230296,,unknown,unknown,Marketing,true,Statistics
+greenhouse:stripe:8230306,16980,16980,metro,Data,true,Excel
+greenhouse:stripe:8230306,16980,16980,metro,Data,true,Google Sheets
+greenhouse:stripe:8230306,16980,16980,metro,Data,true,SQL
+greenhouse:stripe:8230306,16980,16980,metro,Data,true,Tableau
+greenhouse:stripe:8231575,35620,35620,metro,Financial,true,Excel
+greenhouse:stripe:8231575,35620,35620,metro,Financial,true,Python
+greenhouse:stripe:8231575,35620,35620,metro,Financial,true,Tableau
+greenhouse:stripe:8245230,,unknown,unknown,Business,true,SQL
+greenhouse:stripe:8247120,,unknown,unknown,Operations,true,Excel
+greenhouse:stripe:8247120,,unknown,unknown,Operations,true,SQL
+greenhouse:stripe:8247127,,unknown,unknown,Data,true,Salesforce
+greenhouse:stripe:8249865,35620,35620,metro,Financial,true,Excel
+greenhouse:stripe:8249865,35620,35620,metro,Financial,true,Google Sheets
+greenhouse:stripe:8249865,35620,35620,metro,Financial,true,Python
+greenhouse:stripe:8249865,35620,35620,metro,Financial,true,SQL
+greenhouse:stripe:8273713,,unknown,unknown,Financial,true,SQL
+greenhouse:stripe:8287916,,unknown,unknown,Financial,true,SQL
+greenhouse:stripe:8287916,,unknown,unknown,Financial,true,Statistics
+greenhouse:stripe:8324207,,unknown,unknown,Data,true,Alteryx
+greenhouse:stripe:8324207,,unknown,unknown,Data,true,Excel
+greenhouse:stripe:8324207,,unknown,unknown,Data,true,Power BI
+greenhouse:stripe:8324207,,unknown,unknown,Data,true,Python
+greenhouse:stripe:8324207,,unknown,unknown,Data,true,SQL
+greenhouse:stripe:8324207,,unknown,unknown,Data,true,Tableau
+greenhouse:toast:7519051,,unknown,unknown,Financial,true,Looker
+greenhouse:toast:7519051,,unknown,unknown,Financial,true,Python
+greenhouse:toast:7519051,,unknown,unknown,Financial,true,SQL
+greenhouse:toast:7519051,,unknown,unknown,Financial,true,Statistics
+greenhouse:toast:7519051,,unknown,unknown,Financial,true,Tableau
+greenhouse:toast:7984730,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:toast:7984730,,remote_us,remote_us,Data,true,AWS
+greenhouse:toast:7984730,,remote_us,remote_us,Data,true,Airflow
+greenhouse:toast:7984730,,remote_us,remote_us,Data,true,Git
+greenhouse:toast:7984730,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:toast:7984730,,remote_us,remote_us,Data,true,Python
+greenhouse:toast:7984730,,remote_us,remote_us,Data,true,SQL
+greenhouse:toast:7984730,,remote_us,remote_us,Data,true,Statistics
+greenhouse:toast:8029049,,remote_us,remote_us,Data,true,A/B testing
+greenhouse:toast:8029049,,remote_us,remote_us,Data,true,AWS
+greenhouse:toast:8029049,,remote_us,remote_us,Data,true,Machine learning
+greenhouse:toast:8029049,,remote_us,remote_us,Data,true,Python
+greenhouse:toast:8029049,,remote_us,remote_us,Data,true,SQL
+greenhouse:toast:8029049,,remote_us,remote_us,Data,true,Statistics
+greenhouse:toast:8052293,,unknown,unknown,Data,true,A/B testing
+greenhouse:toast:8052293,,unknown,unknown,Data,true,AWS
+greenhouse:toast:8052293,,unknown,unknown,Data,true,Machine learning
+greenhouse:toast:8052293,,unknown,unknown,Data,true,Python
+greenhouse:toast:8052293,,unknown,unknown,Data,true,SQL
+greenhouse:toast:8052293,,unknown,unknown,Data,true,Statistics
+greenhouse:toast:8185640,,remote_us,remote_us,Financial,true,A/B testing
+greenhouse:toast:8185640,,remote_us,remote_us,Financial,true,Looker
+greenhouse:toast:8185640,,remote_us,remote_us,Financial,true,Python
+greenhouse:toast:8185640,,remote_us,remote_us,Financial,true,SQL
+greenhouse:toast:8185640,,remote_us,remote_us,Financial,true,Statistics
+greenhouse:toast:8185640,,remote_us,remote_us,Financial,true,Tableau
+greenhouse:toast:8233456,,non_us,non_us,Data,true,A/B testing
+greenhouse:toast:8243192,14460,14460,metro,Data,true,SQL
+greenhouse:toast:8243192,14460,14460,metro,Data,true,Snowflake
+greenhouse:toast:8243192,14460,14460,metro,Data,true,Statistics
+greenhouse:toast:8243192,14460,14460,metro,Data,true,dbt
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,true,AWS
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,true,Looker
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,true,Python
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,true,SQL
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,true,Spark
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,true,Tableau
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,true,dbt
+greenhouse:twilio:8202189,,remote_us,remote_us,Data,true,Jira
+greenhouse:twilio:8249285,,non_us,non_us,Data,true,Excel
+greenhouse:twilio:8261245,,non_us,non_us,Operations,true,Excel
+greenhouse:twilio:8261245,,non_us,non_us,Operations,true,Salesforce
+greenhouse:twilio:8324448,,non_us,non_us,Data,true,Excel
+greenhouse:twilio:8325734,,remote_us,remote_us,Marketing,true,A/B testing
+greenhouse:twilio:8325734,,remote_us,remote_us,Marketing,true,Salesforce
+greenhouse:twilio:8325734,,remote_us,remote_us,Marketing,true,Tableau
+greenhouse:zocdoc:7560841,35620,35620,metro,Data,true,A/B testing
+greenhouse:zocdoc:7560841,35620,35620,metro,Data,true,Machine learning
+greenhouse:zocdoc:7560841,35620,35620,metro,Data,true,Python
+greenhouse:zocdoc:7560841,35620,35620,metro,Data,true,SQL
+greenhouse:zocdoc:7560841,35620,35620,metro,Data,true,Statistics
+greenhouse:zocdoc:7659010,35620,35620,metro,Data,true,Amplitude
+greenhouse:zocdoc:7659010,35620,35620,metro,Data,true,Looker
+greenhouse:zocdoc:7659010,35620,35620,metro,Data,true,Python
+greenhouse:zocdoc:7659010,35620,35620,metro,Data,true,SQL
+greenhouse:zocdoc:7659010,35620,35620,metro,Data,true,Snowflake
+greenhouse:zocdoc:7659010,35620,35620,metro,Data,true,dbt
+greenhouse:zocdoc:7958522,35620,35620,metro,Marketing,true,A/B testing
+greenhouse:zocdoc:7958522,35620,35620,metro,Marketing,true,Python
+greenhouse:zocdoc:7958522,35620,35620,metro,Marketing,true,SQL
+greenhouse:zocdoc:7958522,35620,35620,metro,Marketing,true,Statistics
+greenhouse:zocdoc:7958522,41940,41940,metro,Marketing,true,A/B testing
+greenhouse:zocdoc:7958522,41940,41940,metro,Marketing,true,Python
+greenhouse:zocdoc:7958522,41940,41940,metro,Marketing,true,SQL
+greenhouse:zocdoc:7958522,41940,41940,metro,Marketing,true,Statistics
+greenhouse:zocdoc:8213942,,non_us,non_us,Data,true,Google Sheets
+greenhouse:zocdoc:8213942,,non_us,non_us,Data,true,Jira
+greenhouse:zocdoc:8213942,,non_us,non_us,Data,true,Machine learning
+greenhouse:zocdoc:8213942,,non_us,non_us,Data,true,SQL
+greenhouse:zocdoc:8213942,,non_us,non_us,Data,true,Snowflake
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,true,AWS
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,true,BigQuery
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,true,Looker
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,true,Python
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,true,R
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,true,SQL
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,true,Snowflake
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,true,Statistics
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,true,Tableau
+lever:outreach:f7020abe-4ddd-4878-a33f-5c410924b04d,42660,42660,metro,Financial,true,Databricks
+lever:outreach:f7020abe-4ddd-4878-a33f-5c410924b04d,42660,42660,metro,Financial,true,Excel
+lever:palantir:26032bad-d713-429d-8b04-2de7db93b5c3,47900,47900,metro,Operations,true,Excel
+lever:palantir:66955c3b-c530-4c4a-9d48-63b4aad61b9c,19740,19740,metro,Operations,true,Excel
+lever:palantir:e6be4159-c8d1-481d-ad15-13274861b795,,non_us,non_us,Operations,true,Excel
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,true,A/B testing
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,true,BigQuery
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,true,Python
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,true,SQL
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,true,Statistics
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,true,Tableau
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,true,dbt
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,true,BigQuery
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,true,Looker
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,true,Machine learning
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,true,Python
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,true,SQL
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,true,Statistics
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,true,Tableau
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,true,dbt
+lever:spotify:b4f6cd01-1d5d-41a9-b287-6d10416da03c,,unknown,unknown,Business,true,A/B testing
+lever:spotify:b4f6cd01-1d5d-41a9-b287-6d10416da03c,,unknown,unknown,Business,true,Python
+lever:spotify:b4f6cd01-1d5d-41a9-b287-6d10416da03c,,unknown,unknown,Business,true,R
+lever:spotify:b4f6cd01-1d5d-41a9-b287-6d10416da03c,,unknown,unknown,Business,true,SQL
+lever:spotify:b4f6cd01-1d5d-41a9-b287-6d10416da03c,,unknown,unknown,Business,true,Statistics
+lever:spotify:c3f6ea23-97d0-4a9a-a9ad-04f1e745d916,,non_us,non_us,Product,true,Machine learning
+lever:spotify:ed409ff1-a241-4c2c-96ea-c988ca131671,35620,35620,metro,Data,true,BigQuery
+lever:spotify:ed409ff1-a241-4c2c-96ea-c988ca131671,35620,35620,metro,Data,true,SQL
+lever:spotify:ed409ff1-a241-4c2c-96ea-c988ca131671,35620,35620,metro,Data,true,dbt
