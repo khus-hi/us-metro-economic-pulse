@@ -31,7 +31,8 @@ models:
       - name: unemployment_rate
         description: LAUS unemployment rate, %, not seasonally adjusted.
         data_tests:
-          - accepted_range: {arguments: {min_value: 0, max_value: 30}}
+          # COVID lockdowns pushed some metros past 30% in April 2020; 40 still catches unit bugs.
+          - accepted_range: {arguments: {min_value: 0, max_value: 40}}
       - name: nonfarm_jobs_thousands
         description: CES total nonfarm employment, thousands (seasonally adjusted when BLS publishes it).
         data_tests:
