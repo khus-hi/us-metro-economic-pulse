@@ -69,7 +69,10 @@ def _mapping(client: Client, m: Manifest, path: str) -> pd.DataFrame:
     m.write(path.replace("/", "_"), content, "tsv", url=url)
     df = pd.read_csv(io.BytesIO(content), sep="\t", dtype=str)
     df.columns = [c.strip() for c in df.columns]
-    return df.apply(lambda s: s.str.strip() if s.dtype == object else s)
+    # BLS pads IDs with trailing spaces ("JTS000000390000000HIR   "). Strip every
+    # column. (Checking `dtype == object` is not enough: pandas 3 reads text as
+    # a "str" dtype, which is how the padded IDs slipped through on the first run.)
+    return df.apply(lambda s: s.str.strip())
 
 
 def still_published(df: pd.DataFrame, m: Manifest, label: str) -> pd.DataFrame:
@@ -123,6 +126,7 @@ def discover(client: Client, m: Manifest, metros: pd.DataFrame) -> dict[str, lis
 def fetch(client: Client, m: Manifest, program: str, series: list[str],
           start_year: int, end_year: int, budget: list[int]) -> None:
     key = require("BLS_API_KEY")
+    series = [sid.strip() for sid in series]
     for w_start, w_end in year_windows(start_year, end_year):
         for i, batch in enumerate(chunks(series)):
             if budget[0] >= DAILY_BUDGET:

@@ -75,3 +75,12 @@ def test_still_published_drops_discontinued_series(tmp_path, monkeypatch):
     df = pd.DataFrame({"series_id": ["A", "B"], "end_year": [str(this_year), "2010"]})
     kept = bls.still_published(df, m, "CES")
     assert list(kept["series_id"]) == ["A"] and m.warnings
+
+
+def test_mapping_strip_handles_padded_ids():
+    import io
+    raw = "series_id   \tend_year\nJTS000000390000000HIR      \t2026\n"
+    df = pd.read_csv(io.StringIO(raw), sep="\t", dtype=str)
+    df.columns = [c.strip() for c in df.columns]
+    df = df.apply(lambda s: s.str.strip())
+    assert df.loc[0, "series_id"] == "JTS000000390000000HIR"
