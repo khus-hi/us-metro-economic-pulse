@@ -79,6 +79,8 @@ Total nonfarm uses seasonally adjusted `SMS`; earnings are only `SMU`. Not every
 
 **JOLTS: state substitute**
 
+> Update (first real run, 2026-11-01): state JOLTS moved from a monthly to an **annual** release in 2026. The July 2026 release covered Jul–Dec 2025 ([BLS](https://www.bls.gov/news.release/archives/jltst_07222026.pdf)), so state rates are annual context, not a monthly signal. National JOLTS (FRED `JTSJOL`, `JTSQUR`) stays monthly.
+
 `JTS000000{ss}00000000{EE}R`, where EE = `JO` openings, `HI` hires, `QU` quits, `LD` layoffs & discharges, `TS` total separations, and the last letter is `R` rate or `L` level **[verify state-level element coverage]**. National: `JTS000000000000000JOR`. 
 
 **CPI-U: metro where it exists**

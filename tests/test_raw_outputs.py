@@ -79,7 +79,10 @@ def test_ces_has_total_nonfarm_for_every_metro():
 
 
 def test_jolts_and_cpi_have_recent_data():
-    for program, max_lag in (("jolts", 5), ("cpi", 4)):
+    # State JOLTS moved to an ANNUAL release in 2026 (July 2026 release covered
+    # Jul-Dec 2025), so state data can legitimately be up to ~19 months old.
+    # Bimonthly metro CPI can lag 3 months.
+    for program, max_lag in (("jolts", 19), ("cpi", 4)):
         for sid, data in _bls_series(program).items():
             monthly = [d for d in data if d["period"].startswith("M") and d["period"] != "M13"]
             assert monthly, f"{sid} returned no data"
