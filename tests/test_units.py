@@ -101,3 +101,10 @@ def test_summary_file_parsing_keeps_only_cbsa_rows():
 def test_sf_names():
     assert census_acs.sf_column("B15003_022", "M") == "B15003_M022"
     assert census_acs.sf_url("B19013").endswith("/5YRData/acsdt5y2024-b19013.dat")
+
+
+def test_summary_file_parsing_accepts_bytes_lines():
+    raw = [b"\xef\xbb\xbfGEO_ID|B19013_E001|B19013_M001", b"310M700US14460|a|b"]
+    lines = (ln.decode("utf-8-sig") for ln in raw)
+    rows = census_acs.parse_summary_file(lines, ["B19013_001"])
+    assert rows[1][-1] == "14460"

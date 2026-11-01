@@ -117,7 +117,11 @@ def run_summary_file(client: Client, run_date: str) -> None:
     for table, table_vars in by_table.items():
         url = sf_url(table)
         resp = client.get(url, stream=True)
-        lines = (ln for ln in resp.iter_lines(decode_unicode=True) if ln)
+        # The .dat files are served without a charset, so requests hands back
+        # bytes even with decode_unicode=True. The handbook says UTF-8; decode
+        # explicitly (utf-8-sig also drops a byte-order mark if present).
+        lines = (ln.decode("utf-8-sig") if isinstance(ln, bytes) else ln
+                 for ln in resp.iter_lines() if ln)
         rows = parse_summary_file(lines, table_vars)
         m.write(f"acs5_{YEAR}_{table.lower()}", rows, "json", url=url,
                 params={"filter": "summary level 310 (CBSAs)"}, rows=len(rows) - 1)
