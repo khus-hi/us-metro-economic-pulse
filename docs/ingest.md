@@ -23,7 +23,7 @@ Raw files land in `data/raw/{source}/{run_date}/`, one `_manifest.json` per sour
 | `census_acs.py` | ACS 2024 5-year | 18 variables × (estimate, MOE), all CBSAs | API when `CENSUS_API_KEY` is set; otherwise the keyless table-based Summary File, streamed and filtered to CBSA rows |
 | `bea.py` | BEA Regional | County GDP (CAGDP2) and personal income (CAINC1) | BEA dropped metro tables in 2026; counties get summed in `models/` |
 | `oews.py` | OEWS May 2025 zip | Analyst occupations × 50 metros | Raw zip kept; filtered CSV for convenience |
-| `postings.py` | Greenhouse / Lever public boards | All jobs for companies in `seeds/company_boards.csv` | Lever paged with skip/limit |
+| `postings.py` | Greenhouse / Lever public boards | Analyst roles at companies in `seeds/companies.csv`: title, company, location, remote flag, posted date, description, tools | Raw boards landed as-is; analyst-title filter + tool dictionary (`tools_dictionary.py`); robots.txt checked per host; `POSTINGS_DELAY_SECONDS` (default 2) between requests; deduped across runs into `data/postings/postings.csv` with first_seen/last_seen |
 
 ## Interview talking points
 

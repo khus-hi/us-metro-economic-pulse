@@ -155,3 +155,13 @@ def test_postings_have_jobs_with_title_and_location():
             assert j.get("location") or (j.get("categories") or {}).get("location") is not None
         total += len(body["jobs"])
     assert total > 0
+
+
+def test_postings_master_is_deduped_and_analyst_only():
+    from ingest import postings
+    if not postings.MASTER_FILE.exists():
+        pytest.skip("no postings master file yet")
+    df = pd.read_csv(postings.MASTER_FILE, dtype=str, keep_default_na=False)
+    assert df["job_key"].is_unique
+    assert df["title"].map(postings.is_analyst_title).all()
+    assert (df["first_seen"] <= df["last_seen"]).all()

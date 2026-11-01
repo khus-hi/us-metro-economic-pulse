@@ -36,6 +36,15 @@ def show(source: str) -> None:
     if source == "crosswalk":
         _csv_head(METROS_FILE)
         return
+    if source == "postings":
+        from .postings import MASTER_FILE
+        if MASTER_FILE.exists():
+            import pandas as pd
+            df = pd.read_csv(MASTER_FILE, dtype=str, keep_default_na=False)
+            print(f"    master: {len(df)} analyst postings, {int((df['last_seen'] == df['last_seen'].max()).sum())} open in latest run")
+            for r in df.head(5).itertuples():
+                print(f"    {r.company} | {r.title} | {r.location} | remote={r.is_remote} | {r.posted_date} | {r.tools}")
+            return
     if source == "oews":
         _csv_head(run / "msa_analyst_occupations.csv")
         return

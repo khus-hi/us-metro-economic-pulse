@@ -110,3 +110,61 @@ def test_summary_file_parsing_accepts_bytes_lines():
     lines = (ln.decode("utf-8-sig") for ln in raw)
     rows = census_acs.parse_summary_file(lines, ["B19013_001"])
     assert rows[1][-1] == "14460"
+
+
+# ---------- postings (structure-only fixtures; text is illustrative, not data) ----------
+from ingest import postings  # noqa: E402
+from ingest.tools_dictionary import tag_tools  # noqa: E402
+
+
+@pytest.mark.parametrize("title,keep", [
+    ("Senior Data Analyst", True),
+    ("Product Analytics Manager", True),
+    ("Business Intelligence Engineer", True),
+    ("Financial Analyst, FP&A", True),
+    ("Security Analyst", False),
+    ("SOC Analyst II", False),
+    ("Data Analyst Intern", False),
+    ("Software Engineer", False),
+])
+def test_analyst_title_filter(title, keep):
+    assert postings.is_analyst_title(title) is keep
+
+
+def test_tool_tagging():
+    text = "Use SQL, Python and R, build dashboards in Power BI or Tableau; dbt + Snowflake. R&D team. SaaS."
+    tags = tag_tools(text)
+    for t in ["SQL", "Python", "R", "Power BI", "Tableau", "dbt", "Snowflake"]:
+        assert t in tags
+    assert "SAS" not in tag_tools("We are a SaaS company")
+    assert "R" not in tag_tools("Work with our R&D group")
+    assert "Excel" in tag_tools("advanced excel skills")
+
+
+def test_normalize_greenhouse_and_lever():
+    gh = {"id": 1, "title": "Data Analyst", "location": {"name": "Remote - US"},
+          "first_published": "2026-10-01T00:00:00-04:00", "absolute_url": "u",
+          "content": "&lt;p&gt;SQL &amp;amp; Python&lt;/p&gt;"}
+    r = postings.normalize_greenhouse(gh, "Co", "co")
+    assert r["is_remote"] and r["posted_date"] == "2026-10-01" and r["description"] == "SQL & Python"
+    lv = {"id": "a", "text": "Analyst", "categories": {"location": "Boston, MA"},
+          "workplaceType": "hybrid", "createdAt": 0, "hostedUrl": "u", "descriptionPlain": "Excel"}
+    r = postings.normalize_lever(lv, "Co", "co")
+    assert not r["is_remote"] and r["location"] == "Boston, MA"
+
+
+def test_merge_dedupes_and_tracks_first_last_seen():
+    def row(i, title="Data Analyst"):
+        return {"job_key": f"greenhouse:co:{i}", "ats": "greenhouse", "board": "co", "company": "Co",
+                "job_id": str(i), "title": title, "location": "", "is_remote": False,
+                "posted_date": "", "url": "", "tools": "", "description": ""}
+    empty = pd.DataFrame(columns=postings.COLUMNS)
+    day1 = postings.merge(empty, [row(1), row(2), row(2)], "2026-11-01")
+    assert len(day1) == 2
+    day2 = postings.merge(day1, [row(2, "Sr Data Analyst"), row(3)], "2026-11-02")
+    by = day2.set_index("job_key")
+    assert len(day2) == 3
+    assert by.loc["greenhouse:co:1", "last_seen"] == "2026-11-01"      # closed: not seen on day 2
+    assert by.loc["greenhouse:co:2", "first_seen"] == "2026-11-01"     # kept original first_seen
+    assert by.loc["greenhouse:co:2", "title"] == "Sr Data Analyst"     # refreshed fields
+    assert by.loc["greenhouse:co:3", "first_seen"] == "2026-11-02"
