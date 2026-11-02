@@ -87,7 +87,7 @@ For each row below:
 |---|---|---|
 | metro_ranking | Momentum | `IF [pulse_change_3m] > 0 THEN "Accelerating" ELSE "Slowing" END` |
 | metro_ranking | Metros with rising unemployment | `SUM(IF [unemployment_change_yoy_pp] > 0 THEN 1 ELSE 0 END)` |
-| metro_ranking | Median job growth | `MEDIAN([nonfarm_jobs_yoy_pct])` |
+| metro_ranking | Median job growth | `MEDIAN([nonfarm_jobs_yoy_pct])`. With one data source, pick the Metro!Ranking copy from autocomplete; the Metro Monthly copy gives the median of all months (1.56, wrong). |
 | metro_ranking | Is selected metro | `[metro] = [Selected Metro]` |
 | metro_monthly | Is selected metro | `[metro] = [Selected Metro]` |
 | metro_annual | Is selected metro | `[metro] = [Selected Metro]` |
