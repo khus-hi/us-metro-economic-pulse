@@ -88,6 +88,7 @@ jobs:
         run: |
           pytest -q tests/test_analysis.py
           python -m analysis run > /dev/null
+          python dashboard/report_tables.py
 
       - name: Save postings history for next month
         uses: actions/upload-artifact@v4
@@ -100,7 +101,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dashboard/data/*.csv analysis/output
+          git add dashboard/data analysis/output
           if git diff --cached --quiet; then
             echo "Marts and analysis unchanged; nothing to commit."
           else

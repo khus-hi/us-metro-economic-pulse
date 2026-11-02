@@ -1,0 +1,1637 @@
+job_key,cbsa_code,location_key,location_class,role_family,is_open,tool,metro,principal_state,census_region,location_label,metro_jobs_thousands
+greenhouse:affirm:7799329003,,non_us,non_us,Data,True,A/B testing,,,,Outside the US,
+greenhouse:affirm:7799329003,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:affirm:7799329003,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:affirm:7799329003,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:affirm:7804953003,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:affirm:7804953003,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:affirm:7804953003,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:affirm:7804953003,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:affirm:7804955003,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:affirm:7804955003,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:affirm:7804955003,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:affirm:7804955003,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:affirm:7813362003,,non_us,non_us,Business,True,Databricks,,,,Outside the US,
+greenhouse:affirm:7813362003,,non_us,non_us,Business,True,Git,,,,Outside the US,
+greenhouse:affirm:7813362003,,non_us,non_us,Business,True,Looker,,,,Outside the US,
+greenhouse:affirm:7813362003,,non_us,non_us,Business,True,Python,,,,Outside the US,
+greenhouse:affirm:7813362003,,non_us,non_us,Business,True,SQL,,,,Outside the US,
+greenhouse:affirm:7813362003,,non_us,non_us,Business,True,Salesforce,,,,Outside the US,
+greenhouse:affirm:7813362003,,non_us,non_us,Business,True,Snowflake,,,,Outside the US,
+greenhouse:affirm:7813362003,,non_us,non_us,Business,True,Tableau,,,,Outside the US,
+greenhouse:affirm:7813362003,,non_us,non_us,Business,True,dbt,,,,Outside the US,
+greenhouse:affirm:7815952003,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:affirm:7815952003,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:affirm:7815954003,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:affirm:7815954003,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:affirm:7819441003,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:affirm:7819441003,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:affirm:7819441003,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:affirm:7819441003,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:affirm:7872398003,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:affirm:7872398003,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:affirm:7872398003,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:affirm:7872398003,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:affirm:7916080003,,non_us,non_us,Business,True,Databricks,,,,Outside the US,
+greenhouse:affirm:7916080003,,non_us,non_us,Business,True,Git,,,,Outside the US,
+greenhouse:affirm:7916080003,,non_us,non_us,Business,True,Looker,,,,Outside the US,
+greenhouse:affirm:7916080003,,non_us,non_us,Business,True,Python,,,,Outside the US,
+greenhouse:affirm:7916080003,,non_us,non_us,Business,True,SQL,,,,Outside the US,
+greenhouse:affirm:7916080003,,non_us,non_us,Business,True,Salesforce,,,,Outside the US,
+greenhouse:affirm:7916080003,,non_us,non_us,Business,True,Snowflake,,,,Outside the US,
+greenhouse:affirm:7916080003,,non_us,non_us,Business,True,Tableau,,,,Outside the US,
+greenhouse:affirm:7916080003,,non_us,non_us,Business,True,dbt,,,,Outside the US,
+greenhouse:affirm:7979912003,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:affirm:7979912003,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:affirm:8003170003,,non_us,non_us,Data,True,A/B testing,,,,Outside the US,
+greenhouse:affirm:8003170003,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:affirm:8003170003,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:affirm:8003170003,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:affirm:8004096003,,remote_us,remote_us,Financial,True,Machine learning,,,,Remote (US),
+greenhouse:affirm:8004096003,,remote_us,remote_us,Financial,True,Python,,,,Remote (US),
+greenhouse:affirm:8004096003,,remote_us,remote_us,Financial,True,SQL,,,,Remote (US),
+greenhouse:affirm:8004096003,,remote_us,remote_us,Financial,True,dbt,,,,Remote (US),
+greenhouse:affirm:8039471003,35620,35620,metro,Data,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:affirm:8039471003,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:affirm:8039471003,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:affirm:8039471003,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:affirm:8039471003,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:affirm:8039471003,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:affirm:8039471003,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:affirm:8039471003,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:affirm:8048119003,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:affirm:8048119003,,remote_us,remote_us,Data,True,Google Sheets,,,,Remote (US),
+greenhouse:affirm:8048121003,,non_us,non_us,Data,True,A/B testing,,,,Outside the US,
+greenhouse:affirm:8048121003,,non_us,non_us,Data,True,Google Sheets,,,,Outside the US,
+greenhouse:airbnb:7107054,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:airbnb:7107054,,remote_us,remote_us,Data,True,R,,,,Remote (US),
+greenhouse:airbnb:7107054,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:airbnb:7107054,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:airbnb:7662244,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:airbnb:7662244,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:airbnb:7662244,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:airbnb:7662244,,remote_us,remote_us,Data,True,R,,,,Remote (US),
+greenhouse:airbnb:7662244,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:airbnb:7705262,,us_unmapped,us_unmapped,Data,True,A/B testing,,,,"US, outside top 50",
+greenhouse:airbnb:7705262,,us_unmapped,us_unmapped,Data,True,Machine learning,,,,"US, outside top 50",
+greenhouse:airbnb:7705262,,us_unmapped,us_unmapped,Data,True,Python,,,,"US, outside top 50",
+greenhouse:airbnb:7705262,,us_unmapped,us_unmapped,Data,True,SQL,,,,"US, outside top 50",
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,True,Excel,,,,"US, outside top 50",
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,True,Google Sheets,,,,"US, outside top 50",
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,True,Machine learning,,,,"US, outside top 50",
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,True,Python,,,,"US, outside top 50",
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,True,SQL,,,,"US, outside top 50",
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,True,Statistics,,,,"US, outside top 50",
+greenhouse:airbnb:7839229,,us_unmapped,us_unmapped,Data,True,Tableau,,,,"US, outside top 50",
+greenhouse:airbnb:8023118,,non_us,non_us,Data,True,A/B testing,,,,Outside the US,
+greenhouse:airbnb:8023118,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:airbnb:8023118,,non_us,non_us,Data,True,R,,,,Outside the US,
+greenhouse:airbnb:8023118,,non_us,non_us,Data,True,SAS,,,,Outside the US,
+greenhouse:airbnb:8023118,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:airbnb:8023118,,non_us,non_us,Data,True,Spark,,,,Outside the US,
+greenhouse:airbnb:8023118,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:airbnb:8023118,,non_us,non_us,Data,True,Tableau,,,,Outside the US,
+greenhouse:airbnb:8081180,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:airbnb:8081180,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:airbnb:8081180,,non_us,non_us,Data,True,Spark,,,,Outside the US,
+greenhouse:airbnb:8081180,,non_us,non_us,Data,True,Tableau,,,,Outside the US,
+greenhouse:airbnb:8207095,,us_unmapped,us_unmapped,Data,True,A/B testing,,,,"US, outside top 50",
+greenhouse:airbnb:8207095,,us_unmapped,us_unmapped,Data,True,Python,,,,"US, outside top 50",
+greenhouse:airbnb:8207095,,us_unmapped,us_unmapped,Data,True,R,,,,"US, outside top 50",
+greenhouse:airbnb:8207095,,us_unmapped,us_unmapped,Data,True,SQL,,,,"US, outside top 50",
+greenhouse:airbnb:8207095,,us_unmapped,us_unmapped,Data,True,Statistics,,,,"US, outside top 50",
+greenhouse:airbnb:8209984,,us_unmapped,us_unmapped,Financial,True,SQL,,,,"US, outside top 50",
+greenhouse:airbnb:8259920,,us_unmapped,us_unmapped,Financial,True,SQL,,,,"US, outside top 50",
+greenhouse:airbnb:8263282,,unknown,unknown,Data,True,Airflow,,,,Location unclear,
+greenhouse:airbnb:8263282,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:airbnb:8263282,,unknown,unknown,Data,True,Spark,,,,Location unclear,
+greenhouse:airbnb:8263303,,unknown,unknown,Data,True,Airflow,,,,Location unclear,
+greenhouse:airbnb:8263303,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:airbnb:8263303,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:airbnb:8263303,,unknown,unknown,Data,True,Spark,,,,Location unclear,
+greenhouse:airbnb:8275416,,us_unmapped,us_unmapped,Financial,True,AWS,,,,"US, outside top 50",
+greenhouse:airbnb:8275416,,us_unmapped,us_unmapped,Financial,True,Machine learning,,,,"US, outside top 50",
+greenhouse:airbnb:8278729,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:airbnb:8278729,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:airbnb:8278729,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:airbnb:8301515,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:airbnb:8301515,,remote_us,remote_us,Data,True,R,,,,Remote (US),
+greenhouse:airbnb:8301515,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:airbnb:8301515,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:anthropic:4991194008,41860,41860,metro,Financial,True,BigQuery,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:4991194008,41860,41860,metro,Financial,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:4991194008,41860,41860,metro,Financial,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:4991194008,42660,42660,metro,Financial,True,BigQuery,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:4991194008,42660,42660,metro,Financial,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:4991194008,42660,42660,metro,Financial,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5116820008,35620,35620,metro,Product,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5116820008,35620,35620,metro,Product,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5116820008,35620,35620,metro,Product,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5116820008,35620,35620,metro,Product,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5116820008,35620,35620,metro,Product,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5116820008,41860,41860,metro,Product,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5116820008,41860,41860,metro,Product,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5116820008,41860,41860,metro,Product,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5116820008,41860,41860,metro,Product,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5116820008,41860,41860,metro,Product,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5116820008,42660,42660,metro,Product,True,A/B testing,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5116820008,42660,42660,metro,Product,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5116820008,42660,42660,metro,Product,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5116820008,42660,42660,metro,Product,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5116820008,42660,42660,metro,Product,True,Statistics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5161402008,35620,35620,metro,Marketing,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5161402008,35620,35620,metro,Marketing,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5161402008,35620,35620,metro,Marketing,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5161402008,35620,35620,metro,Marketing,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5161402008,41860,41860,metro,Marketing,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5161402008,41860,41860,metro,Marketing,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5161402008,41860,41860,metro,Marketing,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5161402008,41860,41860,metro,Marketing,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5161402008,42660,42660,metro,Marketing,True,A/B testing,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5161402008,42660,42660,metro,Marketing,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5161402008,42660,42660,metro,Marketing,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5161402008,42660,42660,metro,Marketing,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5182605008,35620,35620,metro,Product,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5182605008,35620,35620,metro,Product,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5182605008,35620,35620,metro,Product,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5182605008,35620,35620,metro,Product,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5182605008,35620,35620,metro,Product,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5182605008,41860,41860,metro,Product,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5182605008,41860,41860,metro,Product,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5182605008,41860,41860,metro,Product,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5182605008,41860,41860,metro,Product,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5182605008,41860,41860,metro,Product,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5182605008,42660,42660,metro,Product,True,A/B testing,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5182605008,42660,42660,metro,Product,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5182605008,42660,42660,metro,Product,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5182605008,42660,42660,metro,Product,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5182605008,42660,42660,metro,Product,True,Statistics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5196852008,35620,35620,metro,Data,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5196852008,35620,35620,metro,Data,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5196852008,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5196852008,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5196852008,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5196852008,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5196852008,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5196852008,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5196852008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5196852008,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5209196008,35620,35620,metro,Data,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5209196008,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5209196008,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5209196008,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5209196008,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5209196008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5209196008,42660,42660,metro,Data,True,A/B testing,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5209196008,42660,42660,metro,Data,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5209196008,42660,42660,metro,Data,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5232055008,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5232055008,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5232055008,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5232055008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5232055008,47900,47900,metro,Data,True,Python,Washington,DC,South,Washington,3293.1000
+greenhouse:anthropic:5232055008,47900,47900,metro,Data,True,SQL,Washington,DC,South,Washington,3293.1000
+greenhouse:anthropic:5311149008,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5311149008,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5311149008,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5311149008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5311149008,47900,47900,metro,Data,True,Python,Washington,DC,South,Washington,3293.1000
+greenhouse:anthropic:5311149008,47900,47900,metro,Data,True,SQL,Washington,DC,South,Washington,3293.1000
+greenhouse:anthropic:5311234008,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5311234008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5311234008,47900,47900,metro,Data,True,SQL,Washington,DC,South,Washington,3293.1000
+greenhouse:anthropic:5319624008,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5319624008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5319624008,47900,47900,metro,Data,True,SQL,Washington,DC,South,Washington,3293.1000
+greenhouse:anthropic:5319626008,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5319626008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5319626008,47900,47900,metro,Data,True,SQL,Washington,DC,South,Washington,3293.1000
+greenhouse:anthropic:5319696008,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5319696008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5319696008,47900,47900,metro,Data,True,SQL,Washington,DC,South,Washington,3293.1000
+greenhouse:anthropic:5319700008,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5319700008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5319700008,47900,47900,metro,Data,True,SQL,Washington,DC,South,Washington,3293.1000
+greenhouse:anthropic:5357947008,41860,41860,metro,Financial,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5357947008,41860,41860,metro,Financial,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5357947008,42660,42660,metro,Financial,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5357947008,42660,42660,metro,Financial,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5410006008,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5410006008,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5410006008,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5410006008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5410006008,47900,47900,metro,Data,True,Python,Washington,DC,South,Washington,3293.1000
+greenhouse:anthropic:5410006008,47900,47900,metro,Data,True,SQL,Washington,DC,South,Washington,3293.1000
+greenhouse:anthropic:5416829008,35620,35620,metro,Product,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5416829008,35620,35620,metro,Product,True,Salesforce,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5416829008,41860,41860,metro,Product,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5416829008,41860,41860,metro,Product,True,Salesforce,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5416829008,42660,42660,metro,Product,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5416829008,42660,42660,metro,Product,True,Salesforce,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5424111008,35620,35620,metro,Data,True,BigQuery,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424111008,35620,35620,metro,Data,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424111008,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424111008,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424111008,35620,35620,metro,Data,True,dbt,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424111008,41860,41860,metro,Data,True,BigQuery,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424111008,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424111008,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424111008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424111008,41860,41860,metro,Data,True,dbt,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424111008,42660,42660,metro,Data,True,BigQuery,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5424111008,42660,42660,metro,Data,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5424111008,42660,42660,metro,Data,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5424111008,42660,42660,metro,Data,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5424111008,42660,42660,metro,Data,True,dbt,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,True,BigQuery,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,True,Looker,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,True,Power BI,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,True,R,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,True,Snowflake,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424408008,35620,35620,metro,Marketing,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,True,BigQuery,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,True,Looker,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,True,Power BI,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,True,R,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,True,Snowflake,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5424408008,41860,41860,metro,Marketing,True,Tableau,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5434145008,35620,35620,metro,Marketing,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5434145008,35620,35620,metro,Marketing,True,Salesforce,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5434145008,35620,35620,metro,Marketing,True,dbt,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5434145008,41860,41860,metro,Marketing,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5434145008,41860,41860,metro,Marketing,True,Salesforce,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5434145008,41860,41860,metro,Marketing,True,dbt,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5436196008,35620,35620,metro,Business,True,Salesforce,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5436196008,41860,41860,metro,Business,True,Salesforce,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5462893008,14460,14460,metro,Data,True,Python,Boston,MA,Northeast,Boston,2731.2000
+greenhouse:anthropic:5462893008,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5462893008,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5462893008,42660,42660,metro,Data,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5462893008,47900,47900,metro,Data,True,Python,Washington,DC,South,Washington,3293.1000
+greenhouse:anthropic:5464493008,35620,35620,metro,Data,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5464493008,35620,35620,metro,Data,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5464493008,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5464493008,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5464493008,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:anthropic:5464493008,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5464493008,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5464493008,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5464493008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5464493008,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5464493008,42660,42660,metro,Data,True,A/B testing,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5464493008,42660,42660,metro,Data,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5464493008,42660,42660,metro,Data,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5464493008,42660,42660,metro,Data,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5464493008,42660,42660,metro,Data,True,Statistics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:anthropic:5465561008,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:anthropic:5465561008,41860,41860,metro,Data,True,Salesforce,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:asana:8275149,,non_us,non_us,Data,True,A/B testing,,,,Outside the US,
+greenhouse:asana:8275149,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:asana:8275149,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:asana:8275149,,non_us,non_us,Data,True,R,,,,Outside the US,
+greenhouse:asana:8275149,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:asana:8275149,,non_us,non_us,Data,True,Scala,,,,Outside the US,
+greenhouse:asana:8275149,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:asana:8282518,16980,16980,metro,Operations,True,Salesforce,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:asana:8282814,,non_us,non_us,Data,True,Airflow,,,,Outside the US,
+greenhouse:asana:8282814,,non_us,non_us,Data,True,Databricks,,,,Outside the US,
+greenhouse:asana:8282814,,non_us,non_us,Data,True,Git,,,,Outside the US,
+greenhouse:asana:8282814,,non_us,non_us,Data,True,Looker,,,,Outside the US,
+greenhouse:asana:8282814,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:asana:8282814,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:asana:8282814,,non_us,non_us,Data,True,Snowflake,,,,Outside the US,
+greenhouse:asana:8282814,,non_us,non_us,Data,True,dbt,,,,Outside the US,
+greenhouse:betterment:8041552,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:betterment:8319091,35620,35620,metro,Data,True,Airflow,New York,NY,Northeast,New York,10042.5000
+greenhouse:betterment:8319091,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:betterment:8319091,35620,35620,metro,Data,True,dbt,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8463702002,35620,35620,metro,Data,True,Airflow,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8463702002,35620,35620,metro,Data,True,BigQuery,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8463702002,35620,35620,metro,Data,True,Databricks,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8463702002,35620,35620,metro,Data,True,Git,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8463702002,35620,35620,metro,Data,True,Looker,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8463702002,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8463702002,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8463702002,35620,35620,metro,Data,True,Snowflake,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8463702002,35620,35620,metro,Data,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8463702002,35620,35620,metro,Data,True,dbt,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8463703002,,non_us,non_us,Data,True,Airflow,,,,Outside the US,
+greenhouse:brex:8463703002,,non_us,non_us,Data,True,BigQuery,,,,Outside the US,
+greenhouse:brex:8463703002,,non_us,non_us,Data,True,Databricks,,,,Outside the US,
+greenhouse:brex:8463703002,,non_us,non_us,Data,True,Git,,,,Outside the US,
+greenhouse:brex:8463703002,,non_us,non_us,Data,True,Looker,,,,Outside the US,
+greenhouse:brex:8463703002,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:brex:8463703002,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:brex:8463703002,,non_us,non_us,Data,True,Snowflake,,,,Outside the US,
+greenhouse:brex:8463703002,,non_us,non_us,Data,True,Tableau,,,,Outside the US,
+greenhouse:brex:8463703002,,non_us,non_us,Data,True,dbt,,,,Outside the US,
+greenhouse:brex:8735070002,,non_us,non_us,Data,True,A/B testing,,,,Outside the US,
+greenhouse:brex:8735070002,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:brex:8735070002,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:brex:8735070002,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:brex:8735070002,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:brex:8783482002,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:brex:8783482002,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:brex:8783482002,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:brex:8783482002,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:brex:8783482002,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:brex:8879575002,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:brex:8879575002,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:brex:8879575002,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:brex:8903732002,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:brex:8903732002,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:brex:8903732002,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:brex:8923923002,41620,41620,metro,Operations,True,Excel,Salt Lake City,UT,West,Salt Lake City,863.4000
+greenhouse:brex:8923923002,41620,41620,metro,Operations,True,Google Sheets,Salt Lake City,UT,West,Salt Lake City,863.4000
+greenhouse:brex:8923923002,41620,41620,metro,Operations,True,Python,Salt Lake City,UT,West,Salt Lake City,863.4000
+greenhouse:brex:8923923002,41620,41620,metro,Operations,True,SQL,Salt Lake City,UT,West,Salt Lake City,863.4000
+greenhouse:brex:8923923002,41620,41620,metro,Operations,True,Salesforce,Salt Lake City,UT,West,Salt Lake City,863.4000
+greenhouse:brex:8923923002,41620,41620,metro,Operations,True,Snowflake,Salt Lake City,UT,West,Salt Lake City,863.4000
+greenhouse:brex:8924533002,35620,35620,metro,Operations,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8924533002,35620,35620,metro,Operations,True,Google Sheets,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8924533002,35620,35620,metro,Operations,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8924533002,35620,35620,metro,Operations,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8924533002,35620,35620,metro,Operations,True,Salesforce,New York,NY,Northeast,New York,10042.5000
+greenhouse:brex:8924533002,35620,35620,metro,Operations,True,Snowflake,New York,NY,Northeast,New York,10042.5000
+greenhouse:chime:8779819002,16980,16980,metro,Financial,True,SQL,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:chime:8788322002,16980,16980,metro,Financial,True,Excel,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:chime:8788322002,16980,16980,metro,Financial,True,Looker,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:chime:8788322002,16980,16980,metro,Financial,True,Machine learning,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:chime:8788322002,16980,16980,metro,Financial,True,Python,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:chime:8788322002,16980,16980,metro,Financial,True,SQL,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:chime:8788322002,16980,16980,metro,Financial,True,Statistics,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:chime:8788322002,41860,41860,metro,Financial,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8788322002,41860,41860,metro,Financial,True,Looker,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8788322002,41860,41860,metro,Financial,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8788322002,41860,41860,metro,Financial,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8788322002,41860,41860,metro,Financial,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8788322002,41860,41860,metro,Financial,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8869629002,41860,41860,metro,Financial,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8869629002,41860,41860,metro,Financial,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8869629002,41860,41860,metro,Financial,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8869629002,41860,41860,metro,Financial,True,dbt,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8882465002,41860,41860,metro,Marketing,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8882465002,41860,41860,metro,Marketing,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8882465002,41860,41860,metro,Marketing,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8882465002,41860,41860,metro,Marketing,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8882465002,41860,41860,metro,Marketing,True,Snowflake,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:chime:8917560002,16980,16980,metro,Data,True,Excel,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,True,GCP,,,,Outside the US,
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,True,Git,,,,Outside the US,
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,True,MySQL,,,,Outside the US,
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,True,PostgreSQL,,,,Outside the US,
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:cloudflare:8022909,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,True,GCP,,,,Location unclear,
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,True,Git,,,,Location unclear,
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,True,MySQL,,,,Location unclear,
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,True,PostgreSQL,,,,Location unclear,
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:cloudflare:8050813,,unknown,unknown,Data,True,Statistics,,,,Location unclear,
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,True,Airflow,,,,Location unclear,
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,True,Git,,,,Location unclear,
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,True,Machine learning,,,,Location unclear,
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,True,R,,,,Location unclear,
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,True,Statistics,,,,Location unclear,
+greenhouse:cloudflare:8109620,,unknown,unknown,Data,True,dbt,,,,Location unclear,
+greenhouse:cloudflare:8161030,,non_us,non_us,Financial,True,Excel,,,,Outside the US,
+greenhouse:cloudflare:8175615,,unknown,unknown,Data,True,Machine learning,,,,Location unclear,
+greenhouse:cloudflare:8175615,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:cloudflare:8175615,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:cloudflare:8175615,,unknown,unknown,Data,True,Statistics,,,,Location unclear,
+greenhouse:cloudflare:8245787,,unknown,unknown,Operations,True,Excel,,,,Location unclear,
+greenhouse:cloudflare:8245787,,unknown,unknown,Operations,True,Google Sheets,,,,Location unclear,
+greenhouse:cloudflare:8245787,,unknown,unknown,Operations,True,Jira,,,,Location unclear,
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,True,Airflow,,,,Location unclear,
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,True,GCP,,,,Location unclear,
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,True,Looker,,,,Location unclear,
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,True,Power BI,,,,Location unclear,
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,True,Salesforce,,,,Location unclear,
+greenhouse:cloudflare:8248907,,unknown,unknown,Data,True,Tableau,,,,Location unclear,
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,True,BigQuery,,,,Outside the US,
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,True,Google Analytics,,,,Outside the US,
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,True,Spark,,,,Outside the US,
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:cloudflare:8275927,,non_us,non_us,Data,True,Tableau,,,,Outside the US,
+greenhouse:cloudflare:8282783,,non_us,non_us,Data,True,BigQuery,,,,Outside the US,
+greenhouse:cloudflare:8282783,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:cloudflare:8282783,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:cloudflare:8282783,,non_us,non_us,Data,True,dbt,,,,Outside the US,
+greenhouse:cloudflare:8305918,,unknown,unknown,Product,True,Excel,,,,Location unclear,
+greenhouse:cloudflare:8305918,,unknown,unknown,Product,True,Google Sheets,,,,Location unclear,
+greenhouse:cloudflare:8305918,,unknown,unknown,Product,True,Python,,,,Location unclear,
+greenhouse:cloudflare:8305918,,unknown,unknown,Product,True,SQL,,,,Location unclear,
+greenhouse:coinbase:7182060,,unknown,unknown,Data,True,Salesforce,,,,Location unclear,
+greenhouse:coinbase:7254275,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:coinbase:7984814,,remote_us,remote_us,Financial,True,Machine learning,,,,Remote (US),
+greenhouse:coinbase:7984814,,remote_us,remote_us,Financial,True,SQL,,,,Remote (US),
+greenhouse:coinbase:7993006,,remote_us,remote_us,Financial,True,Excel,,,,Remote (US),
+greenhouse:coinbase:7993006,,remote_us,remote_us,Financial,True,SQL,,,,Remote (US),
+greenhouse:coinbase:8030686,,non_us,non_us,Financial,True,Excel,,,,Outside the US,
+greenhouse:coinbase:8030686,,non_us,non_us,Financial,True,Google Sheets,,,,Outside the US,
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,True,Airflow,,,,Remote (US),
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,True,BigQuery,,,,Remote (US),
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,True,Databricks,,,,Remote (US),
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,True,Redshift,,,,Remote (US),
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,True,Snowflake,,,,Remote (US),
+greenhouse:coinbase:8047150,,remote_us,remote_us,Data,True,dbt,,,,Remote (US),
+greenhouse:coinbase:8131356,,remote_us,remote_us,Financial,True,Excel,,,,Remote (US),
+greenhouse:coinbase:8147696,,non_us,non_us,Financial,True,Excel,,,,Outside the US,
+greenhouse:coinbase:8147696,,non_us,non_us,Financial,True,Google Sheets,,,,Outside the US,
+greenhouse:coinbase:8147699,,non_us,non_us,Financial,True,Google Sheets,,,,Outside the US,
+greenhouse:coinbase:8147917,,non_us,non_us,Data,True,A/B testing,,,,Outside the US,
+greenhouse:coinbase:8147917,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:coinbase:8147917,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:coinbase:8147917,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:coinbase:8154856,,remote_us,remote_us,Financial,True,Jira,,,,Remote (US),
+greenhouse:coinbase:8206668,,non_us,non_us,Product,True,A/B testing,,,,Outside the US,
+greenhouse:coinbase:8206668,,non_us,non_us,Product,True,Python,,,,Outside the US,
+greenhouse:coinbase:8206668,,non_us,non_us,Product,True,SQL,,,,Outside the US,
+greenhouse:coinbase:8206668,,non_us,non_us,Product,True,Statistics,,,,Outside the US,
+greenhouse:coinbase:8221985,,remote_us,remote_us,Data,True,Airflow,,,,Remote (US),
+greenhouse:coinbase:8221985,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:coinbase:8221985,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:coinbase:8221985,,remote_us,remote_us,Data,True,dbt,,,,Remote (US),
+greenhouse:coinbase:8233945,,non_us,non_us,Financial,True,Python,,,,Outside the US,
+greenhouse:coinbase:8233945,,non_us,non_us,Financial,True,SQL,,,,Outside the US,
+greenhouse:coinbase:8250032,,remote_us,remote_us,Product,True,Excel,,,,Remote (US),
+greenhouse:coinbase:8250032,,remote_us,remote_us,Product,True,SQL,,,,Remote (US),
+greenhouse:coinbase:8260052,,remote_us,remote_us,Financial,True,Looker,,,,Remote (US),
+greenhouse:coinbase:8260052,,remote_us,remote_us,Financial,True,Python,,,,Remote (US),
+greenhouse:coinbase:8260052,,remote_us,remote_us,Financial,True,SQL,,,,Remote (US),
+greenhouse:coinbase:8260052,,remote_us,remote_us,Financial,True,Tableau,,,,Remote (US),
+greenhouse:coinbase:8287668,,remote_us,remote_us,Product,True,A/B testing,,,,Remote (US),
+greenhouse:coinbase:8287668,,remote_us,remote_us,Product,True,Machine learning,,,,Remote (US),
+greenhouse:coinbase:8287668,,remote_us,remote_us,Product,True,Python,,,,Remote (US),
+greenhouse:coinbase:8287668,,remote_us,remote_us,Product,True,SQL,,,,Remote (US),
+greenhouse:coinbase:8287668,,remote_us,remote_us,Product,True,Statistics,,,,Remote (US),
+greenhouse:coinbase:8289787,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:coinbase:8289798,,non_us,non_us,Data,True,Jira,,,,Outside the US,
+greenhouse:coinbase:8289798,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:coinbase:8289798,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:databricks:5507088002,41860,41860,metro,Data,True,Databricks,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5507088002,41860,41860,metro,Data,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5507088002,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5507088002,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5507088002,41860,41860,metro,Data,True,R,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5507088002,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5507088002,41860,41860,metro,Data,True,Scala,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5507088002,41860,41860,metro,Data,True,Spark,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5507088002,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5634684002,41860,41860,metro,Data,True,Databricks,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5634684002,41860,41860,metro,Data,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5634684002,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5634684002,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5634684002,41860,41860,metro,Data,True,R,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5634684002,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5634684002,41860,41860,metro,Data,True,Scala,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:5634684002,41860,41860,metro,Data,True,Spark,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,True,Databricks,,,,"US, outside top 50",
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,True,Excel,,,,"US, outside top 50",
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,True,Machine learning,,,,"US, outside top 50",
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,True,Python,,,,"US, outside top 50",
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,True,SQL,,,,"US, outside top 50",
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,True,Spark,,,,"US, outside top 50",
+greenhouse:databricks:7069793002,,us_unmapped,us_unmapped,Data,True,Statistics,,,,"US, outside top 50",
+greenhouse:databricks:8178287002,41860,41860,metro,Data,True,Databricks,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:8178287002,41860,41860,metro,Data,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:8178287002,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:8178287002,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:8178287002,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:8178287002,41860,41860,metro,Data,True,Spark,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:8178287002,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:8199399002,19740,19740,metro,Data,True,Databricks,Denver,CO,West,Denver,1643.6000
+greenhouse:databricks:8199399002,19740,19740,metro,Data,True,Excel,Denver,CO,West,Denver,1643.6000
+greenhouse:databricks:8199399002,19740,19740,metro,Data,True,Machine learning,Denver,CO,West,Denver,1643.6000
+greenhouse:databricks:8199399002,42660,42660,metro,Data,True,Databricks,Seattle,WA,West,Seattle,2140.4000
+greenhouse:databricks:8199399002,42660,42660,metro,Data,True,Excel,Seattle,WA,West,Seattle,2140.4000
+greenhouse:databricks:8199399002,42660,42660,metro,Data,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:databricks:8199399002,47900,47900,metro,Data,True,Databricks,Washington,DC,South,Washington,3293.1000
+greenhouse:databricks:8199399002,47900,47900,metro,Data,True,Excel,Washington,DC,South,Washington,3293.1000
+greenhouse:databricks:8199399002,47900,47900,metro,Data,True,Machine learning,Washington,DC,South,Washington,3293.1000
+greenhouse:databricks:8414474002,41860,41860,metro,Financial,True,Databricks,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:8414474002,41860,41860,metro,Financial,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:8414474002,41860,41860,metro,Financial,True,Google Sheets,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:8414474002,41860,41860,metro,Financial,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:databricks:8756140002,,unknown,unknown,Data,True,Databricks,,,,Location unclear,
+greenhouse:databricks:8756140002,,unknown,unknown,Data,True,Excel,,,,Location unclear,
+greenhouse:databricks:8860646002,,us_unmapped,us_unmapped,Data,True,Databricks,,,,"US, outside top 50",
+greenhouse:databricks:8860646002,,us_unmapped,us_unmapped,Data,True,Excel,,,,"US, outside top 50",
+greenhouse:databricks:8860646002,,us_unmapped,us_unmapped,Data,True,Machine learning,,,,"US, outside top 50",
+greenhouse:databricks:8922722002,,non_us,non_us,Business,True,Databricks,,,,Outside the US,
+greenhouse:databricks:8922722002,,non_us,non_us,Business,True,Excel,,,,Outside the US,
+greenhouse:databricks:8922730002,,non_us,non_us,Data,True,Databricks,,,,Outside the US,
+greenhouse:databricks:8922730002,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:databricks:8922730002,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:datadog:7982644,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:datadog:7982644,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:datadog:8002771,35620,35620,metro,Financial,True,Looker,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8002771,35620,35620,metro,Financial,True,Power BI,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8002771,35620,35620,metro,Financial,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8002771,35620,35620,metro,Financial,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8002771,35620,35620,metro,Financial,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8127768,,non_us,non_us,Product,True,A/B testing,,,,Outside the US,
+greenhouse:datadog:8127768,,non_us,non_us,Product,True,Machine learning,,,,Outside the US,
+greenhouse:datadog:8128810,35620,35620,metro,Product,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8128810,35620,35620,metro,Product,True,Snowflake,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8128810,35620,35620,metro,Product,True,dbt,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8139161,35620,35620,metro,Data,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8139161,35620,35620,metro,Data,True,Google Analytics,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8143849,35620,35620,metro,Data,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8143849,35620,35620,metro,Data,True,Salesforce,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8143849,35620,35620,metro,Data,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8197674,19740,19740,metro,Data,True,Excel,Denver,CO,West,Denver,1643.6000
+greenhouse:datadog:8197674,19740,19740,metro,Data,True,Salesforce,Denver,CO,West,Denver,1643.6000
+greenhouse:datadog:8197674,41860,41860,metro,Data,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:datadog:8197674,41860,41860,metro,Data,True,Salesforce,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:datadog:8204554,35620,35620,metro,Financial,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8204554,35620,35620,metro,Financial,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8204629,14460,14460,metro,Data,True,SQL,Boston,MA,Northeast,Boston,2731.2000
+greenhouse:datadog:8204629,14460,14460,metro,Data,True,Tableau,Boston,MA,Northeast,Boston,2731.2000
+greenhouse:datadog:8204629,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8204629,35620,35620,metro,Data,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8231811,35620,35620,metro,Business,True,Salesforce,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8257306,35620,35620,metro,Financial,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8257306,35620,35620,metro,Financial,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8257324,35620,35620,metro,Data,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8267437,35620,35620,metro,Financial,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8267437,35620,35620,metro,Financial,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8267437,35620,35620,metro,Financial,True,Snowflake,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8267437,35620,35620,metro,Financial,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:datadog:8273655,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:datadog:8273655,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:datadog:8301039,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:datadog:8301039,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:datadog:8312438,35620,35620,metro,Financial,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:discord:8575166002,41860,41860,metro,Financial,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8575166002,41860,41860,metro,Financial,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8575166002,41860,41860,metro,Financial,True,Looker,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8575166002,41860,41860,metro,Financial,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8652853002,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8652853002,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8652853002,41860,41860,metro,Data,True,R,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8652853002,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8652853002,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8840756002,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8840756002,41860,41860,metro,Data,True,BigQuery,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8840756002,41860,41860,metro,Data,True,Looker,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8840756002,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:discord:8840756002,41860,41860,metro,Data,True,Tableau,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:duolingo:8750527002,35620,35620,metro,Marketing,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8750527002,35620,35620,metro,Marketing,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8750527002,35620,35620,metro,Marketing,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8750527002,35620,35620,metro,Marketing,True,R,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8750527002,35620,35620,metro,Marketing,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8750527002,35620,35620,metro,Marketing,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8750527002,38300,38300,metro,Marketing,True,A/B testing,"Pittsburgh, PA",PA,Northeast,"Pittsburgh, PA",1200.2000
+greenhouse:duolingo:8750527002,38300,38300,metro,Marketing,True,Machine learning,"Pittsburgh, PA",PA,Northeast,"Pittsburgh, PA",1200.2000
+greenhouse:duolingo:8750527002,38300,38300,metro,Marketing,True,Python,"Pittsburgh, PA",PA,Northeast,"Pittsburgh, PA",1200.2000
+greenhouse:duolingo:8750527002,38300,38300,metro,Marketing,True,R,"Pittsburgh, PA",PA,Northeast,"Pittsburgh, PA",1200.2000
+greenhouse:duolingo:8750527002,38300,38300,metro,Marketing,True,SQL,"Pittsburgh, PA",PA,Northeast,"Pittsburgh, PA",1200.2000
+greenhouse:duolingo:8750527002,38300,38300,metro,Marketing,True,Statistics,"Pittsburgh, PA",PA,Northeast,"Pittsburgh, PA",1200.2000
+greenhouse:duolingo:8750636002,35620,35620,metro,Marketing,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8750636002,35620,35620,metro,Marketing,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8750636002,35620,35620,metro,Marketing,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8750636002,38300,38300,metro,Marketing,True,Python,"Pittsburgh, PA",PA,Northeast,"Pittsburgh, PA",1200.2000
+greenhouse:duolingo:8750636002,38300,38300,metro,Marketing,True,SQL,"Pittsburgh, PA",PA,Northeast,"Pittsburgh, PA",1200.2000
+greenhouse:duolingo:8750636002,38300,38300,metro,Marketing,True,Statistics,"Pittsburgh, PA",PA,Northeast,"Pittsburgh, PA",1200.2000
+greenhouse:duolingo:8759720002,35620,35620,metro,Marketing,True,Looker Studio,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8759720002,35620,35620,metro,Marketing,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8759720002,35620,35620,metro,Marketing,True,R,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8759720002,35620,35620,metro,Marketing,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8759720002,35620,35620,metro,Marketing,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:duolingo:8759720002,35620,35620,metro,Marketing,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:elastic:8034945,,non_us,non_us,Financial,True,Excel,,,,Outside the US,
+greenhouse:elastic:8034945,,non_us,non_us,Financial,True,Tableau,,,,Outside the US,
+greenhouse:elastic:8053209,,us_unmapped,us_unmapped,Operations,True,Excel,,,,"US, outside top 50",
+greenhouse:elastic:8053209,,us_unmapped,us_unmapped,Operations,True,Salesforce,,,,"US, outside top 50",
+greenhouse:elastic:8053209,,us_unmapped,us_unmapped,Operations,True,Tableau,,,,"US, outside top 50",
+greenhouse:elastic:8107090,,us_unmapped,us_unmapped,Business,True,Salesforce,,,,"US, outside top 50",
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,True,Excel,,,,Outside the US,
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,True,Google Sheets,,,,Outside the US,
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,True,Looker,,,,Outside the US,
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,True,Power BI,,,,Outside the US,
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,True,SQL,,,,Outside the US,
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,True,Salesforce,,,,Outside the US,
+greenhouse:elastic:8177119,,non_us,non_us,Marketing,True,Tableau,,,,Outside the US,
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,True,BigQuery,,,,"US, outside top 50",
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,True,GCP,,,,"US, outside top 50",
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,True,Looker,,,,"US, outside top 50",
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,True,Python,,,,"US, outside top 50",
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,True,SQL,,,,"US, outside top 50",
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,True,Tableau,,,,"US, outside top 50",
+greenhouse:elastic:8244449,,us_unmapped,us_unmapped,Data,True,dbt,,,,"US, outside top 50",
+greenhouse:elastic:8274371,,us_unmapped,us_unmapped,Data,True,Machine learning,,,,"US, outside top 50",
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,True,BigQuery,,,,"US, outside top 50",
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,True,Machine learning,,,,"US, outside top 50",
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,True,Python,,,,"US, outside top 50",
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,True,R,,,,"US, outside top 50",
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,True,SQL,,,,"US, outside top 50",
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,True,Salesforce,,,,"US, outside top 50",
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,True,Statistics,,,,"US, outside top 50",
+greenhouse:elastic:8281506,,us_unmapped,us_unmapped,Marketing,True,dbt,,,,"US, outside top 50",
+greenhouse:elastic:8285463,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:elastic:8285463,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:elastic:8303741,,unknown,unknown,Business,True,Excel,,,,Location unclear,
+greenhouse:elastic:8303741,,unknown,unknown,Business,True,Salesforce,,,,Location unclear,
+greenhouse:elastic:8304875,,us_unmapped,us_unmapped,Business,True,Salesforce,,,,"US, outside top 50",
+greenhouse:figma:5552580004,35620,35620,metro,Data,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:5552580004,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:5552580004,35620,35620,metro,Data,True,R,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:5552580004,35620,35620,metro,Data,True,Redshift,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:5552580004,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:5552580004,35620,35620,metro,Data,True,Snowflake,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:5552580004,35620,35620,metro,Data,True,Spark,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:5552580004,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:5552580004,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:figma:5552580004,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:figma:5552580004,41860,41860,metro,Data,True,R,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:figma:5552580004,41860,41860,metro,Data,True,Redshift,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:figma:5552580004,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:figma:5552580004,41860,41860,metro,Data,True,Snowflake,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:figma:5552580004,41860,41860,metro,Data,True,Spark,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:figma:5552580004,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:figma:6215865004,35620,35620,metro,Business,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:6215865004,35620,35620,metro,Business,True,Salesforce,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:6215865004,41860,41860,metro,Business,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:figma:6215865004,41860,41860,metro,Business,True,Salesforce,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:figma:6217137004,35620,35620,metro,Data,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:6217137004,35620,35620,metro,Data,True,Google Sheets,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:6217137004,35620,35620,metro,Data,True,Salesforce,New York,NY,Northeast,New York,10042.5000
+greenhouse:figma:6217137004,41860,41860,metro,Data,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:figma:6217137004,41860,41860,metro,Data,True,Google Sheets,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:figma:6217137004,41860,41860,metro,Data,True,Salesforce,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:flatironhealth:8231737,,unknown,unknown,Data,True,Airflow,,,,Location unclear,
+greenhouse:flatironhealth:8231737,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:gitlab:8633807002,,remote_us,remote_us,Data,True,Git,,,,Remote (US),
+greenhouse:gitlab:8827370002,,non_us,non_us,Data,True,Git,,,,Outside the US,
+greenhouse:gitlab:8827370002,,non_us,non_us,Data,True,Looker,,,,Outside the US,
+greenhouse:gitlab:8827370002,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:gitlab:8827370002,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:gitlab:8827370002,,non_us,non_us,Data,True,Tableau,,,,Outside the US,
+greenhouse:gitlab:8861782002,,remote_us,remote_us,Data,True,Git,,,,Remote (US),
+greenhouse:gitlab:8864819002,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:gitlab:8864819002,,non_us,non_us,Data,True,Git,,,,Outside the US,
+greenhouse:gitlab:8864819002,,non_us,non_us,Data,True,Google Sheets,,,,Outside the US,
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,True,Git,,,,Remote (US),
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,True,PostgreSQL,,,,Remote (US),
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,True,Snowflake,,,,Remote (US),
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,True,Tableau,,,,Remote (US),
+greenhouse:gitlab:8883003002,,remote_us,remote_us,Data,True,dbt,,,,Remote (US),
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,True,Git,,,,Remote (US),
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,True,Looker,,,,Remote (US),
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,True,Snowflake,,,,Remote (US),
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:gitlab:8922013002,,remote_us,remote_us,Data,True,Tableau,,,,Remote (US),
+greenhouse:gusto:7283301,19740,19740,metro,Business,True,A/B testing,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:7283301,19740,19740,metro,Business,True,Machine learning,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:7283301,19740,19740,metro,Business,True,SQL,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:7283301,19740,19740,metro,Business,True,Salesforce,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:7283301,19740,19740,metro,Business,True,Snowflake,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:7283301,19740,19740,metro,Business,True,Statistics,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:7283301,19740,19740,metro,Business,True,dbt,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:7283301,35620,35620,metro,Business,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:7283301,35620,35620,metro,Business,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:7283301,35620,35620,metro,Business,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:7283301,35620,35620,metro,Business,True,Salesforce,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:7283301,35620,35620,metro,Business,True,Snowflake,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:7283301,35620,35620,metro,Business,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:7283301,35620,35620,metro,Business,True,dbt,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:7283301,41860,41860,metro,Business,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:7283301,41860,41860,metro,Business,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:7283301,41860,41860,metro,Business,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:7283301,41860,41860,metro,Business,True,Salesforce,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:7283301,41860,41860,metro,Business,True,Snowflake,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:7283301,41860,41860,metro,Business,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:7283301,41860,41860,metro,Business,True,dbt,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:7656216,41860,41860,metro,Financial,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:7656216,41860,41860,metro,Financial,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:7656216,41860,41860,metro,Financial,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:7656216,41860,41860,metro,Financial,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:8075901,12060,12060,metro,Operations,True,Excel,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:gusto:8075901,12060,12060,metro,Operations,True,Google Sheets,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:gusto:8075901,12060,12060,metro,Operations,True,Looker,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:gusto:8075901,12060,12060,metro,Operations,True,SQL,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:gusto:8075901,12060,12060,metro,Operations,True,Salesforce,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:gusto:8075901,12060,12060,metro,Operations,True,Tableau,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:gusto:8075901,19740,19740,metro,Operations,True,Excel,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:8075901,19740,19740,metro,Operations,True,Google Sheets,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:8075901,19740,19740,metro,Operations,True,Looker,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:8075901,19740,19740,metro,Operations,True,SQL,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:8075901,19740,19740,metro,Operations,True,Salesforce,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:8075901,19740,19740,metro,Operations,True,Tableau,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:8075901,35620,35620,metro,Operations,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:8075901,35620,35620,metro,Operations,True,Google Sheets,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:8075901,35620,35620,metro,Operations,True,Looker,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:8075901,35620,35620,metro,Operations,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:8075901,35620,35620,metro,Operations,True,Salesforce,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:8075901,35620,35620,metro,Operations,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:8075901,41860,41860,metro,Operations,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:8075901,41860,41860,metro,Operations,True,Google Sheets,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:8075901,41860,41860,metro,Operations,True,Looker,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:8075901,41860,41860,metro,Operations,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:8075901,41860,41860,metro,Operations,True,Salesforce,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:8075901,41860,41860,metro,Operations,True,Tableau,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:8104180,12060,12060,metro,Data,True,Machine learning,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:gusto:8104180,12060,12060,metro,Data,True,Statistics,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:gusto:8104180,19740,19740,metro,Data,True,Machine learning,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:8104180,19740,19740,metro,Data,True,Statistics,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:8180461,41860,41860,metro,Operations,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:gusto:8180461,42660,42660,metro,Operations,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:gusto:8212233,12060,12060,metro,Operations,True,Salesforce,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:gusto:8212233,19740,19740,metro,Operations,True,Salesforce,Denver,CO,West,Denver,1643.6000
+greenhouse:gusto:8212233,35620,35620,metro,Operations,True,Salesforce,New York,NY,Northeast,New York,10042.5000
+greenhouse:gusto:8212233,41860,41860,metro,Operations,True,Salesforce,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:instacart:8115834,,remote_us,remote_us,Business,True,Looker,,,,Remote (US),
+greenhouse:instacart:8115834,,remote_us,remote_us,Business,True,SQL,,,,Remote (US),
+greenhouse:instacart:8115834,,remote_us,remote_us,Business,True,Salesforce,,,,Remote (US),
+greenhouse:instacart:8115834,,remote_us,remote_us,Business,True,Tableau,,,,Remote (US),
+greenhouse:instacart:8115836,,non_us,non_us,Business,True,Looker,,,,Outside the US,
+greenhouse:instacart:8115836,,non_us,non_us,Business,True,SQL,,,,Outside the US,
+greenhouse:instacart:8115836,,non_us,non_us,Business,True,Salesforce,,,,Outside the US,
+greenhouse:instacart:8115836,,non_us,non_us,Business,True,Tableau,,,,Outside the US,
+greenhouse:instacart:8282526,,remote_us,remote_us,Financial,True,Excel,,,,Remote (US),
+greenhouse:instacart:8282526,,remote_us,remote_us,Financial,True,Google Sheets,,,,Remote (US),
+greenhouse:instacart:8282526,,remote_us,remote_us,Financial,True,Python,,,,Remote (US),
+greenhouse:instacart:8282526,,remote_us,remote_us,Financial,True,SQL,,,,Remote (US),
+greenhouse:instacart:8282591,,non_us,non_us,Financial,True,Excel,,,,Outside the US,
+greenhouse:instacart:8282591,,non_us,non_us,Financial,True,Google Sheets,,,,Outside the US,
+greenhouse:instacart:8282591,,non_us,non_us,Financial,True,Python,,,,Outside the US,
+greenhouse:instacart:8282591,,non_us,non_us,Financial,True,SQL,,,,Outside the US,
+greenhouse:instacart:8302177,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:lyft:8503985002,41860,41860,metro,Data,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8503985002,41860,41860,metro,Data,True,Google Sheets,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8503985002,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8503985002,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8514422002,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:lyft:8584595002,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8584595002,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8584595002,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8584688002,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:lyft:8584688002,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:lyft:8584688002,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:lyft:8584695002,42660,42660,metro,Data,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:lyft:8584695002,42660,42660,metro,Data,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:lyft:8584695002,42660,42660,metro,Data,True,Statistics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:lyft:8620998002,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8620998002,41860,41860,metro,Data,True,Databricks,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8620998002,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8620998002,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8620998002,41860,41860,metro,Data,True,Snowflake,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8620998002,41860,41860,metro,Data,True,Spark,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8620998002,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8621789002,35620,35620,metro,Data,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:lyft:8621789002,35620,35620,metro,Data,True,Databricks,New York,NY,Northeast,New York,10042.5000
+greenhouse:lyft:8621789002,35620,35620,metro,Data,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:lyft:8621789002,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:lyft:8621789002,35620,35620,metro,Data,True,Snowflake,New York,NY,Northeast,New York,10042.5000
+greenhouse:lyft:8621789002,35620,35620,metro,Data,True,Spark,New York,NY,Northeast,New York,10042.5000
+greenhouse:lyft:8621789002,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:lyft:8648040002,,non_us,non_us,Data,True,A/B testing,,,,Outside the US,
+greenhouse:lyft:8648040002,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:lyft:8648040002,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:lyft:8648040002,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:lyft:8733597002,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:lyft:8733597002,,non_us,non_us,Data,True,Spark,,,,Outside the US,
+greenhouse:lyft:8733597002,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:lyft:8734166002,,non_us,non_us,Operations,True,Python,,,,Outside the US,
+greenhouse:lyft:8734166002,,non_us,non_us,Operations,True,SQL,,,,Outside the US,
+greenhouse:lyft:8772592002,42660,42660,metro,Data,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:lyft:8772592002,42660,42660,metro,Data,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:lyft:8772592002,42660,42660,metro,Data,True,R,Seattle,WA,West,Seattle,2140.4000
+greenhouse:lyft:8772592002,42660,42660,metro,Data,True,Statistics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:lyft:8856440002,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:lyft:8856442002,,non_us,non_us,Data,True,A/B testing,,,,Outside the US,
+greenhouse:lyft:8856442002,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:lyft:8856442002,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:lyft:8856442002,,non_us,non_us,Data,True,R,,,,Outside the US,
+greenhouse:lyft:8856442002,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:lyft:8856442002,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:lyft:8856443002,41860,41860,metro,Financial,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8856443002,41860,41860,metro,Financial,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8856443002,41860,41860,metro,Financial,True,R,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8856443002,41860,41860,metro,Financial,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8856443002,41860,41860,metro,Financial,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8860781002,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:lyft:8860781002,,non_us,non_us,Data,True,Google Sheets,,,,Outside the US,
+greenhouse:lyft:8860781002,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:lyft:8868958002,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:lyft:8881573002,,non_us,non_us,Financial,True,SQL,,,,Outside the US,
+greenhouse:lyft:8908000002,34980,34980,metro,Data,True,Excel,Nashville,TN,South,Nashville,1201.4000
+greenhouse:lyft:8908005002,41860,41860,metro,Financial,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8908005002,41860,41860,metro,Financial,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:lyft:8908005002,41860,41860,metro,Financial,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:mongodb:8094118,,unknown,unknown,Data,True,AWS,,,,Location unclear,
+greenhouse:mongodb:8094118,,unknown,unknown,Data,True,Azure,,,,Location unclear,
+greenhouse:mongodb:8094118,,unknown,unknown,Data,True,GCP,,,,Location unclear,
+greenhouse:mongodb:8135458,,non_us,non_us,Data,True,AWS,,,,Outside the US,
+greenhouse:mongodb:8135458,,non_us,non_us,Data,True,Azure,,,,Outside the US,
+greenhouse:mongodb:8135458,,non_us,non_us,Data,True,GCP,,,,Outside the US,
+greenhouse:mongodb:8135458,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:mongodb:8135458,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:mongodb:8135458,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,True,AWS,,,,Location unclear,
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,True,Azure,,,,Location unclear,
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,True,GCP,,,,Location unclear,
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,True,Python,,,,Location unclear,
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,True,SQL,,,,Location unclear,
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,True,Salesforce,,,,Location unclear,
+greenhouse:mongodb:8141572,,unknown,unknown,Operations,True,Tableau,,,,Location unclear,
+greenhouse:mongodb:8192216,35620,35620,metro,Financial,True,AWS,New York,NY,Northeast,New York,10042.5000
+greenhouse:mongodb:8192216,35620,35620,metro,Financial,True,Azure,New York,NY,Northeast,New York,10042.5000
+greenhouse:mongodb:8192216,35620,35620,metro,Financial,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:mongodb:8192216,35620,35620,metro,Financial,True,GCP,New York,NY,Northeast,New York,10042.5000
+greenhouse:mongodb:8192216,35620,35620,metro,Financial,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:mongodb:8224590,,unknown,unknown,Data,True,AWS,,,,Location unclear,
+greenhouse:mongodb:8224590,,unknown,unknown,Data,True,Azure,,,,Location unclear,
+greenhouse:mongodb:8224590,,unknown,unknown,Data,True,BigQuery,,,,Location unclear,
+greenhouse:mongodb:8224590,,unknown,unknown,Data,True,GCP,,,,Location unclear,
+greenhouse:mongodb:8224590,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:mongodb:8224590,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:mongodb:8224590,,unknown,unknown,Data,True,Tableau,,,,Location unclear,
+greenhouse:mongodb:8224590,,unknown,unknown,Data,True,dbt,,,,Location unclear,
+greenhouse:mongodb:8237572,12420,12420,metro,Financial,True,AWS,Austin,TX,South,Austin,1421.1000
+greenhouse:mongodb:8237572,12420,12420,metro,Financial,True,Azure,Austin,TX,South,Austin,1421.1000
+greenhouse:mongodb:8237572,12420,12420,metro,Financial,True,Excel,Austin,TX,South,Austin,1421.1000
+greenhouse:mongodb:8237572,12420,12420,metro,Financial,True,GCP,Austin,TX,South,Austin,1421.1000
+greenhouse:mongodb:8237572,35620,35620,metro,Financial,True,AWS,New York,NY,Northeast,New York,10042.5000
+greenhouse:mongodb:8237572,35620,35620,metro,Financial,True,Azure,New York,NY,Northeast,New York,10042.5000
+greenhouse:mongodb:8237572,35620,35620,metro,Financial,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:mongodb:8237572,35620,35620,metro,Financial,True,GCP,New York,NY,Northeast,New York,10042.5000
+greenhouse:mongodb:8237572,41860,41860,metro,Financial,True,AWS,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:mongodb:8237572,41860,41860,metro,Financial,True,Azure,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:mongodb:8237572,41860,41860,metro,Financial,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:mongodb:8237572,41860,41860,metro,Financial,True,GCP,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:mongodb:8264146,,unknown,unknown,Marketing,True,AWS,,,,Location unclear,
+greenhouse:mongodb:8264146,,unknown,unknown,Marketing,True,Azure,,,,Location unclear,
+greenhouse:mongodb:8264146,,unknown,unknown,Marketing,True,GCP,,,,Location unclear,
+greenhouse:mongodb:8264766,,unknown,unknown,Data,True,AWS,,,,Location unclear,
+greenhouse:mongodb:8264766,,unknown,unknown,Data,True,Azure,,,,Location unclear,
+greenhouse:mongodb:8264766,,unknown,unknown,Data,True,GCP,,,,Location unclear,
+greenhouse:mongodb:8264766,,unknown,unknown,Data,True,Jira,,,,Location unclear,
+greenhouse:mongodb:8328622,35620,35620,metro,Financial,True,AWS,New York,NY,Northeast,New York,10042.5000
+greenhouse:mongodb:8328622,35620,35620,metro,Financial,True,Azure,New York,NY,Northeast,New York,10042.5000
+greenhouse:mongodb:8328622,35620,35620,metro,Financial,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:mongodb:8328622,35620,35620,metro,Financial,True,GCP,New York,NY,Northeast,New York,10042.5000
+greenhouse:nextdoor:7572109,,remote_us,remote_us,Data,True,Excel,,,,Remote (US),
+greenhouse:nextdoor:7572109,,remote_us,remote_us,Data,True,Git,,,,Remote (US),
+greenhouse:nextdoor:7572109,,remote_us,remote_us,Data,True,Looker,,,,Remote (US),
+greenhouse:nextdoor:7572109,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:nextdoor:7572109,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:okta:7728553,,non_us,non_us,Data,True,Git,,,,Outside the US,
+greenhouse:okta:7728553,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:okta:7728553,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:okta:7728553,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:okta:7728553,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:okta:7728553,,non_us,non_us,Data,True,Snowflake,,,,Outside the US,
+greenhouse:okta:7728553,,non_us,non_us,Data,True,Tableau,,,,Outside the US,
+greenhouse:okta:7728553,,non_us,non_us,Data,True,dbt,,,,Outside the US,
+greenhouse:okta:7780488,,non_us,non_us,Data,True,BigQuery,,,,Outside the US,
+greenhouse:okta:7780488,,non_us,non_us,Data,True,Databricks,,,,Outside the US,
+greenhouse:okta:7780488,,non_us,non_us,Data,True,Git,,,,Outside the US,
+greenhouse:okta:7780488,,non_us,non_us,Data,True,Jira,,,,Outside the US,
+greenhouse:okta:7780488,,non_us,non_us,Data,True,Looker,,,,Outside the US,
+greenhouse:okta:7780488,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:okta:7780488,,non_us,non_us,Data,True,Power BI,,,,Outside the US,
+greenhouse:okta:7780488,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:okta:7780488,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:okta:7780488,,non_us,non_us,Data,True,Snowflake,,,,Outside the US,
+greenhouse:okta:7780488,,non_us,non_us,Data,True,Tableau,,,,Outside the US,
+greenhouse:okta:7780488,,non_us,non_us,Data,True,dbt,,,,Outside the US,
+greenhouse:okta:7902204,16980,16980,metro,Data,True,Databricks,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:7902204,16980,16980,metro,Data,True,Machine learning,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:7902204,16980,16980,metro,Data,True,Salesforce,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:7902204,16980,16980,metro,Data,True,Snowflake,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:7902204,16980,16980,metro,Data,True,Tableau,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:7902204,42660,42660,metro,Data,True,Databricks,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:7902204,42660,42660,metro,Data,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:7902204,42660,42660,metro,Data,True,Salesforce,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:7902204,42660,42660,metro,Data,True,Snowflake,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:7902204,42660,42660,metro,Data,True,Tableau,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:7917957,41860,41860,metro,Product,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:7917957,41860,41860,metro,Product,True,Salesforce,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8128431,,non_us,non_us,Product,True,Machine learning,,,,Outside the US,
+greenhouse:okta:8128431,,non_us,non_us,Product,True,Salesforce,,,,Outside the US,
+greenhouse:okta:8138453,16980,16980,metro,Marketing,True,A/B testing,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8138453,16980,16980,metro,Marketing,True,Excel,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8138453,16980,16980,metro,Marketing,True,Google Analytics,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8138453,16980,16980,metro,Marketing,True,Machine learning,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8138453,16980,16980,metro,Marketing,True,Python,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8138453,16980,16980,metro,Marketing,True,R,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8138453,16980,16980,metro,Marketing,True,SQL,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8138453,16980,16980,metro,Marketing,True,Salesforce,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8138453,16980,16980,metro,Marketing,True,Snowflake,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8138453,16980,16980,metro,Marketing,True,Statistics,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8138453,16980,16980,metro,Marketing,True,Tableau,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8138453,42660,42660,metro,Marketing,True,A/B testing,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8138453,42660,42660,metro,Marketing,True,Excel,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8138453,42660,42660,metro,Marketing,True,Google Analytics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8138453,42660,42660,metro,Marketing,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8138453,42660,42660,metro,Marketing,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8138453,42660,42660,metro,Marketing,True,R,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8138453,42660,42660,metro,Marketing,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8138453,42660,42660,metro,Marketing,True,Salesforce,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8138453,42660,42660,metro,Marketing,True,Snowflake,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8138453,42660,42660,metro,Marketing,True,Statistics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8138453,42660,42660,metro,Marketing,True,Tableau,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8141274,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:okta:8141274,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:okta:8141274,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:okta:8141274,,non_us,non_us,Data,True,R,,,,Outside the US,
+greenhouse:okta:8141274,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:okta:8141274,,non_us,non_us,Data,True,Snowflake,,,,Outside the US,
+greenhouse:okta:8141274,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:okta:8141274,,non_us,non_us,Data,True,Tableau,,,,Outside the US,
+greenhouse:okta:8159611,16980,16980,metro,Product,True,Machine learning,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8159611,41860,41860,metro,Product,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8159611,42660,42660,metro,Product,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8159611,47900,47900,metro,Product,True,Machine learning,Washington,DC,South,Washington,3293.1000
+greenhouse:okta:8204938,16980,16980,metro,Marketing,True,A/B testing,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8204938,16980,16980,metro,Marketing,True,Excel,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8204938,16980,16980,metro,Marketing,True,Google Analytics,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8204938,16980,16980,metro,Marketing,True,Machine learning,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8204938,16980,16980,metro,Marketing,True,Python,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8204938,16980,16980,metro,Marketing,True,R,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8204938,16980,16980,metro,Marketing,True,SQL,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8204938,16980,16980,metro,Marketing,True,Salesforce,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8204938,16980,16980,metro,Marketing,True,Snowflake,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8204938,16980,16980,metro,Marketing,True,Statistics,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8204938,16980,16980,metro,Marketing,True,Tableau,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8204938,42660,42660,metro,Marketing,True,A/B testing,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8204938,42660,42660,metro,Marketing,True,Excel,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8204938,42660,42660,metro,Marketing,True,Google Analytics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8204938,42660,42660,metro,Marketing,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8204938,42660,42660,metro,Marketing,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8204938,42660,42660,metro,Marketing,True,R,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8204938,42660,42660,metro,Marketing,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8204938,42660,42660,metro,Marketing,True,Salesforce,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8204938,42660,42660,metro,Marketing,True,Snowflake,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8204938,42660,42660,metro,Marketing,True,Statistics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8204938,42660,42660,metro,Marketing,True,Tableau,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8209281,41860,41860,metro,Data,True,Alteryx,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8209281,41860,41860,metro,Data,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8209281,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8213700,16980,16980,metro,Product,True,AWS,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8213700,16980,16980,metro,Product,True,Machine learning,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8213700,35620,35620,metro,Product,True,AWS,New York,NY,Northeast,New York,10042.5000
+greenhouse:okta:8213700,35620,35620,metro,Product,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:okta:8213700,42660,42660,metro,Product,True,AWS,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8213700,42660,42660,metro,Product,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8213700,47900,47900,metro,Product,True,AWS,Washington,DC,South,Washington,3293.1000
+greenhouse:okta:8213700,47900,47900,metro,Product,True,Machine learning,Washington,DC,South,Washington,3293.1000
+greenhouse:okta:8230852,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:okta:8230852,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:okta:8242257,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:okta:8242257,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:okta:8246071,16980,16980,metro,Operations,True,Jira,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8246071,16980,16980,metro,Operations,True,Machine learning,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8246071,16980,16980,metro,Operations,True,Salesforce,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8246071,16980,16980,metro,Operations,True,Tableau,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8246071,35620,35620,metro,Operations,True,Jira,New York,NY,Northeast,New York,10042.5000
+greenhouse:okta:8246071,35620,35620,metro,Operations,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:okta:8246071,35620,35620,metro,Operations,True,Salesforce,New York,NY,Northeast,New York,10042.5000
+greenhouse:okta:8246071,35620,35620,metro,Operations,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:okta:8246071,41860,41860,metro,Operations,True,Jira,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8246071,41860,41860,metro,Operations,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8246071,41860,41860,metro,Operations,True,Salesforce,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8246071,41860,41860,metro,Operations,True,Tableau,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8246071,42660,42660,metro,Operations,True,Jira,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8246071,42660,42660,metro,Operations,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8246071,42660,42660,metro,Operations,True,Salesforce,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8246071,42660,42660,metro,Operations,True,Tableau,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8246071,47900,47900,metro,Operations,True,Jira,Washington,DC,South,Washington,3293.1000
+greenhouse:okta:8246071,47900,47900,metro,Operations,True,Machine learning,Washington,DC,South,Washington,3293.1000
+greenhouse:okta:8246071,47900,47900,metro,Operations,True,Salesforce,Washington,DC,South,Washington,3293.1000
+greenhouse:okta:8246071,47900,47900,metro,Operations,True,Tableau,Washington,DC,South,Washington,3293.1000
+greenhouse:okta:8257554,16980,16980,metro,Data,True,Excel,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8257554,16980,16980,metro,Data,True,Machine learning,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8257554,16980,16980,metro,Data,True,Power BI,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8257554,16980,16980,metro,Data,True,SQL,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8257554,16980,16980,metro,Data,True,Tableau,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:okta:8257554,41860,41860,metro,Data,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8257554,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8257554,41860,41860,metro,Data,True,Power BI,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8257554,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8257554,41860,41860,metro,Data,True,Tableau,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:okta:8257554,42660,42660,metro,Data,True,Excel,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8257554,42660,42660,metro,Data,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8257554,42660,42660,metro,Data,True,Power BI,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8257554,42660,42660,metro,Data,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8257554,42660,42660,metro,Data,True,Tableau,Seattle,WA,West,Seattle,2140.4000
+greenhouse:okta:8257554,47900,47900,metro,Data,True,Excel,Washington,DC,South,Washington,3293.1000
+greenhouse:okta:8257554,47900,47900,metro,Data,True,Machine learning,Washington,DC,South,Washington,3293.1000
+greenhouse:okta:8257554,47900,47900,metro,Data,True,Power BI,Washington,DC,South,Washington,3293.1000
+greenhouse:okta:8257554,47900,47900,metro,Data,True,SQL,Washington,DC,South,Washington,3293.1000
+greenhouse:okta:8257554,47900,47900,metro,Data,True,Tableau,Washington,DC,South,Washington,3293.1000
+greenhouse:okta:8300397,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:okta:8300397,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:okta:8300397,,non_us,non_us,Data,True,Salesforce,,,,Outside the US,
+greenhouse:okta:8300397,,non_us,non_us,Data,True,Tableau,,,,Outside the US,
+greenhouse:okta:8335959,,non_us,non_us,Product,True,Machine learning,,,,Outside the US,
+greenhouse:okta:8335959,,non_us,non_us,Product,True,Salesforce,,,,Outside the US,
+greenhouse:okta:8335959,,non_us,non_us,Product,True,Snowflake,,,,Outside the US,
+greenhouse:oscar:7592301,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:7592301,35620,35620,metro,Data,True,R,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:7592301,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:7592301,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:7594414,31080,31080,metro,Data,True,Python,Los Angeles,CA,West,Los Angeles,6299.9000
+greenhouse:oscar:7594414,31080,31080,metro,Data,True,R,Los Angeles,CA,West,Los Angeles,6299.9000
+greenhouse:oscar:7594414,31080,31080,metro,Data,True,SQL,Los Angeles,CA,West,Los Angeles,6299.9000
+greenhouse:oscar:7594414,31080,31080,metro,Data,True,Statistics,Los Angeles,CA,West,Los Angeles,6299.9000
+greenhouse:oscar:7594416,,us_unmapped,us_unmapped,Data,True,Python,,,,"US, outside top 50",
+greenhouse:oscar:7594416,,us_unmapped,us_unmapped,Data,True,R,,,,"US, outside top 50",
+greenhouse:oscar:7594416,,us_unmapped,us_unmapped,Data,True,SQL,,,,"US, outside top 50",
+greenhouse:oscar:7594416,,us_unmapped,us_unmapped,Data,True,Statistics,,,,"US, outside top 50",
+greenhouse:oscar:7914965,35620,35620,metro,Healthcare,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:7914965,35620,35620,metro,Healthcare,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:7914965,35620,35620,metro,Healthcare,True,R,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:7914965,35620,35620,metro,Healthcare,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:7914965,35620,35620,metro,Healthcare,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8056691,35620,35620,metro,Data,True,Power BI,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8056691,35620,35620,metro,Data,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8083703,35620,35620,metro,Data,True,BigQuery,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8083703,35620,35620,metro,Data,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8083703,35620,35620,metro,Data,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8083703,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8083703,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8083703,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8083703,35620,35620,metro,Data,True,dbt,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8119603,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8119603,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8119603,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8168110,,remote_us,remote_us,Operations,True,BigQuery,,,,Remote (US),
+greenhouse:oscar:8168110,,remote_us,remote_us,Operations,True,Excel,,,,Remote (US),
+greenhouse:oscar:8168110,,remote_us,remote_us,Operations,True,Google Sheets,,,,Remote (US),
+greenhouse:oscar:8168110,,remote_us,remote_us,Operations,True,SQL,,,,Remote (US),
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,True,Excel,,,,Remote (US),
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,True,Google Sheets,,,,Remote (US),
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,True,Looker,,,,Remote (US),
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,True,R,,,,Remote (US),
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:oscar:8193718,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:oscar:8249773,35620,35620,metro,Data,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8249773,35620,35620,metro,Data,True,Google Sheets,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8249773,35620,35620,metro,Data,True,Looker,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8249773,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8249773,35620,35620,metro,Data,True,R,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8249773,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8249773,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,True,Excel,,,,"US, outside top 50",
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,True,Google Sheets,,,,"US, outside top 50",
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,True,Looker,,,,"US, outside top 50",
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,True,Python,,,,"US, outside top 50",
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,True,R,,,,"US, outside top 50",
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,True,SQL,,,,"US, outside top 50",
+greenhouse:oscar:8250129,,us_unmapped,us_unmapped,Data,True,Statistics,,,,"US, outside top 50",
+greenhouse:oscar:8250195,12060,12060,metro,Data,True,Excel,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:oscar:8250195,12060,12060,metro,Data,True,Google Sheets,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:oscar:8250195,12060,12060,metro,Data,True,Looker,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:oscar:8250195,12060,12060,metro,Data,True,Python,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:oscar:8250195,12060,12060,metro,Data,True,R,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:oscar:8250195,12060,12060,metro,Data,True,SQL,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:oscar:8250195,12060,12060,metro,Data,True,Statistics,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:oscar:8250197,19100,19100,metro,Data,True,Excel,Dallas,TX,South,Dallas,4354.8000
+greenhouse:oscar:8250197,19100,19100,metro,Data,True,Google Sheets,Dallas,TX,South,Dallas,4354.8000
+greenhouse:oscar:8250197,19100,19100,metro,Data,True,Looker,Dallas,TX,South,Dallas,4354.8000
+greenhouse:oscar:8250197,19100,19100,metro,Data,True,Python,Dallas,TX,South,Dallas,4354.8000
+greenhouse:oscar:8250197,19100,19100,metro,Data,True,R,Dallas,TX,South,Dallas,4354.8000
+greenhouse:oscar:8250197,19100,19100,metro,Data,True,SQL,Dallas,TX,South,Dallas,4354.8000
+greenhouse:oscar:8250197,19100,19100,metro,Data,True,Statistics,Dallas,TX,South,Dallas,4354.8000
+greenhouse:oscar:8256202,,us_unmapped,us_unmapped,Data,True,BigQuery,,,,"US, outside top 50",
+greenhouse:oscar:8256202,,us_unmapped,us_unmapped,Data,True,Excel,,,,"US, outside top 50",
+greenhouse:oscar:8256202,,us_unmapped,us_unmapped,Data,True,Google Sheets,,,,"US, outside top 50",
+greenhouse:oscar:8256202,,us_unmapped,us_unmapped,Data,True,Jira,,,,"US, outside top 50",
+greenhouse:oscar:8256202,,us_unmapped,us_unmapped,Data,True,SQL,,,,"US, outside top 50",
+greenhouse:oscar:8256210,12060,12060,metro,Data,True,BigQuery,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:oscar:8256210,12060,12060,metro,Data,True,Excel,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:oscar:8256210,12060,12060,metro,Data,True,Google Sheets,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:oscar:8256210,12060,12060,metro,Data,True,Jira,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:oscar:8256210,12060,12060,metro,Data,True,SQL,Atlanta,GA,South,Atlanta,3108.6000
+greenhouse:oscar:8256215,19100,19100,metro,Data,True,BigQuery,Dallas,TX,South,Dallas,4354.8000
+greenhouse:oscar:8256215,19100,19100,metro,Data,True,Excel,Dallas,TX,South,Dallas,4354.8000
+greenhouse:oscar:8256215,19100,19100,metro,Data,True,Google Sheets,Dallas,TX,South,Dallas,4354.8000
+greenhouse:oscar:8256215,19100,19100,metro,Data,True,Jira,Dallas,TX,South,Dallas,4354.8000
+greenhouse:oscar:8256215,19100,19100,metro,Data,True,SQL,Dallas,TX,South,Dallas,4354.8000
+greenhouse:oscar:8258729,35620,35620,metro,Data,True,BigQuery,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8258729,35620,35620,metro,Data,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8258729,35620,35620,metro,Data,True,Google Sheets,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8258729,35620,35620,metro,Data,True,Jira,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8258729,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8281714,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8281714,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8301400,35620,35620,metro,Data,True,GCP,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8301400,35620,35620,metro,Data,True,Looker,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8301400,35620,35620,metro,Data,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8301400,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8301400,35620,35620,metro,Data,True,dbt,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8303591,35620,35620,metro,Financial,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8303591,35620,35620,metro,Financial,True,Google Sheets,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8303591,35620,35620,metro,Financial,True,Looker,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8303591,35620,35620,metro,Financial,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8303591,35620,35620,metro,Financial,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8303649,35620,35620,metro,Data,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8303649,35620,35620,metro,Data,True,Google Sheets,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8303649,35620,35620,metro,Data,True,Jira,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8303649,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8303649,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:oscar:8324403,,us_unmapped,us_unmapped,Data,True,Excel,,,,"US, outside top 50",
+greenhouse:oscar:8324403,,us_unmapped,us_unmapped,Data,True,Google Sheets,,,,"US, outside top 50",
+greenhouse:oscar:8324403,,us_unmapped,us_unmapped,Data,True,Jira,,,,"US, outside top 50",
+greenhouse:oscar:8324403,,us_unmapped,us_unmapped,Data,True,Python,,,,"US, outside top 50",
+greenhouse:oscar:8324403,,us_unmapped,us_unmapped,Data,True,SQL,,,,"US, outside top 50",
+greenhouse:peloton:8053428,35620,35620,metro,Data,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:peloton:8053428,35620,35620,metro,Data,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:peloton:8053428,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:peloton:8053428,35620,35620,metro,Data,True,R,New York,NY,Northeast,New York,10042.5000
+greenhouse:peloton:8053428,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:peloton:8053428,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:peloton:8177500,35620,35620,metro,Financial,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:pinterest:5740948,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:5740948,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:5740948,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:5740948,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:5740948,42660,42660,metro,Data,True,A/B testing,Seattle,WA,West,Seattle,2140.4000
+greenhouse:pinterest:5740948,42660,42660,metro,Data,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:pinterest:5740948,42660,42660,metro,Data,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:pinterest:5740948,42660,42660,metro,Data,True,Statistics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:pinterest:6087213,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:6087213,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:6087213,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:6087213,41860,41860,metro,Data,True,R,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:6087213,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:6087213,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:6659114,,us_unmapped,us_unmapped,Data,True,A/B testing,,,,"US, outside top 50",
+greenhouse:pinterest:6659114,,us_unmapped,us_unmapped,Data,True,Machine learning,,,,"US, outside top 50",
+greenhouse:pinterest:6659114,,us_unmapped,us_unmapped,Data,True,Python,,,,"US, outside top 50",
+greenhouse:pinterest:6659114,,us_unmapped,us_unmapped,Data,True,R,,,,"US, outside top 50",
+greenhouse:pinterest:6659114,,us_unmapped,us_unmapped,Data,True,SQL,,,,"US, outside top 50",
+greenhouse:pinterest:6659114,,us_unmapped,us_unmapped,Data,True,Statistics,,,,"US, outside top 50",
+greenhouse:pinterest:7507652,35620,35620,metro,Financial,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:pinterest:7507652,35620,35620,metro,Financial,True,GCP,New York,NY,Northeast,New York,10042.5000
+greenhouse:pinterest:7507652,35620,35620,metro,Financial,True,Google Sheets,New York,NY,Northeast,New York,10042.5000
+greenhouse:pinterest:7507652,35620,35620,metro,Financial,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:pinterest:7507652,35620,35620,metro,Financial,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:pinterest:7987856,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:7987856,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:7987856,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:7987856,41860,41860,metro,Data,True,R,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:7987856,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:7987856,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8001932,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8001932,41860,41860,metro,Data,True,Airflow,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8001932,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8001932,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8001932,41860,41860,metro,Data,True,Spark,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8001932,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8011376,41860,41860,metro,Marketing,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8011376,41860,41860,metro,Marketing,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8011376,41860,41860,metro,Marketing,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8011376,41860,41860,metro,Marketing,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8011376,41860,41860,metro,Marketing,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8015346,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8015346,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8015346,41860,41860,metro,Data,True,R,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8015346,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8015346,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8015360,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8015360,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8015360,41860,41860,metro,Data,True,R,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8015360,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8015360,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8095343,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8095343,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8095343,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8095343,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8095343,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8140389,35620,35620,metro,Data,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:pinterest:8140389,35620,35620,metro,Data,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:pinterest:8140389,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:pinterest:8140389,35620,35620,metro,Data,True,R,New York,NY,Northeast,New York,10042.5000
+greenhouse:pinterest:8140389,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:pinterest:8140389,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:pinterest:8140389,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8140389,41860,41860,metro,Data,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8140389,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8140389,41860,41860,metro,Data,True,R,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8140389,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8140389,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8140389,42660,42660,metro,Data,True,A/B testing,Seattle,WA,West,Seattle,2140.4000
+greenhouse:pinterest:8140389,42660,42660,metro,Data,True,Machine learning,Seattle,WA,West,Seattle,2140.4000
+greenhouse:pinterest:8140389,42660,42660,metro,Data,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:pinterest:8140389,42660,42660,metro,Data,True,R,Seattle,WA,West,Seattle,2140.4000
+greenhouse:pinterest:8140389,42660,42660,metro,Data,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:pinterest:8140389,42660,42660,metro,Data,True,Statistics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:pinterest:8213988,41860,41860,metro,Data,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8213988,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8213988,41860,41860,metro,Data,True,R,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8213988,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8213988,41860,41860,metro,Data,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8280111,41860,41860,metro,Marketing,True,A/B testing,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8280111,41860,41860,metro,Marketing,True,Machine learning,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8280111,41860,41860,metro,Marketing,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8280111,41860,41860,metro,Marketing,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:pinterest:8280111,41860,41860,metro,Marketing,True,Statistics,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:reddit:7330347,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:reddit:7330347,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:reddit:7330347,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:reddit:7330347,,remote_us,remote_us,Data,True,R,,,,Remote (US),
+greenhouse:reddit:7330347,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:reddit:7330347,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:reddit:7445240,,remote_us,remote_us,Marketing,True,A/B testing,,,,Remote (US),
+greenhouse:reddit:7445240,,remote_us,remote_us,Marketing,True,Machine learning,,,,Remote (US),
+greenhouse:reddit:7445240,,remote_us,remote_us,Marketing,True,Python,,,,Remote (US),
+greenhouse:reddit:7445240,,remote_us,remote_us,Marketing,True,R,,,,Remote (US),
+greenhouse:reddit:7445240,,remote_us,remote_us,Marketing,True,SQL,,,,Remote (US),
+greenhouse:reddit:7445240,,remote_us,remote_us,Marketing,True,Statistics,,,,Remote (US),
+greenhouse:reddit:7721787,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:reddit:7721787,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:reddit:7721787,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:reddit:7721787,,remote_us,remote_us,Data,True,R,,,,Remote (US),
+greenhouse:reddit:7721787,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:reddit:7721787,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:reddit:7721851,,non_us,non_us,Data,True,A/B testing,,,,Outside the US,
+greenhouse:reddit:7721851,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:reddit:7721851,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:reddit:7721851,,non_us,non_us,Data,True,R,,,,Outside the US,
+greenhouse:reddit:7721851,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:reddit:7721851,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:reddit:7931000,,non_us,non_us,Marketing,True,A/B testing,,,,Outside the US,
+greenhouse:reddit:7931000,,non_us,non_us,Marketing,True,Machine learning,,,,Outside the US,
+greenhouse:reddit:7931000,,non_us,non_us,Marketing,True,Python,,,,Outside the US,
+greenhouse:reddit:7931000,,non_us,non_us,Marketing,True,R,,,,Outside the US,
+greenhouse:reddit:7931000,,non_us,non_us,Marketing,True,SQL,,,,Outside the US,
+greenhouse:reddit:7931000,,non_us,non_us,Marketing,True,Statistics,,,,Outside the US,
+greenhouse:reddit:7974605,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:reddit:7974605,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:reddit:7974605,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:reddit:7974605,,remote_us,remote_us,Data,True,R,,,,Remote (US),
+greenhouse:reddit:7974605,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:reddit:7974605,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:reddit:8023563,,remote_us,remote_us,Business,True,BigQuery,,,,Remote (US),
+greenhouse:reddit:8023563,,remote_us,remote_us,Business,True,Looker,,,,Remote (US),
+greenhouse:reddit:8023563,,remote_us,remote_us,Business,True,SQL,,,,Remote (US),
+greenhouse:reddit:8023563,,remote_us,remote_us,Business,True,Salesforce,,,,Remote (US),
+greenhouse:reddit:8072076,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:reddit:8072076,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:reddit:8072076,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:reddit:8072076,,remote_us,remote_us,Data,True,R,,,,Remote (US),
+greenhouse:reddit:8072076,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:reddit:8072076,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:reddit:8077785,16980,16980,metro,Data,True,BigQuery,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:reddit:8077785,16980,16980,metro,Data,True,Python,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:reddit:8077785,16980,16980,metro,Data,True,SQL,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:reddit:8077785,31080,31080,metro,Data,True,BigQuery,Los Angeles,CA,West,Los Angeles,6299.9000
+greenhouse:reddit:8077785,31080,31080,metro,Data,True,Python,Los Angeles,CA,West,Los Angeles,6299.9000
+greenhouse:reddit:8077785,31080,31080,metro,Data,True,SQL,Los Angeles,CA,West,Los Angeles,6299.9000
+greenhouse:reddit:8077785,35620,35620,metro,Data,True,BigQuery,New York,NY,Northeast,New York,10042.5000
+greenhouse:reddit:8077785,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:reddit:8077785,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:reddit:8077785,41860,41860,metro,Data,True,BigQuery,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:reddit:8077785,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:reddit:8077785,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:reddit:8103609,,non_us,non_us,Data,True,A/B testing,,,,Outside the US,
+greenhouse:reddit:8103609,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:reddit:8103609,,non_us,non_us,Data,True,Python,,,,Outside the US,
+greenhouse:reddit:8103609,,non_us,non_us,Data,True,R,,,,Outside the US,
+greenhouse:reddit:8103609,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:reddit:8103609,,non_us,non_us,Data,True,Statistics,,,,Outside the US,
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,True,BigQuery,,,,Remote (US),
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,True,R,,,,Remote (US),
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,True,Spark,,,,Remote (US),
+greenhouse:reddit:8104403,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:reddit:8110339,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:reddit:8110339,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:reddit:8110339,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:reddit:8110339,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:reddit:8126946,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:reddit:8126946,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:reddit:8126946,,remote_us,remote_us,Data,True,R,,,,Remote (US),
+greenhouse:reddit:8126946,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:reddit:8126946,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:reddit:8157580,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:reddit:8157580,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:reddit:8157580,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:reddit:8157580,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:reddit:8157580,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:reddit:8192369,,remote_us,remote_us,Data,True,Excel,,,,Remote (US),
+greenhouse:reddit:8192369,,remote_us,remote_us,Data,True,Google Sheets,,,,Remote (US),
+greenhouse:reddit:8234154,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:reddit:8234154,,non_us,non_us,Data,True,Google Sheets,,,,Outside the US,
+greenhouse:reddit:8282760,,remote_us,remote_us,Data,True,Airflow,,,,Remote (US),
+greenhouse:reddit:8282760,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:reddit:8282760,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:reddit:8282760,,remote_us,remote_us,Data,True,Scala,,,,Remote (US),
+greenhouse:reddit:8282760,,remote_us,remote_us,Data,True,Spark,,,,Remote (US),
+greenhouse:reddit:8289345,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:reddit:8289345,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:reddit:8289345,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:robinhood:7997218,35620,35620,metro,Financial,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:7997218,35620,35620,metro,Financial,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:7997218,35620,35620,metro,Financial,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:7997218,35620,35620,metro,Financial,True,Spark,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:7997218,47900,47900,metro,Financial,True,Machine learning,Washington,DC,South,Washington,3293.1000
+greenhouse:robinhood:7997218,47900,47900,metro,Financial,True,Python,Washington,DC,South,Washington,3293.1000
+greenhouse:robinhood:7997218,47900,47900,metro,Financial,True,SQL,Washington,DC,South,Washington,3293.1000
+greenhouse:robinhood:7997218,47900,47900,metro,Financial,True,Spark,Washington,DC,South,Washington,3293.1000
+greenhouse:robinhood:8060703,16980,16980,metro,Data,True,Excel,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:robinhood:8060703,16980,16980,metro,Data,True,Google Sheets,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:robinhood:8060703,16980,16980,metro,Data,True,Spark,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:robinhood:8060703,35620,35620,metro,Data,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:8060703,35620,35620,metro,Data,True,Google Sheets,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:8060703,35620,35620,metro,Data,True,Spark,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:8072766,16980,16980,metro,Data,True,A/B testing,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:robinhood:8072766,16980,16980,metro,Data,True,BigQuery,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:robinhood:8072766,16980,16980,metro,Data,True,Python,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:robinhood:8072766,16980,16980,metro,Data,True,SQL,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:robinhood:8072766,16980,16980,metro,Data,True,Snowflake,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:robinhood:8072766,16980,16980,metro,Data,True,Spark,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:robinhood:8072766,16980,16980,metro,Data,True,Statistics,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:robinhood:8072766,16980,16980,metro,Data,True,dbt,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:robinhood:8072766,35620,35620,metro,Data,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:8072766,35620,35620,metro,Data,True,BigQuery,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:8072766,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:8072766,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:8072766,35620,35620,metro,Data,True,Snowflake,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:8072766,35620,35620,metro,Data,True,Spark,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:8072766,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:8072766,35620,35620,metro,Data,True,dbt,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:8072766,42660,42660,metro,Data,True,A/B testing,Seattle,WA,West,Seattle,2140.4000
+greenhouse:robinhood:8072766,42660,42660,metro,Data,True,BigQuery,Seattle,WA,West,Seattle,2140.4000
+greenhouse:robinhood:8072766,42660,42660,metro,Data,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:robinhood:8072766,42660,42660,metro,Data,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:robinhood:8072766,42660,42660,metro,Data,True,Snowflake,Seattle,WA,West,Seattle,2140.4000
+greenhouse:robinhood:8072766,42660,42660,metro,Data,True,Spark,Seattle,WA,West,Seattle,2140.4000
+greenhouse:robinhood:8072766,42660,42660,metro,Data,True,Statistics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:robinhood:8072766,42660,42660,metro,Data,True,dbt,Seattle,WA,West,Seattle,2140.4000
+greenhouse:robinhood:8080893,,us_unmapped,us_unmapped,Product,True,Python,,,,"US, outside top 50",
+greenhouse:robinhood:8080893,,us_unmapped,us_unmapped,Product,True,SQL,,,,"US, outside top 50",
+greenhouse:robinhood:8080893,,us_unmapped,us_unmapped,Product,True,Spark,,,,"US, outside top 50",
+greenhouse:robinhood:8211233,16980,16980,metro,Financial,True,Spark,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:robinhood:8211233,35620,35620,metro,Financial,True,Spark,New York,NY,Northeast,New York,10042.5000
+greenhouse:robinhood:8220699,,us_unmapped,us_unmapped,Data,True,Airflow,,,,"US, outside top 50",
+greenhouse:robinhood:8220699,,us_unmapped,us_unmapped,Data,True,Python,,,,"US, outside top 50",
+greenhouse:robinhood:8220699,,us_unmapped,us_unmapped,Data,True,SQL,,,,"US, outside top 50",
+greenhouse:robinhood:8220699,,us_unmapped,us_unmapped,Data,True,Spark,,,,"US, outside top 50",
+greenhouse:robinhood:8220699,,us_unmapped,us_unmapped,Data,True,Statistics,,,,"US, outside top 50",
+greenhouse:robinhood:8226972,19740,19740,metro,Data,True,Spark,Denver,CO,West,Denver,1643.6000
+greenhouse:scaleai:4729899005,47900,47900,metro,Data,True,SQL,Washington,DC,South,Washington,3293.1000
+greenhouse:scaleai:4729899005,47900,47900,metro,Data,True,Tableau,Washington,DC,South,Washington,3293.1000
+greenhouse:scaleai:4729899005,47900,47900,metro,Data,True,dbt,Washington,DC,South,Washington,3293.1000
+greenhouse:sofi:7698678003,,us_unmapped,us_unmapped,Financial,True,Excel,,,,"US, outside top 50",
+greenhouse:sofi:7698678003,,us_unmapped,us_unmapped,Financial,True,SQL,,,,"US, outside top 50",
+greenhouse:sofi:7698678003,,us_unmapped,us_unmapped,Financial,True,Tableau,,,,"US, outside top 50",
+greenhouse:sofi:7819503003,41860,41860,metro,Data,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:sofi:7819503003,41860,41860,metro,Data,True,Google Sheets,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:sofi:7819518003,,us_unmapped,us_unmapped,Data,True,Excel,,,,"US, outside top 50",
+greenhouse:sofi:7920050003,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:sofi:7920050003,,unknown,unknown,Data,True,Tableau,,,,Location unclear,
+greenhouse:sofi:7920073003,27260,27260,metro,Financial,True,SQL,"Jacksonville, FL",FL,South,"Jacksonville, FL",805.2000
+greenhouse:sofi:7920073003,27260,27260,metro,Financial,True,Snowflake,"Jacksonville, FL",FL,South,"Jacksonville, FL",805.2000
+greenhouse:sofi:7979520003,,us_unmapped,us_unmapped,Financial,True,Excel,,,,"US, outside top 50",
+greenhouse:sofi:7979520003,,us_unmapped,us_unmapped,Financial,True,Google Sheets,,,,"US, outside top 50",
+greenhouse:sofi:8012077003,27260,27260,metro,Operations,True,Excel,"Jacksonville, FL",FL,South,"Jacksonville, FL",805.2000
+greenhouse:sofi:8012077003,27260,27260,metro,Operations,True,Google Sheets,"Jacksonville, FL",FL,South,"Jacksonville, FL",805.2000
+greenhouse:sofi:8012077003,27260,27260,metro,Operations,True,Python,"Jacksonville, FL",FL,South,"Jacksonville, FL",805.2000
+greenhouse:sofi:8012077003,27260,27260,metro,Operations,True,SQL,"Jacksonville, FL",FL,South,"Jacksonville, FL",805.2000
+greenhouse:sofi:8017316003,27260,27260,metro,Operations,True,Excel,"Jacksonville, FL",FL,South,"Jacksonville, FL",805.2000
+greenhouse:sofi:8044835003,35620,35620,metro,Data,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:sofi:8044835003,35620,35620,metro,Data,True,Google Sheets,New York,NY,Northeast,New York,10042.5000
+greenhouse:sofi:8044835003,35620,35620,metro,Data,True,Jira,New York,NY,Northeast,New York,10042.5000
+greenhouse:sofi:8044835003,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:sofi:8044835003,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:sofi:8044835003,35620,35620,metro,Data,True,Snowflake,New York,NY,Northeast,New York,10042.5000
+greenhouse:sofi:8044835003,41860,41860,metro,Data,True,Excel,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:sofi:8044835003,41860,41860,metro,Data,True,Google Sheets,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:sofi:8044835003,41860,41860,metro,Data,True,Jira,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:sofi:8044835003,41860,41860,metro,Data,True,Python,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:sofi:8044835003,41860,41860,metro,Data,True,SQL,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:sofi:8044835003,41860,41860,metro,Data,True,Snowflake,San Francisco,CA,West,San Francisco,2428.3000
+greenhouse:stripe:5416444,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:stripe:5416444,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:stripe:5416444,,unknown,unknown,Data,True,Spark,,,,Location unclear,
+greenhouse:stripe:5416444,,unknown,unknown,Data,True,Statistics,,,,Location unclear,
+greenhouse:stripe:5601879,,unknown,unknown,Data,True,A/B testing,,,,Location unclear,
+greenhouse:stripe:5601879,,unknown,unknown,Data,True,Machine learning,,,,Location unclear,
+greenhouse:stripe:5601879,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:stripe:5601879,,unknown,unknown,Data,True,R,,,,Location unclear,
+greenhouse:stripe:5601879,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:stripe:5601879,,unknown,unknown,Data,True,Spark,,,,Location unclear,
+greenhouse:stripe:5601879,,unknown,unknown,Data,True,Statistics,,,,Location unclear,
+greenhouse:stripe:5895430,,unknown,unknown,Data,True,A/B testing,,,,Location unclear,
+greenhouse:stripe:5895430,,unknown,unknown,Data,True,Machine learning,,,,Location unclear,
+greenhouse:stripe:5895430,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:stripe:5895430,,unknown,unknown,Data,True,R,,,,Location unclear,
+greenhouse:stripe:5895430,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:stripe:5895430,,unknown,unknown,Data,True,Spark,,,,Location unclear,
+greenhouse:stripe:5895430,,unknown,unknown,Data,True,Statistics,,,,Location unclear,
+greenhouse:stripe:7456167,,unknown,unknown,Financial,True,Excel,,,,Location unclear,
+greenhouse:stripe:7456167,,unknown,unknown,Financial,True,SQL,,,,Location unclear,
+greenhouse:stripe:7540441,,remote_us,remote_us,Financial,True,SQL,,,,Remote (US),
+greenhouse:stripe:7540441,,remote_us,remote_us,Financial,True,Statistics,,,,Remote (US),
+greenhouse:stripe:7612192,,non_us,non_us,Financial,True,SQL,,,,Outside the US,
+greenhouse:stripe:7612192,,non_us,non_us,Financial,True,Statistics,,,,Outside the US,
+greenhouse:stripe:7813411,,unknown,unknown,Business,True,SQL,,,,Location unclear,
+greenhouse:stripe:7974211,,non_us,non_us,Financial,True,SQL,,,,Outside the US,
+greenhouse:stripe:8026689,35620,35620,metro,Data,True,Airflow,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8026689,35620,35620,metro,Data,True,Git,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8026689,35620,35620,metro,Data,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8026689,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8026689,35620,35620,metro,Data,True,R,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8026689,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8026689,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8026689,35620,35620,metro,Data,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8044924,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:stripe:8079783,35620,35620,metro,Business,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8079783,35620,35620,metro,Business,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8113100,,unknown,unknown,Data,True,A/B testing,,,,Location unclear,
+greenhouse:stripe:8113100,,unknown,unknown,Data,True,Machine learning,,,,Location unclear,
+greenhouse:stripe:8113100,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:stripe:8113100,,unknown,unknown,Data,True,R,,,,Location unclear,
+greenhouse:stripe:8113100,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:stripe:8113100,,unknown,unknown,Data,True,Spark,,,,Location unclear,
+greenhouse:stripe:8113100,,unknown,unknown,Data,True,Statistics,,,,Location unclear,
+greenhouse:stripe:8175824,,remote_us,remote_us,Financial,True,SQL,,,,Remote (US),
+greenhouse:stripe:8189018,,unknown,unknown,Financial,True,Tableau,,,,Location unclear,
+greenhouse:stripe:8189909,35620,35620,metro,Data,True,Airflow,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8189909,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8189909,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8189909,35620,35620,metro,Data,True,Scala,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8189909,35620,35620,metro,Data,True,Spark,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8201680,35620,35620,metro,Operations,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8222149,42660,42660,metro,Data,True,Python,Seattle,WA,West,Seattle,2140.4000
+greenhouse:stripe:8222149,42660,42660,metro,Data,True,R,Seattle,WA,West,Seattle,2140.4000
+greenhouse:stripe:8222149,42660,42660,metro,Data,True,SQL,Seattle,WA,West,Seattle,2140.4000
+greenhouse:stripe:8222149,42660,42660,metro,Data,True,Statistics,Seattle,WA,West,Seattle,2140.4000
+greenhouse:stripe:8230296,,unknown,unknown,Marketing,True,Airflow,,,,Location unclear,
+greenhouse:stripe:8230296,,unknown,unknown,Marketing,True,Python,,,,Location unclear,
+greenhouse:stripe:8230296,,unknown,unknown,Marketing,True,SQL,,,,Location unclear,
+greenhouse:stripe:8230296,,unknown,unknown,Marketing,True,Scala,,,,Location unclear,
+greenhouse:stripe:8230296,,unknown,unknown,Marketing,True,Spark,,,,Location unclear,
+greenhouse:stripe:8230296,,unknown,unknown,Marketing,True,Statistics,,,,Location unclear,
+greenhouse:stripe:8230306,16980,16980,metro,Data,True,Excel,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:stripe:8230306,16980,16980,metro,Data,True,Google Sheets,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:stripe:8230306,16980,16980,metro,Data,True,SQL,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:stripe:8230306,16980,16980,metro,Data,True,Tableau,Chicago,IL,Midwest,Chicago,4745.1000
+greenhouse:stripe:8231575,35620,35620,metro,Financial,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8231575,35620,35620,metro,Financial,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8231575,35620,35620,metro,Financial,True,Tableau,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8245230,,unknown,unknown,Business,True,SQL,,,,Location unclear,
+greenhouse:stripe:8247120,,unknown,unknown,Operations,True,Excel,,,,Location unclear,
+greenhouse:stripe:8247120,,unknown,unknown,Operations,True,SQL,,,,Location unclear,
+greenhouse:stripe:8247127,,unknown,unknown,Data,True,Salesforce,,,,Location unclear,
+greenhouse:stripe:8249865,35620,35620,metro,Financial,True,Excel,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8249865,35620,35620,metro,Financial,True,Google Sheets,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8249865,35620,35620,metro,Financial,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8249865,35620,35620,metro,Financial,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:stripe:8273713,,unknown,unknown,Financial,True,SQL,,,,Location unclear,
+greenhouse:stripe:8287916,,unknown,unknown,Financial,True,SQL,,,,Location unclear,
+greenhouse:stripe:8287916,,unknown,unknown,Financial,True,Statistics,,,,Location unclear,
+greenhouse:stripe:8324207,,unknown,unknown,Data,True,Alteryx,,,,Location unclear,
+greenhouse:stripe:8324207,,unknown,unknown,Data,True,Excel,,,,Location unclear,
+greenhouse:stripe:8324207,,unknown,unknown,Data,True,Power BI,,,,Location unclear,
+greenhouse:stripe:8324207,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:stripe:8324207,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:stripe:8324207,,unknown,unknown,Data,True,Tableau,,,,Location unclear,
+greenhouse:toast:7519051,,unknown,unknown,Financial,True,Looker,,,,Location unclear,
+greenhouse:toast:7519051,,unknown,unknown,Financial,True,Python,,,,Location unclear,
+greenhouse:toast:7519051,,unknown,unknown,Financial,True,SQL,,,,Location unclear,
+greenhouse:toast:7519051,,unknown,unknown,Financial,True,Statistics,,,,Location unclear,
+greenhouse:toast:7519051,,unknown,unknown,Financial,True,Tableau,,,,Location unclear,
+greenhouse:toast:7984730,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:toast:7984730,,remote_us,remote_us,Data,True,AWS,,,,Remote (US),
+greenhouse:toast:7984730,,remote_us,remote_us,Data,True,Airflow,,,,Remote (US),
+greenhouse:toast:7984730,,remote_us,remote_us,Data,True,Git,,,,Remote (US),
+greenhouse:toast:7984730,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:toast:7984730,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:toast:7984730,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:toast:7984730,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:toast:8029049,,remote_us,remote_us,Data,True,A/B testing,,,,Remote (US),
+greenhouse:toast:8029049,,remote_us,remote_us,Data,True,AWS,,,,Remote (US),
+greenhouse:toast:8029049,,remote_us,remote_us,Data,True,Machine learning,,,,Remote (US),
+greenhouse:toast:8029049,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:toast:8029049,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:toast:8029049,,remote_us,remote_us,Data,True,Statistics,,,,Remote (US),
+greenhouse:toast:8052293,,unknown,unknown,Data,True,A/B testing,,,,Location unclear,
+greenhouse:toast:8052293,,unknown,unknown,Data,True,AWS,,,,Location unclear,
+greenhouse:toast:8052293,,unknown,unknown,Data,True,Machine learning,,,,Location unclear,
+greenhouse:toast:8052293,,unknown,unknown,Data,True,Python,,,,Location unclear,
+greenhouse:toast:8052293,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+greenhouse:toast:8052293,,unknown,unknown,Data,True,Statistics,,,,Location unclear,
+greenhouse:toast:8185640,,remote_us,remote_us,Financial,True,A/B testing,,,,Remote (US),
+greenhouse:toast:8185640,,remote_us,remote_us,Financial,True,Looker,,,,Remote (US),
+greenhouse:toast:8185640,,remote_us,remote_us,Financial,True,Python,,,,Remote (US),
+greenhouse:toast:8185640,,remote_us,remote_us,Financial,True,SQL,,,,Remote (US),
+greenhouse:toast:8185640,,remote_us,remote_us,Financial,True,Statistics,,,,Remote (US),
+greenhouse:toast:8185640,,remote_us,remote_us,Financial,True,Tableau,,,,Remote (US),
+greenhouse:toast:8233456,,non_us,non_us,Data,True,A/B testing,,,,Outside the US,
+greenhouse:toast:8243192,14460,14460,metro,Data,True,SQL,Boston,MA,Northeast,Boston,2731.2000
+greenhouse:toast:8243192,14460,14460,metro,Data,True,Snowflake,Boston,MA,Northeast,Boston,2731.2000
+greenhouse:toast:8243192,14460,14460,metro,Data,True,Statistics,Boston,MA,Northeast,Boston,2731.2000
+greenhouse:toast:8243192,14460,14460,metro,Data,True,dbt,Boston,MA,Northeast,Boston,2731.2000
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,True,AWS,,,,Remote (US),
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,True,Looker,,,,Remote (US),
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,True,Python,,,,Remote (US),
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,True,SQL,,,,Remote (US),
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,True,Spark,,,,Remote (US),
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,True,Tableau,,,,Remote (US),
+greenhouse:twilio:8044650,,remote_us,remote_us,Data,True,dbt,,,,Remote (US),
+greenhouse:twilio:8202189,,remote_us,remote_us,Data,True,Jira,,,,Remote (US),
+greenhouse:twilio:8249285,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:twilio:8261245,,non_us,non_us,Operations,True,Excel,,,,Outside the US,
+greenhouse:twilio:8261245,,non_us,non_us,Operations,True,Salesforce,,,,Outside the US,
+greenhouse:twilio:8324448,,non_us,non_us,Data,True,Excel,,,,Outside the US,
+greenhouse:twilio:8325734,,remote_us,remote_us,Marketing,True,A/B testing,,,,Remote (US),
+greenhouse:twilio:8325734,,remote_us,remote_us,Marketing,True,Salesforce,,,,Remote (US),
+greenhouse:twilio:8325734,,remote_us,remote_us,Marketing,True,Tableau,,,,Remote (US),
+greenhouse:zocdoc:7560841,35620,35620,metro,Data,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7560841,35620,35620,metro,Data,True,Machine learning,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7560841,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7560841,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7560841,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7659010,35620,35620,metro,Data,True,Amplitude,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7659010,35620,35620,metro,Data,True,Looker,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7659010,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7659010,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7659010,35620,35620,metro,Data,True,Snowflake,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7659010,35620,35620,metro,Data,True,dbt,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7958522,35620,35620,metro,Marketing,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7958522,35620,35620,metro,Marketing,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7958522,35620,35620,metro,Marketing,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7958522,35620,35620,metro,Marketing,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:7958522,41940,41940,metro,Marketing,True,A/B testing,San Jose,CA,West,San Jose,1181.7000
+greenhouse:zocdoc:7958522,41940,41940,metro,Marketing,True,Python,San Jose,CA,West,San Jose,1181.7000
+greenhouse:zocdoc:7958522,41940,41940,metro,Marketing,True,SQL,San Jose,CA,West,San Jose,1181.7000
+greenhouse:zocdoc:7958522,41940,41940,metro,Marketing,True,Statistics,San Jose,CA,West,San Jose,1181.7000
+greenhouse:zocdoc:8213942,,non_us,non_us,Data,True,Google Sheets,,,,Outside the US,
+greenhouse:zocdoc:8213942,,non_us,non_us,Data,True,Jira,,,,Outside the US,
+greenhouse:zocdoc:8213942,,non_us,non_us,Data,True,Machine learning,,,,Outside the US,
+greenhouse:zocdoc:8213942,,non_us,non_us,Data,True,SQL,,,,Outside the US,
+greenhouse:zocdoc:8213942,,non_us,non_us,Data,True,Snowflake,,,,Outside the US,
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,True,AWS,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,True,BigQuery,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,True,Looker,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,True,R,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,True,Snowflake,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+greenhouse:zocdoc:8335345,35620,35620,metro,Data,True,Tableau,New York,NY,Northeast,New York,10042.5000
+lever:outreach:f7020abe-4ddd-4878-a33f-5c410924b04d,42660,42660,metro,Financial,True,Databricks,Seattle,WA,West,Seattle,2140.4000
+lever:outreach:f7020abe-4ddd-4878-a33f-5c410924b04d,42660,42660,metro,Financial,True,Excel,Seattle,WA,West,Seattle,2140.4000
+lever:palantir:26032bad-d713-429d-8b04-2de7db93b5c3,47900,47900,metro,Operations,True,Excel,Washington,DC,South,Washington,3293.1000
+lever:palantir:66955c3b-c530-4c4a-9d48-63b4aad61b9c,19740,19740,metro,Operations,True,Excel,Denver,CO,West,Denver,1643.6000
+lever:palantir:e6be4159-c8d1-481d-ad15-13274861b795,,non_us,non_us,Operations,True,Excel,,,,Outside the US,
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,True,A/B testing,New York,NY,Northeast,New York,10042.5000
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,True,BigQuery,New York,NY,Northeast,New York,10042.5000
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,True,Python,New York,NY,Northeast,New York,10042.5000
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,True,Statistics,New York,NY,Northeast,New York,10042.5000
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,True,Tableau,New York,NY,Northeast,New York,10042.5000
+lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d,35620,35620,metro,Data,True,dbt,New York,NY,Northeast,New York,10042.5000
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,True,BigQuery,,,,Location unclear,
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,True,Looker,,,,Location unclear,
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,True,Machine learning,,,,Location unclear,
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,True,Python,,,,Location unclear,
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,True,SQL,,,,Location unclear,
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,True,Statistics,,,,Location unclear,
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,True,Tableau,,,,Location unclear,
+lever:spotify:8a9cc53c-48c0-4d43-8287-d81ab09e74fa,,unknown,unknown,Data,True,dbt,,,,Location unclear,
+lever:spotify:b4f6cd01-1d5d-41a9-b287-6d10416da03c,,unknown,unknown,Business,True,A/B testing,,,,Location unclear,
+lever:spotify:b4f6cd01-1d5d-41a9-b287-6d10416da03c,,unknown,unknown,Business,True,Python,,,,Location unclear,
+lever:spotify:b4f6cd01-1d5d-41a9-b287-6d10416da03c,,unknown,unknown,Business,True,R,,,,Location unclear,
+lever:spotify:b4f6cd01-1d5d-41a9-b287-6d10416da03c,,unknown,unknown,Business,True,SQL,,,,Location unclear,
+lever:spotify:b4f6cd01-1d5d-41a9-b287-6d10416da03c,,unknown,unknown,Business,True,Statistics,,,,Location unclear,
+lever:spotify:c3f6ea23-97d0-4a9a-a9ad-04f1e745d916,,non_us,non_us,Product,True,Machine learning,,,,Outside the US,
+lever:spotify:ed409ff1-a241-4c2c-96ea-c988ca131671,35620,35620,metro,Data,True,BigQuery,New York,NY,Northeast,New York,10042.5000
+lever:spotify:ed409ff1-a241-4c2c-96ea-c988ca131671,35620,35620,metro,Data,True,SQL,New York,NY,Northeast,New York,10042.5000
+lever:spotify:ed409ff1-a241-4c2c-96ea-c988ca131671,35620,35620,metro,Data,True,dbt,New York,NY,Northeast,New York,10042.5000

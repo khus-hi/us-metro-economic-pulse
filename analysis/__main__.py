@@ -8,7 +8,7 @@ from pathlib import Path
 
 import yaml
 
-from . import data, findings, nowcast, pulse
+from . import data, findings, memo, nowcast, pulse
 
 CONFIG = Path(__file__).with_name("config.yml")
 
@@ -64,6 +64,9 @@ def main(argv: list[str] | None = None) -> int:
     md, facts = findings.build(p, cv, now, coefs, pay, dim, cfg["findings"], cfg["pulse"])
     (out / "findings.md").write_text(md)
     (out / "findings.json").write_text(json.dumps(facts, indent=2, default=str))
+    m = memo.build(p, now, cv, pay, load("fct_postings"), load("fct_posting_tools"), dim,
+                   cfg["findings"], cfg["pulse"])
+    (out / "memo.md").write_text(m)
     print(md)
     return 0
 
