@@ -1,0 +1,294 @@
+{
+  "latest_month": "2026-09",
+  "openings_month": "2025-12",
+  "accelerating": [
+    {
+      "Metro": "Portland",
+      "Pulse now": -0.09115450798090607,
+      "Pulse 3m ago": -0.8519839114668999,
+      "Change": 0.7608294034859938,
+      "Job growth now %": -0.6261180679785316,
+      "Job growth 3m ago %": -2.0352344944091327
+    },
+    {
+      "Metro": "Miami",
+      "Pulse now": 0.6020630485145448,
+      "Pulse 3m ago": -0.08119857044932466,
+      "Change": 0.6832616189638695,
+      "Job growth now %": 0.4402899139741345,
+      "Job growth 3m ago %": 0.1184032476319263
+    },
+    {
+      "Metro": "Houston",
+      "Pulse now": 0.40174360390286357,
+      "Pulse 3m ago": -0.16425833439945575,
+      "Change": 0.5660019383023194,
+      "Job growth now %": 0.9722784883384517,
+      "Job growth 3m ago %": 1.1746797633407802
+    },
+    {
+      "Metro": "Philadelphia",
+      "Pulse now": 0.4233724803879647,
+      "Pulse 3m ago": -0.04479766084587883,
+      "Change": 0.46817014123384354,
+      "Job growth now %": 0.4917928083285394,
+      "Job growth 3m ago %": 0.52773803846764
+    },
+    {
+      "Metro": "Baltimore",
+      "Pulse now": 0.516608114698663,
+      "Pulse 3m ago": 0.12507543647953553,
+      "Change": 0.3915326782191274,
+      "Job growth now %": -0.1593128766364193,
+      "Job growth 3m ago %": -0.3423250718882609
+    }
+  ],
+  "leaders_laggards": [
+    {
+      "Metro": "Salt Lake City",
+      "Pulse": 1.162988768038399,
+      "Rank": 1.0,
+      "Job growth %": 2.663495838287755,
+      "Unemp. change pp": -0.3999999999999999,
+      "Real wage growth pp": 2.852618765056913,
+      "Openings rate": 3.5
+    },
+    {
+      "Metro": "Raleigh",
+      "Pulse": 0.9116605293239098,
+      "Rank": 2.0,
+      "Job growth %": 2.2721337163750466,
+      "Unemp. change pp": -0.5,
+      "Real wage growth pp": 0.0531055963525428,
+      "Openings rate": 4.0
+    },
+    {
+      "Metro": "Charlotte",
+      "Pulse": 0.8390567080264906,
+      "Rank": 3.0,
+      "Job growth %": 1.838448176027807,
+      "Unemp. change pp": -0.6000000000000001,
+      "Real wage growth pp": 0.7340788208302751,
+      "Openings rate": 4.0
+    },
+    {
+      "Metro": "Denver",
+      "Pulse": -0.9569212709747773,
+      "Rank": 48.0,
+      "Job growth %": 0.2497563352826581,
+      "Unemp. change pp": 0.5,
+      "Real wage growth pp": -3.23675772519314,
+      "Openings rate": 3.3
+    },
+    {
+      "Metro": "Indianapolis",
+      "Pulse": -1.0428716834370357,
+      "Rank": 49.0,
+      "Job growth %": -0.5920663114268754,
+      "Unemp. change pp": 0.0,
+      "Real wage growth pp": -4.016584824336644,
+      "Openings rate": 3.7
+    },
+    {
+      "Metro": "Richmond, VA",
+      "Pulse": -1.1266504508327018,
+      "Rank": 50.0,
+      "Job growth %": -0.95733041575492,
+      "Unemp. change pp": 0.5,
+      "Real wage growth pp": -4.034532171493332,
+      "Openings rate": 4.8
+    }
+  ],
+  "analyst_pay": [
+    {
+      "Metro": "San Jose",
+      "Median wage $": 185080.0,
+      "RPP": 110.423,
+      "RPP level": "metro",
+      "RPP year": 2024,
+      "Cost-adjusted $": 167610.00878440178,
+      "Nominal rank": 1.0,
+      "Adjusted rank": 1.0
+    },
+    {
+      "Metro": "Seattle",
+      "Median wage $": 164740.0,
+      "RPP": 111.133,
+      "RPP level": "metro",
+      "RPP year": 2024,
+      "Cost-adjusted $": 148236.79735092187,
+      "Nominal rank": 3.0,
+      "Adjusted rank": 2.0
+    },
+    {
+      "Metro": "San Francisco",
+      "Median wage $": 170110.0,
+      "RPP": 115.613,
+      "RPP level": "metro",
+      "RPP year": 2024,
+      "Cost-adjusted $": 147137.43264165794,
+      "Nominal rank": 2.0,
+      "Adjusted rank": 3.0
+    },
+    {
+      "Metro": "Charlotte",
+      "Median wage $": 132460.0,
+      "RPP": 97.348,
+      "RPP level": "metro",
+      "RPP year": 2024,
+      "Cost-adjusted $": 136068.53761761927,
+      "Nominal rank": 6.0,
+      "Adjusted rank": 4.0
+    },
+    {
+      "Metro": "Austin",
+      "Median wage $": 127360.0,
+      "RPP": 98.066,
+      "RPP level": "metro",
+      "RPP year": 2024,
+      "Cost-adjusted $": 129871.71904635652,
+      "Nominal rank": 15.0,
+      "Adjusted rank": 5.0
+    }
+  ],
+  "pay_movers": {
+    "up": [
+      "Memphis, TN",
+      38.0,
+      22.0
+    ],
+    "down": [
+      "Sacramento",
+      32.0,
+      50.0
+    ]
+  },
+  "peers": [
+    {
+      "Metro": "Philadelphia",
+      "Pulse": 0.4233724803879647,
+      "Rank of 50": 13.0,
+      "Job growth %": 0.4917928083285394,
+      "Unemp. rate %": 3.6,
+      "Unemp. change pp": -1.1999999999999997,
+      "Real wage growth pp": 0.3604401955817682,
+      "Data sci. pay, cost-adj. $": 107172.80652144236
+    },
+    {
+      "Metro": "San Francisco",
+      "Pulse": 0.1672967023259151,
+      "Rank of 50": 21.0,
+      "Job growth %": 0.3437991881368729,
+      "Unemp. rate %": 4.4,
+      "Unemp. change pp": -0.1999999999999993,
+      "Real wage growth pp": 3.5709110714091885,
+      "Data sci. pay, cost-adj. $": 147137.43264165794
+    },
+    {
+      "Metro": "San Jose",
+      "Pulse": -0.05057218514520927,
+      "Rank of 50": 28.0,
+      "Job growth %": 1.6478302130963796,
+      "Unemp. rate %": 4.2,
+      "Unemp. change pp": -0.2999999999999998,
+      "Real wage growth pp": -4.906405176403917,
+      "Data sci. pay, cost-adj. $": 167610.00878440178
+    },
+    {
+      "Metro": "New York",
+      "Pulse": -0.15880295586837365,
+      "Rank of 50": 33.0,
+      "Job growth %": 0.2461156743669645,
+      "Unemp. rate %": 4.5,
+      "Unemp. change pp": -0.7999999999999998,
+      "Real wage growth pp": -3.735884481737628,
+      "Data sci. pay, cost-adj. $": 120803.46117285432
+    },
+    {
+      "Metro": "Seattle",
+      "Pulse": -0.16964494257813909,
+      "Rank of 50": 34.0,
+      "Job growth %": 0.7053844345168203,
+      "Unemp. rate %": 4.9,
+      "Unemp. change pp": 0.0,
+      "Real wage growth pp": 1.5461503112490729,
+      "Data sci. pay, cost-adj. $": 148236.79735092187
+    },
+    {
+      "Metro": "Boston",
+      "Pulse": -0.36673472512019645,
+      "Rank of 50": 38.0,
+      "Job growth %": 0.0842028189639521,
+      "Unemp. rate %": 3.9,
+      "Unemp. change pp": -0.30000000000000027,
+      "Real wage growth pp": -0.6610525070625206,
+      "Data sci. pay, cost-adj. $": 121958.87905713703
+    },
+    {
+      "Metro": "Washington",
+      "Pulse": -0.6043966916712894,
+      "Rank of 50": 42.0,
+      "Job growth %": -1.819266328660896,
+      "Unemp. rate %": 3.7,
+      "Unemp. change pp": -0.39999999999999947,
+      "Real wage growth pp": 1.598936653414662,
+      "Data sci. pay, cost-adj. $": 121413.61448881378
+    }
+  ],
+  "focus_ranks": [
+    "Pulse: #6 of 7",
+    "Job growth %: #6 of 7",
+    "Unemp. rate %: #3 of 7",
+    "Unemp. change pp: #4 of 7",
+    "Real wage growth pp: #5 of 7",
+    "Data sci. pay, cost-adj. $: #4 of 7"
+  ],
+  "nowcast_cv": {
+    "fold": "all folds",
+    "train_rows": NaN,
+    "test_rows": 2350,
+    "mape_model": 4.872241747056746,
+    "mae_pp_model": 0.1829399661080805,
+    "mape_seasonal_naive": 4.916242328961093,
+    "mae_pp_seasonal_naive": 0.18442553191489366,
+    "mape_naive_last": 7.196508896326684,
+    "mae_pp_naive_last": 0.270936170212766
+  },
+  "nowcast_rises": [
+    {
+      "Metro": "Hartford",
+      "Sep 2026 rate %": 5.0,
+      "Oct 2025 rate % (interpolated)": 4.15,
+      "Oct 2026 nowcast %": 5.089437251609097,
+      "Nowcast vs year ago pp": 0.939437251609097
+    },
+    {
+      "Metro": "Minneapolis",
+      "Sep 2026 rate %": 4.5,
+      "Oct 2025 rate % (interpolated)": 3.75,
+      "Oct 2026 nowcast %": 4.563538144757057,
+      "Nowcast vs year ago pp": 0.8135381447570573
+    },
+    {
+      "Metro": "Detroit",
+      "Sep 2026 rate %": 5.6,
+      "Oct 2025 rate % (interpolated)": 5.0,
+      "Oct 2026 nowcast %": 5.679381445158433,
+      "Nowcast vs year ago pp": 0.679381445158433
+    },
+    {
+      "Metro": "Birmingham, AL",
+      "Sep 2026 rate %": 3.5,
+      "Oct 2025 rate % (interpolated)": 2.5999999999999996,
+      "Oct 2026 nowcast %": 3.2077665990888278,
+      "Nowcast vs year ago pp": 0.6077665990888281
+    },
+    {
+      "Metro": "Denver",
+      "Sep 2026 rate %": 4.3,
+      "Oct 2025 rate % (interpolated)": 3.8,
+      "Oct 2026 nowcast %": 4.305655599342969,
+      "Nowcast vs year ago pp": 0.505655599342969
+    }
+  ]
+}

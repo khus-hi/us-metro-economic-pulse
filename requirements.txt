@@ -6,3 +6,5 @@ pytest>=8.0
 dbt-core>=1.10,<2
 dbt-duckdb>=1.9,<2
 duckdb>=1.1
+scikit-learn>=1.5
+pyyaml>=6

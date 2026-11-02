@@ -1,0 +1,39 @@
+# Analysis settings. Change a weight here (or pass --weights on the command
+# line) and re-run `python -m analysis run`; the index is recomputed from the
+# mart CSVs. Weights don't need to sum to 1: they are normalised.
+
+pulse:
+  weights:
+    job_growth: 0.35            # nonfarm jobs, % change vs same month last year (BLS CES)
+    unemployment_change: 0.25   # unemployment rate change vs a year ago, pp (BLS LAUS); lower is better
+    real_wage_growth: 0.25      # avg hourly earnings growth minus local/regional CPI inflation, pp
+    openings: 0.15              # job openings, see openings_source
+  # jolts_state: BLS JOLTS job openings rate of the metro's principal state.
+  #   Official, but state-level and published once a year since 2026, so the
+  #   latest value can be up to openings_max_age_months old (then dropped).
+  # postings: open analyst postings per 100k nonfarm jobs from our own
+  #   Greenhouse/Lever scrape (40 companies). Latest month only; a narrow sample.
+  openings_source: jolts_state
+  openings_max_age_months: 12
+  min_metros_per_month: 40      # don't standardise a month with fewer metros reporting
+  acceleration_months: 3        # "accelerating" = pulse change over this many months
+
+nowcast:
+  alpha: 1.0                    # ridge penalty
+  n_folds: 4                    # expanding-window CV folds ...
+  fold_months: 12               # ... each one year of one-month-ahead forecasts
+  exclude_from_training:        # pandemic months distort a linear model; kept out of fitting only
+    start: "2020-03-01"
+    end: "2021-12-01"
+
+findings:
+  focus_metro: "14460"          # Boston
+  peers:                        # high-cost, education- and tech-heavy metros
+    - "35620"                   # New York
+    - "37980"                   # Philadelphia
+    - "47900"                   # Washington
+    - "41860"                   # San Francisco
+    - "41940"                   # San Jose
+    - "42660"                   # Seattle
+  pay_soc: "15-2051"            # Data Scientists: the OEWS occupation closest to data-analyst roles
+  top_n: 5
