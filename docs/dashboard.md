@@ -1,5 +1,7 @@
 # Dashboard: Tableau Public build guide
 
+**Click-by-click steps: [tableau_walkthrough.md](tableau_walkthrough.md).** This page is the design reference.
+
 Built in **Tableau Public**. It's free, the desktop app runs natively on a Mac, and publishing gives you a public link that recruiters can open without an account.
 
 Why not the alternatives:
