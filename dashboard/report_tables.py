@@ -1,8 +1,8 @@
 """Build the report-ready tables the dashboard connects to (dashboard/data/report/).
 
 One table per need, each already carrying metro names and labels, so the
-dashboard never has to blend or join (Looker Studio blends are slow and
-limited; Power BI could relate them, but flat tables keep both tools simple).
+dashboard never has to blend or join (Tableau blends are slow and
+limited; flat tables with one clear grain each keep the BI layer simple).
 
 Run after `python -m analysis run`:
     python dashboard/report_tables.py
