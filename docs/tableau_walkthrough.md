@@ -95,7 +95,7 @@ For each row below:
 | analyst_postings | Postings | `COUNTD([job_key])` |
 | analyst_postings | Postings per 100k jobs | `COUNTD([job_key]) / MAX([metro_jobs_thousands]) * 100` |
 | analyst_postings | Remote share | `COUNTD(IF [is_remote] THEN [job_key] END) / COUNTD([job_key])` |
-| analyst_tools | Share of postings | `COUNTD([job_key]) / MIN({FIXED : COUNTD([job_key])})` |
+| analyst_tools | Share of postings | `COUNTD([job_key]) / MIN({FIXED : COUNTD([job_key])})`. With one data source: `COUNTD([Job Key (Analyst Tools)]) / MIN({FIXED : COUNTD([Job Key (Analyst Postings)])})`, and relate analyst_tools to analyst_postings on job_key. SQL should read about 63%. |
 | nowcast_backtest | MAPE % | `AVG([abs_pct_error])` |
 
 If **Remote share** says the calculation has an error, `is_remote` came in as text. Use `[is_remote] = "true"` (or `"TRUE"`) in place of `[is_remote]`.
@@ -233,7 +233,7 @@ On **every** sheet in this phase, drag **Is selected metro** → Filters → tic
 - Rows **metro**, Columns **Postings per 100k jobs**. Sort descending.
 
 **Sheet "Top tools"** (analyst_tools)
-- Rows **tool**, Columns **Share of postings**. Sort descending, Top 12 by Share of postings.
+- Rows **tool** (from analyst_tools, not the `tools` list column in analyst_postings), Columns **Share of postings**. Sort descending, Top 12 by Share of postings.
 
 **Sheet "KPI postings"** (analyst_postings)
 - **Postings** and **Remote share** on Text.
@@ -242,7 +242,8 @@ On **every** sheet in this phase, drag **Is selected metro** → Filters → tic
 1. Create **3 Analyst pay and demand** with pay charts on the left, postings and tools on the right, KPIs on top.
 2. Make the occupation filter apply to all 3 pay sheets: on the filter card ▼ → **Apply to Worksheets → Selected Worksheets** → tick the 3 pay sheets.
 3. On a postings sheet, drag **role_family** to Filters → Show Filter. On the dashboard, apply it to all sheets using this data source.
-4. Add a footnote text box:
+4. Click-to-filter: **Dashboard → Actions → Add Action → Filter**, source Postings by location, run on Select, targets Top tools, Postings per 100k jobs and KPI postings.
+5. Add a footnote text box:
    > Pay: OEWS May 2025 medians, divided by BEA Regional Price Parities 2024 (US = 100). Postings: public Greenhouse/Lever boards of 40 companies, a snapshot, not the whole market.
 
 **Checkpoint:** with Data Scientists selected, the top 3 bars are San Jose, Seattle and San Francisco.
