@@ -34,7 +34,7 @@ Every table already includes `metro`, `principal_state` and `census_region`, so 
    =IMPORTDATA("https://raw.githubusercontent.com/khus-hi/us-metro-economic-pulse/main/dashboard/data/report/metro_ranking.csv")
    ```
    Swap in each tab's file name. The monthly GitHub Action updates the CSVs, and the Sheet picks them up.
-2. **Tableau Public:** install it from public.tableau.com (free; sign up for a profile). Open it, then **Connect → Google Sheets**, sign in, and pick **Metro Pulse data**.
+2. **Tableau Public:** install it from public.tableau.com (free; sign up for a profile). Open it, then **Connect → More… → Google Drive**, sign in, and pick **Metro Pulse data**.
 3. **Data sources:** drag one tab onto the canvas. Then use **Data → New Data Source** to add each of the other tabs as its own data source, 8 in total, and rename each one after its tab. Keep them separate on purpose, because each one has a different grain.
 4. **Field types** (click the type icon in the Data pane):
    - `cbsa_code` → String.

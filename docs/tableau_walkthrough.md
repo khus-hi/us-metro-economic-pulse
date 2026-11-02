@@ -45,12 +45,12 @@ Field names below are written `like_this`. In Tableau they appear exactly like t
 
 ## Phase 2: Connect Tableau to the Sheet (15 min)
 
-1. On the start page, under **Connect → To a Server**, click **Google Sheets**. A browser window opens. Sign in with the same Google account and click **Allow**.
+1. On the start page, under **Connect → To a Server**, click **More… → Google Drive** (Tableau Public's Google Sheets connector). A browser window opens. Sign in with the same Google account and click **Allow**.
 2. Pick **Metro Pulse data** and click **Connect**.
 3. You're now on the **Data Source** page. On the left, under *Sheets*, drag **metro_ranking** onto the big empty canvas.
 4. Rename this source: at the top, click the name (e.g. "Metro Pulse data") and type **metro_ranking**.
 5. Add the other 7 tabs as **separate** data sources. Repeat for each:
-   1. Menu **Data → New Data Source → Google Sheets**, pick **Metro Pulse data**, and click Connect.
+   1. Menu **Data → New Data Source → Google Drive**, pick **Metro Pulse data**, and click Connect.
    2. Drag that tab onto the canvas and rename the source to the tab name.
 
    Don't drag two tabs onto one canvas. Each table has a different grain, so each must be its own source.
