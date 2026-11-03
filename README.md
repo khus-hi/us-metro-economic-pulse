@@ -5,11 +5,6 @@
 <!-- TODO: add a screenshot of the Tableau dashboard at docs/img/dashboard.png -->
 ![Dashboard screenshot](docs/img/dashboard.png)
 
-**Live dashboards (Tableau Public):**
-- [Metro deep dive](https://public.tableau.com/views/USMetroEconomicPulseDeepdive/2Metrodeepdive)
-- [Analyst pay and demand](https://public.tableau.com/views/USMetroEconomicPulseAnalystPayandDemand/Analystpayanddemand)
-- [Nowcast vs actual](https://public.tableau.com/shared/8Z57ZJ7KJ)
-
 ## Key findings (data through September 2026)
 
 1. **Salt Lake City has the strongest momentum.** It leads the composite pulse index at +1.16, ahead of Raleigh (+0.91) and Charlotte (+0.84). Richmond, VA is last at −1.13. Across all metros, hiring is cooling: median job growth is 0.46% year over year, down from 0.55% three months earlier.
