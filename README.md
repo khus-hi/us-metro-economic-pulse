@@ -6,7 +6,6 @@
 ![Dashboard screenshot](docs/img/dashboard.png)
 
 **Live dashboards (Tableau Public):**
-- [Metro ranking](TODO_LINK)
 - [Metro deep dive](https://public.tableau.com/views/USMetroEconomicPulseDeepdive/2Metrodeepdive)
 - [Analyst pay and demand](https://public.tableau.com/views/USMetroEconomicPulseAnalystPayandDemand/Analystpayanddemand)
 - [Nowcast vs actual](https://public.tableau.com/shared/8Z57ZJ7KJ)
